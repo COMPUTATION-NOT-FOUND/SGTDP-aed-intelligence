@@ -1,0 +1,3 @@
+scenario,existing_devices,baseline_coverage,coverage_after
+all_hours,354,0.4648,0.6032
+stated_24_7,220,0.343,0.5194

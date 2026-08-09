@@ -1,0 +1,181 @@
+rank,site_id,site_index,label,label_source,coverage_added_pp,cumulative_coverage,demand_served,new_ground_share,nearest_existing_m,worst_case_closed_m,deciding_key,stable
+1,JE-080,79,Blk 5 Jalan Papan,address_block,0.247,0.3263,0.027,1.0,1139.5,1139.5,mean,0.111
+2,JE-002,1,Perennial Business City,osm_name,1.174,0.338,0.0173,1.0,354.6,354.6,mean,0.778
+3,JE-105,104,Blk 135B Yung Ho Walk,address_block,0.314,0.3412,0.0022,1.0,396.9,579.8,mean,0.778
+4,JE-349,348,Commercial JE-349,building_type,0.007,0.3413,0.0036,1.0,486.7,486.7,mean,0.111
+5,JE-009,8,Jurong Town Hall,osm_name,0.362,0.3449,0.0058,1.0,441.4,441.4,mean,1.0
+6,JE-008,7,Blk 3 Buroh Lane,address_block,0.323,0.3481,0.2348,1.0,220.8,220.8,mean,0.889
+7,JE-238,237,Blk 39 Jurong East Avenue 1,address_block,0.252,0.3506,0.0,1.0,269.1,269.1,demand,0.889
+8,JE-281,280,Blk 417A Teban Gardens Road,address_block,0.066,0.3513,0.003,1.0,298.9,298.9,mean,0.0
+9,JE-025,24,Blk 10 International Business Park,address_block,0.199,0.3533,0.0229,1.0,135.1,135.1,mean,0.889
+10,JE-208,207,Blk 20 Teban Gardens Road,address_block,0.041,0.3537,0.0023,1.0,142.3,142.3,mean,0.111
+11,JE-042,41,Blk 3 Buroh Lane,address_block,0.0,0.3537,0.098,0.5,104.5,220.8,mean,0.0
+12,JE-244,243,Blk 80 Yuan Ching Road,address_block,0.085,0.3545,0.0008,1.0,215.4,215.4,demand,0.111
+13,JE-019,18,Jurong Lake Gardens Gym,osm_name,0.141,0.356,0.0014,1.0,206.6,206.6,demand,0.889
+14,JE-106,105,Blk 134A Yung Ho Walk,address_block,0.112,0.3571,0.0011,1.0,410.8,410.8,mean,0.667
+15,JE-196,195,Blk 291A Jurong East Street 24,address_block,0.275,0.3598,0.0,1.0,184.7,184.7,demand,0.778
+16,JE-017,16,Blk 134 Jurong Gateway Road,address_block,0.178,0.3616,0.0018,1.0,143.4,143.4,mean,0.889
+17,JE-027,26,Ayer Rajah Community Centre,osm_name,0.226,0.3639,0.0023,1.0,158.2,158.2,mean,0.889
+18,JE-012,11,Ng Teng Fong General Hospital,osm_name,0.0,0.3639,0.0059,0.0,68.4,0.0,mean,0.0
+19,JE-005,4,Westgate,osm_name,0.0,0.3639,0.0059,0.0,114.7,0.0,mean,0.111
+20,JE-131,130,Blk 402 Pandan Gardens,address_block,0.0,0.3639,0.003,0.0,111.1,0.0,mean,0.111
+21,JE-023,22,Blk 61 Teban Gardens Road,address_block,0.0,0.3639,0.0026,0.0,105.0,0.0,mean,0.111
+22,JE-354,353,Public JE-354,building_type,0.003,0.3639,0.0006,1.0,271.9,271.9,mean,0.222
+23,JE-271,270,Calvary Pandan Kindergarten,osm_name,0.12,0.3651,0.0021,1.0,184.0,184.0,demand,0.0
+24,JE-035,34,Sheng Hong Temple,osm_name,0.083,0.3659,0.0019,1.0,137.6,137.6,mean,0.667
+25,JE-058,57,Blk 304 Jurong East Avenue 1,address_block,0.152,0.3674,0.0015,1.0,134.7,134.7,mean,0.0
+26,JE-037,36,Blk 122 Jurong East Street 13,address_block,0.116,0.3686,0.0024,1.0,178.1,178.1,mean,0.222
+27,JE-078,77,Blk 5 Jalan Papan,address_block,0.2,0.3706,0.0064,1.0,1139.5,1139.5,mean,0.889
+28,JE-236,235,Blk 51 Jurong East Avenue 1,address_block,0.094,0.3715,0.0009,1.0,189.8,189.8,demand,0.444
+29,JE-054,53,Saint Andrew's Nursing Home,osm_name,0.011,0.3716,0.0015,1.0,296.9,296.9,mean,0.111
+30,JE-001,0,IMM,osm_name,0.0,0.3716,0.02,0.0,88.9,0.0,mean,0.222
+31,JE-288,287,Blk 74 Yuan Ching Road,address_block,0.049,0.3721,0.0005,1.0,262.0,262.0,demand,0.0
+32,JE-031,30,Blk 258 Jurong East Street 24,address_block,0.0,0.3721,0.0019,0.0,73.2,0.0,mean,0.0
+33,JE-194,193,Blk 250 Jurong East Street 24,address_block,0.0,0.3721,0.0045,0.0,86.2,0.0,mean,0.0
+34,JE-345,344,Lakeside House,osm_name,0.018,0.3723,0.0002,1.0,608.5,608.5,demand,0.222
+35,JE-165,164,Blk 425B Teban Gardens Road,address_block,0.0,0.3723,0.0108,0.0,117.8,0.0,mean,0.0
+36,JE-003,2,Science Centre Singapore,osm_name,0.0,0.3723,0.0119,0.0,68.4,0.0,mean,0.111
+37,JE-154,153,Blk 285C Toh Guan Road,address_block,0.0,0.3723,0.0024,0.0,105.9,0.0,mean,0.0
+38,JE-041,40,J Gateway,osm_housename,0.423,0.3766,0.0038,0.667,88.3,196.3,demand,0.889
+39,JE-116,115,Residential JE-116,building_type,0.0,0.3766,0.0021,1.0,150.0,150.0,mean,0.0
+40,JE-258,257,Blk 418B Teban Gardens Road,address_block,0.059,0.3771,0.0006,1.0,215.4,215.4,mean,0.0
+41,JE-039,38,Blk 124 Jurong East Street 13,address_block,0.131,0.3785,0.0013,1.0,160.4,278.5,mean,0.778
+42,JE-276,275,Commercial JE-276,building_type,0.033,0.3788,0.001,1.0,177.4,314.8,demand,0.222
+43,JE-020,19,Blk 135 Jurong Gateway Road,address_block,0.0,0.3788,0.0047,0.0,46.5,0.0,mean,0.0
+44,JE-340,339,Blk 2 Jurong Gateway Road,address_block,0.068,0.3795,0.0007,1.0,145.8,145.8,demand,0.0
+45,JE-071,70,Blk 332 Jurong East Avenue 1,address_block,0.0,0.3795,0.0038,0.0,111.4,0.0,mean,0.111
+46,JE-060,59,Masjid Al-Mukminin,osm_name,0.072,0.3802,0.0007,1.0,140.8,140.8,mean,0.556
+47,JE-036,35,Blk 117 Jurong East Street 13,address_block,0.086,0.381,0.0009,0.5,172.7,172.7,demand,0.778
+48,JE-325,324,Blk 111 Jurong East Street 13,address_block,0.0,0.381,0.001,0.0,105.0,0.0,mean,0.0
+49,JE-335,334,Westmere,osm_housename,0.0,0.381,0.0009,0.0,101.4,0.0,mean,0.0
+50,JE-342,341,Blk 9 Jurong East Street 32,address_block,0.0,0.381,0.0032,0.0,88.8,0.0,mean,0.0
+51,JE-016,15,Chinese Garden MRT Station,osm_name,0.0,0.381,0.0017,0.0,105.1,0.0,mean,0.222
+52,JE-298,297,Blk 326 Jurong East Street 31,address_block,0.0,0.381,0.0021,0.0,51.7,0.0,mean,0.0
+53,JE-216,215,Blk 272 Toh Guan Road,address_block,0.0,0.381,0.0014,0.0,120.7,0.0,mean,0.111
+54,JE-282,281,Blk 119 Jurong East Street 13,address_block,0.0,0.381,0.0014,0.0,113.7,0.0,mean,0.0
+55,JE-300,299,Clusia Cove,osm_name,0.022,0.3813,0.0007,1.0,155.1,155.1,demand,0.0
+56,JE-013,12,CJ GLS Building,osm_name,0.0,0.3813,0.0077,0.5,97.3,155.1,mean,0.222
+57,JE-274,273,Blk 222 Jurong East Street 21,address_block,0.0,0.3813,0.0012,0.0,79.5,0.0,mean,0.0
+58,JE-348,347,Commercial JE-348,building_type,0.011,0.3814,0.0046,1.0,181.8,368.9,demand,0.0
+59,JE-101,100,Blk 216 Jurong East Street 21,address_block,0.0,0.3814,0.0017,0.0,78.2,0.0,mean,0.0
+60,JE-134,133,Blk 233 Jurong East Street 21,address_block,0.0,0.3814,0.0014,0.0,66.4,0.0,mean,0.0
+61,JE-155,154,Blk 21 Teban Gardens Road,address_block,0.0,0.3814,0.0045,0.0,93.2,0.0,mean,0.0
+62,JE-213,212,Blk 37 Teban Gardens Road,address_block,0.0,0.3814,0.0019,0.0,34.0,0.0,mean,0.0
+63,JE-277,276,Blk 23 Teban Gardens Road,address_block,0.0,0.3814,0.003,0.0,29.3,0.0,mean,0.0
+64,JE-065,64,Blk 207 Jurong East Street 21,address_block,0.0,0.3814,0.0011,0.0,112.4,0.0,mean,0.0
+65,JE-057,56,Blk 264 Jurong East Street 24,address_block,0.0,0.3814,0.0007,0.0,125.6,0.0,mean,0.0
+66,JE-158,157,Blk 135A Yung Ho Walk,address_block,0.0,0.3814,0.001,1.0,396.9,396.9,mean,0.0
+67,JE-239,238,Blk 41 Jurong East Avenue 1,address_block,0.0,0.3814,0.0017,1.0,269.1,269.1,mean,0.111
+68,JE-242,241,Blk 289B Toh Guan Road,address_block,0.0,0.3814,0.0024,0.0,85.4,0.0,mean,0.0
+69,JE-243,242,Dahlia,osm_housename,0.0,0.3814,0.0011,0.0,104.5,0.0,mean,0.0
+70,JE-119,118,Blk 52 Teban Gardens Road,address_block,0.0,0.3814,0.0035,0.0,71.6,0.0,mean,0.0
+71,JE-189,188,Blk 286B Toh Guan Road,address_block,0.0,0.3814,0.0041,0.0,84.6,0.0,mean,0.111
+72,JE-215,214,Blk 372 Jurong East Avenue 1,address_block,0.0,0.3814,0.0031,0.0,53.9,0.0,mean,0.0
+73,JE-173,172,Blk 120 Jurong East Street 13,address_block,0.073,0.3821,0.0034,1.0,137.6,137.6,demand,0.0
+74,JE-253,252,Blk 78 Yuan Ching Road,address_block,0.062,0.3827,0.0006,1.0,334.6,334.6,mean,0.0
+75,JE-205,204,Lakeside Tower,osm_housename,0.035,0.3831,0.0004,1.0,164.0,164.0,mean,0.111
+76,JE-076,75,Passion Wave,osm_name,0.0,0.3831,0.0023,0.5,73.9,148.6,mean,0.0
+77,JE-226,225,Blk 289C Toh Guan Road,address_block,0.0,0.3831,0.001,0.0,92.5,0.0,mean,0.0
+78,JE-011,10,Jurong Health Specialist Outpatient Clinics,osm_name,0.0,0.3831,0.0049,0.0,82.0,0.0,mean,0.0
+79,JE-096,95,Blk 349 Jurong East Avenue 1,address_block,0.0,0.3831,0.0016,0.0,69.2,0.0,mean,0.0
+80,JE-092,91,Blk 229 Jurong East Street 21,address_block,0.0,0.3831,0.0015,0.0,63.8,0.0,mean,0.0
+81,JE-157,156,Blk 404 Pandan Gardens,address_block,0.0,0.3831,0.0009,0.0,102.6,0.0,mean,0.0
+82,JE-352,351,Public JE-352,building_type,0.002,0.3831,0.0006,1.0,231.3,322.5,mean,0.111
+83,JE-052,51,Blk 204 Jurong East Street 21,address_block,0.072,0.3838,0.0007,0.5,146.4,146.4,demand,0.556
+84,JE-315,314,Blk 106 Jurong East Street 13,address_block,0.052,0.3843,0.0005,1.0,128.3,128.3,demand,0.0
+85,JE-104,103,Blk 266 Toh Guan Road,address_block,0.0,0.3843,0.0005,0.0,105.4,0.0,mean,0.0
+86,JE-127,126,Blk 246 Jurong East Street 24,address_block,0.0,0.3843,0.0017,0.0,95.9,0.0,mean,0.0
+87,JE-297,296,Blk 333 Jurong East Avenue 1,address_block,0.0,0.3843,0.0012,0.0,73.2,0.0,mean,0.0
+88,JE-306,305,Blk 221 Jurong East Street 21,address_block,0.0,0.3843,0.0011,0.0,57.0,0.0,mean,0.0
+89,JE-070,69,Blk 301 Jurong East Avenue 1,address_block,0.0,0.3843,0.0006,0.0,94.1,0.0,mean,0.0
+90,JE-128,127,Blk 107 Jurong East Street 13,address_block,0.0,0.3843,0.0014,0.0,119.9,0.0,mean,0.0
+91,JE-172,171,Blk 283 Toh Guan Road,address_block,0.0,0.3843,0.0011,0.0,96.7,0.0,mean,0.0
+92,JE-010,9,Jurong Community Hospital,osm_name,0.0,0.3843,0.0084,0.0,109.2,0.0,mean,0.0
+93,JE-123,122,Blk 30 Teban Gardens Road,address_block,0.0,0.3843,0.002,0.0,26.5,0.0,mean,0.0
+94,JE-175,174,Blk 353 Jurong East Street 31,address_block,0.0,0.3843,0.0017,0.0,47.8,0.0,mean,0.111
+95,JE-195,194,Blk 205 Jurong East Street 21,address_block,0.0,0.3843,0.0013,0.0,100.7,0.0,mean,0.111
+96,JE-237,236,Blk 43 Jurong East Avenue 1,address_block,0.0,0.3843,0.0005,0.0,120.5,0.0,mean,0.0
+97,JE-115,114,Blk 425A Teban Gardens Road,address_block,0.049,0.3848,0.0005,0.5,194.4,194.4,demand,0.667
+98,JE-135,134,Blk 408 Pandan Gardens,address_block,0.0,0.3848,0.1029,0.0,124.9,0.0,mean,0.0
+99,JE-156,155,Blk 22 Teban Gardens Road,address_block,0.042,0.3852,0.0004,0.5,162.9,162.9,demand,0.111
+100,JE-338,337,Blk 2 Jurong Gateway Road,address_block,0.027,0.3855,0.0006,1.0,194.8,194.8,mean,0.0
+101,JE-014,13,Blk 252 Jurong East Street 24,address_block,0.0,0.3855,0.0059,0.0,90.8,0.0,mean,0.111
+102,JE-214,213,J Gateway,osm_housename,0.0,0.3855,0.0004,1.0,196.3,196.3,mean,0.0
+103,JE-267,266,Blk 318A Jurong East Street 31,address_block,0.029,0.3858,0.0025,1.0,156.0,156.0,mean,0.0
+104,JE-168,167,Blk 224 Jurong East Street 21,address_block,0.0,0.3858,0.0023,0.0,51.4,0.0,mean,0.0
+105,JE-110,109,CPF Jurong Building,osm_name,0.0,0.3858,0.002,0.0,14.5,0.0,mean,0.0
+106,JE-210,209,Blk 374 Jurong East Avenue 1,address_block,0.0,0.3858,0.0023,0.0,110.9,0.0,mean,0.0
+107,JE-169,168,Blk 275 Toh Guan Road,address_block,0.0,0.3858,0.0007,0.0,39.7,0.0,mean,0.0
+108,JE-177,176,Blk 417B Teban Gardens Road,address_block,0.0,0.3858,0.0023,1.0,298.9,298.9,mean,0.111
+109,JE-147,146,Blk 329 Jurong East Avenue 1,address_block,0.051,0.3863,0.0024,0.5,28.2,164.7,demand,0.333
+110,JE-220,219,Entrance Pavilion,osm_name,0.034,0.3866,0.0003,0.5,142.1,142.1,demand,0.0
+111,JE-045,44,Blk 211 Jurong East Street 21,address_block,0.0,0.3866,0.0008,0.0,76.3,0.0,mean,0.0
+112,JE-201,200,Blk 288B Jurong East Street 21,address_block,0.0,0.3866,0.0004,0.0,85.1,0.0,mean,0.0
+113,JE-069,68,Blk 337 Jurong East Avenue 1,address_block,0.0,0.3866,0.0016,0.0,30.4,0.0,mean,0.0
+114,JE-171,170,Blk 47 Teban Gardens Road,address_block,0.039,0.387,0.0451,0.5,148.6,148.6,demand,0.0
+115,JE-032,31,Blk 316 Jurong East Street 32,address_block,0.0,0.387,0.0021,0.0,91.7,0.0,mean,0.111
+116,JE-046,45,Blk 309 Jurong East Street 32,address_block,0.0,0.387,0.0008,0.0,93.8,0.0,mean,0.0
+117,JE-161,160,Public JE-161,building_type,0.0,0.387,0.0004,0.0,104.5,0.0,mean,0.0
+118,JE-130,129,Blk 240 Jurong East Street 21,address_block,0.0,0.387,0.0053,0.0,74.6,0.0,mean,0.0
+119,JE-310,309,Blk 47 Jurong East Avenue 1,address_block,0.021,0.3872,0.0002,1.0,277.3,277.3,demand,0.0
+120,JE-021,20,Jurong Regional Library,osm_name,0.0,0.3872,0.0088,0.0,28.7,0.0,mean,0.111
+121,JE-356,355,Public JE-356,building_type,0.0,0.3872,0.0011,1.0,172.1,172.1,mean,0.0
+122,JE-129,128,Blk 105 Jurong East Street 13,address_block,0.0,0.3872,0.0014,0.0,33.4,0.0,mean,0.0
+123,JE-067,66,Blk 263 Jurong East Street 24,address_block,0.0,0.3872,0.0012,0.0,88.2,0.0,mean,0.0
+124,JE-312,311,Blk 217A Jurong East Street 21,address_block,0.0,0.3872,0.0046,0.0,47.2,0.0,mean,0.0
+125,JE-086,85,Blk 112 Jurong East Street 13,address_block,0.0,0.3872,0.0005,0.0,85.7,0.0,mean,0.0
+126,JE-144,143,Blk 414 Pandan Gardens,address_block,0.0,0.3872,0.0017,0.0,93.6,0.0,mean,0.0
+127,JE-221,220,Lakegarden showflat,osm_name,0.0,0.3872,0.0008,0.5,237.7,237.7,mean,0.0
+128,JE-245,244,Blk 39 Teban Gardens Road,address_block,0.0,0.3872,0.0008,0.0,114.0,0.0,mean,0.0
+129,JE-263,262,Blk 278 Toh Guan Road,address_block,0.0,0.3872,0.0009,0.0,52.3,0.0,mean,0.0
+130,JE-152,151,Gardenhouse,osm_name,0.0,0.3872,0.0004,0.0,117.7,0.0,mean,0.0
+131,JE-163,162,Blk 406 Pandan Gardens,address_block,0.0,0.3872,0.0006,0.0,58.7,0.0,mean,0.0
+132,JE-211,210,Blk 136A Yung Ho Walk,address_block,0.035,0.3876,0.0005,1.0,481.7,481.7,demand,0.222
+133,JE-050,49,Blk 110 Jurong East Street 13,address_block,0.0,0.3876,0.0012,0.0,68.2,0.0,mean,0.0
+134,JE-204,203,Blk 288E Jurong East Street 21,address_block,0.0,0.3876,0.0011,0.0,91.7,0.0,mean,0.111
+135,JE-153,152,Blk 203 Jurong East Street 21,address_block,0.0,0.3876,0.0007,0.0,52.4,0.0,mean,0.0
+136,JE-203,202,Blk 288A Jurong East Street 21,address_block,0.0,0.3876,0.0009,0.0,93.8,0.0,mean,0.0
+137,JE-094,93,Blk 274 Toh Guan Road,address_block,0.0,0.3876,0.0013,0.0,72.0,0.0,mean,0.0
+138,JE-112,111,Blk 25 Teban Gardens Road,address_block,0.0,0.3876,0.0012,0.0,12.5,0.0,mean,0.0
+139,JE-088,87,Blk 322 Jurong East Street 31,address_block,0.0,0.3876,0.0037,0.0,46.3,0.0,mean,0.0
+140,JE-109,108,Blk 311 Jurong East Street 32,address_block,0.0,0.3876,0.0006,0.0,22.4,0.0,mean,0.0
+141,JE-291,290,Blk 201 Jurong East Street 21,address_block,0.0,0.3876,0.0014,0.0,88.3,0.0,mean,0.111
+142,JE-329,328,Blk 202 Jurong East Street 21,address_block,0.0,0.3876,0.0013,0.0,52.4,0.0,mean,0.0
+143,JE-049,48,Blk 303 Jurong East Avenue 1,address_block,0.0,0.3876,0.0007,0.0,97.2,0.0,mean,0.0
+144,JE-192,191,Blk 282 Toh Guan Road,address_block,0.0,0.3876,0.0028,0.0,42.0,0.0,mean,0.0
+145,JE-260,259,Blk 35 Teban Gardens Road,address_block,0.0,0.3876,0.0394,0.0,117.8,0.0,mean,0.0
+146,JE-299,298,Blk 215A Jurong East Street 21,address_block,0.0,0.3876,0.0012,0.0,81.4,0.0,mean,0.0
+147,JE-149,148,Blk 273 Toh Guan Road,address_block,0.0,0.3876,0.0008,0.0,78.4,0.0,mean,0.0
+148,JE-270,269,Blk 291B Jurong East Street 24,address_block,0.0,0.3876,0.0046,0.5,184.7,184.7,mean,0.222
+149,JE-051,50,Blk 260 Jurong East Street 24,address_block,0.0,0.3876,0.0018,0.0,48.9,0.0,mean,0.0
+150,JE-219,218,Blk 286D Toh Guan Road,address_block,0.0,0.3876,0.001,0.0,79.1,0.0,mean,0.0
+151,JE-314,313,Blk 116 Jurong East Street 13,address_block,0.0,0.3876,0.0013,0.0,62.8,0.0,mean,0.0
+152,JE-160,159,Blk 51 Teban Gardens Road,address_block,0.0,0.3876,0.0688,0.0,65.0,0.0,mean,0.0
+153,JE-223,222,Lakeside Tower,osm_housename,0.0,0.3876,0.0003,0.5,119.5,164.0,mean,0.0
+154,JE-360,359,Public JE-360,building_type,0.0,0.3876,0.0001,0.0,70.4,0.0,mean,0.0
+155,JE-222,221,Blk 123 Jurong East Street 13,address_block,0.0,0.3876,0.0002,0.5,178.1,178.1,mean,0.0
+156,JE-111,110,Blk 32 Teban Gardens Road,address_block,0.0,0.3876,0.0008,0.0,32.7,0.0,mean,0.0
+157,JE-038,37,Blk 308 Jurong East Street 32,address_block,0.014,0.3877,0.0009,0.5,68.1,131.3,mean,0.222
+158,JE-178,177,Blk 44 Teban Gardens Road,address_block,0.0,0.3877,0.0015,0.0,33.8,0.0,mean,0.0
+159,JE-322,321,Blk 212 Jurong East Street 21,address_block,0.0,0.3877,0.0004,0.0,70.7,0.0,mean,0.0
+160,JE-350,349,Public JE-350,building_type,0.002,0.3877,0.0,1.0,221.6,221.6,mean,0.111
+161,JE-191,190,Blk 350 Jurong East Avenue 1,address_block,0.006,0.3878,0.0001,0.5,69.2,186.0,demand,0.111
+162,JE-286,285,Blk 72 Yuan Ching Road,address_block,0.0,0.3878,0.0001,1.0,262.0,262.0,mean,0.111
+163,JE-056,55,Blk 209 Jurong East Street 21,address_block,0.0,0.3878,0.0007,0.0,76.4,0.0,mean,0.0
+164,JE-351,350,Public JE-351,building_type,0.002,0.3878,0.0,1.0,394.8,394.8,mean,0.111
+165,JE-357,356,Public JE-357,building_type,0.002,0.3878,0.0,1.0,228.7,228.7,demand,0.111
+166,JE-344,343,Commercial JE-344,building_type,0.0,0.3878,0.0001,1.0,368.9,368.9,mean,0.111
+167,JE-026,25,Blk 306 Jurong East Street 32,address_block,0.0,0.3878,0.0017,0.0,61.3,0.0,mean,0.0
+168,JE-179,178,Blk 352 Jurong East Street 31,address_block,0.0,0.3878,0.0004,0.0,47.8,0.0,mean,0.0
+169,JE-218,217,Blk 416 Pandan Gardens,address_block,0.0,0.3878,0.0066,0.0,30.0,0.0,mean,0.0
+170,JE-264,263,Blk 346 Jurong East Street 31,address_block,0.008,0.3879,0.0032,0.5,27.3,130.6,demand,0.0
+171,JE-159,158,Blk 407 Pandan Gardens,address_block,0.0,0.3879,0.0007,0.0,63.6,0.0,mean,0.0
+172,JE-176,175,Blk 48 Teban Gardens Road,address_block,0.0,0.3879,0.0009,0.0,43.4,0.0,mean,0.0
+173,JE-188,187,Blk 285D Toh Guan Road,address_block,0.0,0.3879,0.0004,0.0,39.7,0.0,mean,0.0
+174,JE-047,46,Blk 307 Jurong East Street 32,address_block,0.0,0.3879,0.0001,0.333,61.3,131.3,mean,0.0
+175,JE-355,354,Public JE-355,building_type,0.001,0.3879,0.0,1.0,173.6,173.6,demand,0.0
+176,JE-241,240,Blk 34 Teban Gardens Road,address_block,0.0,0.3879,0.0004,0.0,71.0,0.0,mean,0.0
+177,JE-292,291,Blk 401 Pandan Gardens,address_block,0.0,0.3879,0.0003,0.0,66.7,0.0,mean,0.0
+178,JE-353,352,Public JE-353,building_type,0.0,0.3879,0.0003,0.0,44.3,0.0,mean,0.0
+179,JE-004,3,JEM,osm_name,0.0,0.3879,0.0097,0.0,24.0,0.0,mean,0.111
+180,JE-113,112,Blk 41 Teban Gardens Road,address_block,0.0,0.3879,0.0005,0.0,24.1,0.0,mean,0.0

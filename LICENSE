@@ -1,0 +1,80 @@
+This repository is licensed in two parts, because the code and the data it
+derives from carry different obligations.
+
+================================================================================
+1. SOURCE CODE — MIT License
+================================================================================
+
+Applies to everything in `src/`, `tests/`, `app.py`, and the documentation in
+`docs/` and `README.md`.
+
+MIT License
+
+Copyright (c) 2026 Muhammad Usman
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+2. DATA — see per-source terms
+================================================================================
+
+Applies to `data/raw/` and `data/processed/`.
+
+OpenStreetMap extracts and any derived database in this repository
+--------------------------------------------------------------------------------
+© OpenStreetMap contributors, available under the Open Database License (ODbL)
+v1.0: https://opendatacommons.org/licenses/odbl/1-0/
+
+The building footprints and points of interest under `data/raw/` are extracted
+from OpenStreetMap and are committed to this repository. The candidate sites,
+demand grid, and distance matrices the pipeline writes to `data/processed/` are
+a **Derivative Database** of that extract and are likewise offered under ODbL
+1.0, whether or not a given copy of this repository ships them. Share-alike is
+satisfied by this repository being public with the source extract committed and
+the code that derives everything else included in full.
+
+Full attribution: https://www.openstreetmap.org/copyright
+
+Singapore government datasets
+--------------------------------------------------------------------------------
+The SCDF Public Access AED registry snapshot and the URA MP2019 Planning Area
+and Subzone boundaries are used under the Singapore Open Data Licence:
+https://data.gov.sg/open-data-licence
+
+These datasets are a historical snapshot. Nothing in this repository is a live
+copy of, or an integration with, the national AED registry.
+
+================================================================================
+3. THIRD-PARTY SOFTWARE
+================================================================================
+
+This repository depends on open-source libraries (GeoPandas, Shapely, PyProj,
+H3, OSMnx, NumPy, pandas, SciPy, PuLP with the CBC solver, scikit-learn,
+Streamlit, pydeck/deck.gl, Altair and others). Their source is not redistributed
+here — they are installed from their own distributions and remain governed by
+their own licences and copyright. Pinned versions are listed in
+`requirements.txt` and `uv.lock`; each project's licence applies to that project.
+
+Basemap tiles used by the application are provided by CARTO, with map data
+© OpenStreetMap contributors, under their respective terms.
+
+--------------------------------------------------------------------------------
+Per-source dataset ids, dates, checksums, and the fields used from each are
+recorded in `docs/sources.md` and `data/manifest.json`. Development of this
+project was AI-assisted; see the Acknowledgements section of `README.md`.

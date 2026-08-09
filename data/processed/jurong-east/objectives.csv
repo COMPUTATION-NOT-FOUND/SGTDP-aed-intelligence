@@ -1,0 +1,6 @@
+objective,coverage,max_m,mean_m,guarantee
+do nothing,0.0,1786.0,341.9,-
+max coverage (greedy),0.3847,1786.0,316.5,"1-1/e, ILP-certified optimal here"
+"min worst case (k-center, minimax)",0.3499,1786.0,333.6,heuristic
+"min worst case (k-center, Gonzalez)",0.3401,1786.0,321.3,2-approx in a metric space
+min average (p-median),0.3716,1786.0,313.0,heuristic

@@ -1,0 +1,361 @@
+site_id,label,label_source,lat,lon,footprint_m2,building
+JE-001,IMM,osm_name,1.334611,103.746749,40802.7,yes
+JE-002,Perennial Business City,osm_name,1.331844,103.744754,33822.2,commercial
+JE-003,Science Centre Singapore,osm_name,1.332897,103.735993,20819.4,public
+JE-004,JEM,osm_name,1.333296,103.743391,15336.0,retail
+JE-005,Westgate,osm_name,1.334194,103.742867,13421.7,yes
+JE-006,Ng Teng Fong General Hospital,osm_name,1.333412,103.745525,11862.8,yes
+JE-007,Blk 10 Jurong East Street 12,address_block,1.33309,103.74231,9244.7,train_station
+JE-008,Blk 3 Buroh Lane,address_block,1.314449,103.722765,8161.4,commercial
+JE-009,Jurong Town Hall,osm_name,1.328666,103.741937,8059.8,commercial
+JE-010,Jurong Community Hospital,osm_name,1.332753,103.746663,7101.3,hospital
+JE-011,Jurong Health Specialist Outpatient Clinics,osm_name,1.334627,103.744303,6575.9,hospital
+JE-012,Ng Teng Fong General Hospital,osm_name,1.333493,103.745481,5098.9,hospital
+JE-013,CJ GLS Building,osm_name,1.333788,103.748424,4594.4,retail
+JE-014,Blk 252 Jurong East Street 24,address_block,1.343192,103.737729,4555.4,commercial
+JE-015,Blk 253 Jurong East Street 24,address_block,1.343513,103.7372,4503.9,residential
+JE-016,Chinese Garden MRT Station,osm_name,1.342421,103.732454,4332.6,train_station
+JE-017,Blk 134 Jurong Gateway Road,address_block,1.334118,103.738894,4315.2,commercial
+JE-018,Blk 347 Jurong East Avenue 1,address_block,1.345245,103.73154,4257.4,commercial
+JE-019,Jurong Lake Gardens Gym,osm_name,1.330469,103.725621,4071.4,public
+JE-020,Blk 135 Jurong Gateway Road,address_block,1.33386,103.740015,3840.1,commercial
+JE-021,Jurong Regional Library,osm_name,1.332718,103.739534,3605.4,yes
+JE-022,Blk 244 Jurong East Avenue 1,address_block,1.342245,103.741829,3209.2,apartments
+JE-023,Blk 61 Teban Gardens Road,address_block,1.322132,103.738297,3177.8,commercial
+JE-024,Blk 257 Jurong East Street 24,address_block,1.344296,103.739407,3002.6,residential
+JE-025,Blk 10 International Business Park,address_block,1.325222,103.74892,2719.0,commercial
+JE-026,Blk 306 Jurong East Street 32,address_block,1.345907,103.735614,2702.7,residential
+JE-027,Ayer Rajah Community Centre,osm_name,1.320931,103.747562,2694.6,yes
+JE-028,Blk 37A Teban Gardens Road,address_block,1.320873,103.742758,2668.7,commercial
+JE-029,Blk 210 Jurong East Street 21,address_block,1.338844,103.738622,2607.0,residential
+JE-030,Blk 101 Jurong East Street 13,address_block,1.336909,103.739197,2592.4,residential
+JE-031,Blk 258 Jurong East Street 24,address_block,1.343748,103.739262,2516.5,residential
+JE-032,Blk 316 Jurong East Street 32,address_block,1.346076,103.732074,2505.8,residential
+JE-033,Blk 305 Jurong East Street 32,address_block,1.345352,103.735347,2406.0,residential
+JE-034,Blk 317 Jurong East Street 31,address_block,1.346807,103.73123,2393.9,residential
+JE-035,Sheng Hong Temple,osm_name,1.321054,103.750603,2386.3,yes
+JE-036,Blk 117 Jurong East Street 13,address_block,1.337681,103.735406,2372.6,residential
+JE-037,Blk 122 Jurong East Street 13,address_block,1.335469,103.737362,2372.5,residential
+JE-038,Blk 308 Jurong East Street 32,address_block,1.347086,103.734929,2358.3,residential
+JE-039,Blk 124 Jurong East Street 13,address_block,1.334608,103.738043,2325.8,residential
+JE-040,Blk 302 Jurong East Avenue 1,address_block,1.344787,103.734205,2298.6,residential
+JE-041,J Gateway,osm_housename,1.335576,103.74242,2294.8,residential
+JE-042,Blk 3 Buroh Lane,address_block,1.315053,103.722238,2262.5,commercial
+JE-043,Blk 261 Jurong East Street 24,address_block,1.344238,103.740669,2244.0,residential
+JE-044,Blk 241 Jurong East Avenue 1,address_block,1.341596,103.74334,2238.0,apartments
+JE-045,Blk 211 Jurong East Street 21,address_block,1.338454,103.740423,2234.6,residential
+JE-046,Blk 309 Jurong East Street 32,address_block,1.347617,103.73436,2191.1,residential
+JE-047,Blk 307 Jurong East Street 32,address_block,1.346618,103.735175,2180.5,residential
+JE-048,Blk 214 Jurong East Street 21,address_block,1.339113,103.73934,2171.1,residential
+JE-049,Blk 303 Jurong East Avenue 1,address_block,1.344627,103.735971,2155.6,residential
+JE-050,Blk 110 Jurong East Street 13,address_block,1.33892,103.73689,2092.1,residential
+JE-051,Blk 260 Jurong East Street 24,address_block,1.343727,103.740237,2081.1,residential
+JE-052,Blk 204 Jurong East Street 21,address_block,1.33746,103.741635,2062.4,residential
+JE-053,Yuhua Community Club,osm_name,1.339875,103.73712,2057.4,yes
+JE-054,Saint Andrew's Nursing Home,osm_name,1.326549,103.725977,2003.0,residential
+JE-055,Blk 130 Jurong Gateway Road,address_block,1.334883,103.739104,1988.2,commercial
+JE-056,Blk 209 Jurong East Street 21,address_block,1.337953,103.739688,1975.7,residential
+JE-057,Blk 264 Jurong East Street 24,address_block,1.343867,103.74168,1961.8,residential
+JE-058,Blk 304 Jurong East Avenue 1,address_block,1.345079,103.734856,1957.7,residential
+JE-059,Blk 310 Jurong East Street 32,address_block,1.348047,103.733512,1941.0,residential
+JE-060,Masjid Al-Mukminin,osm_name,1.33913,103.74152,1928.2,mosque
+JE-061,Blk 345 Jurong East Street 31,address_block,1.345634,103.73148,1914.4,commercial
+JE-062,Blk 102 Jurong East Street 13,address_block,1.336129,103.738521,1911.8,residential
+JE-063,Blk 251 Jurong East Street 24,address_block,1.343019,103.739377,1904.2,residential
+JE-064,Blk 312 Jurong East Street 32,address_block,1.347214,103.731888,1866.9,residential
+JE-065,Blk 207 Jurong East Street 21,address_block,1.338045,103.742261,1814.0,residential
+JE-066,Blk 322A Jurong East Street 31,address_block,1.347703,103.729201,1793.9,residential
+JE-067,Blk 263 Jurong East Street 24,address_block,1.344399,103.74158,1770.3,residential
+JE-068,Blk 320 Jurong East Street 31,address_block,1.348487,103.730996,1763.4,residential
+JE-069,Blk 337 Jurong East Avenue 1,address_block,1.349906,103.731735,1758.8,residential
+JE-070,Blk 301 Jurong East Avenue 1,address_block,1.344134,103.735281,1746.4,residential
+JE-071,Blk 332 Jurong East Avenue 1,address_block,1.351421,103.729913,1741.5,residential
+JE-072,Blk 228 Jurong East Street 21,address_block,1.342361,103.736225,1691.1,residential
+JE-073,Blk 331 Jurong East Avenue 1,address_block,1.350936,103.730141,1687.7,residential
+JE-074,Blk 249 Jurong East Street 24,address_block,1.342359,103.739554,1665.9,residential
+JE-075,Blk 248 Jurong East Street 24,address_block,1.342206,103.740098,1658.5,residential
+JE-076,Passion Wave,osm_name,1.339453,103.727304,1657.7,public
+JE-077,Blk 314 Jurong East Street 32,address_block,1.346812,103.733041,1642.4,residential
+JE-078,Blk 5 Jalan Papan,address_block,1.322352,103.727644,1641.1,residential
+JE-079,Blk 247 Jurong East Street 24,address_block,1.342097,103.739008,1631.7,residential
+JE-080,Blk 5 Jalan Papan,address_block,1.322089,103.727496,1622.8,residential
+JE-081,Blk 113 Jurong East Street 13,address_block,1.338846,103.735067,1589.4,residential
+JE-082,Blk 208 Jurong East Street 21,address_block,1.338413,103.742656,1576.9,residential
+JE-083,Blk 243 Jurong East Avenue 1,address_block,1.342068,103.743364,1572.8,apartments
+JE-084,Blk 231 Jurong East Street 21,address_block,1.341162,103.738042,1566.8,residential
+JE-085,Blk 285B Toh Guan Road,address_block,1.338102,103.747153,1559.4,residential
+JE-086,Blk 112 Jurong East Street 13,address_block,1.339329,103.736098,1553.5,residential
+JE-087,Blk 340 Jurong East Avenue 1,address_block,1.35024,103.730657,1548.8,residential
+JE-088,Blk 322 Jurong East Street 31,address_block,1.348029,103.729151,1546.0,residential
+JE-089,Blk 351 Jurong East Street 31,address_block,1.344671,103.730777,1545.8,commercial
+JE-090,Blk 223A Jurong East Street 21,address_block,1.341317,103.736758,1537.7,residential
+JE-091,Blk 225A Jurong East Street 21,address_block,1.34203,103.736824,1534.3,residential
+JE-092,Blk 229 Jurong East Street 21,address_block,1.341815,103.738027,1532.0,residential
+JE-093,Blk 289A Toh Guan Road,address_block,1.340125,103.74527,1531.4,residential
+JE-094,Blk 274 Toh Guan Road,address_block,1.341967,103.746945,1500.8,residential
+JE-095,Blk 236 Jurong East Street 21,address_block,1.340475,103.742062,1500.7,residential
+JE-096,Blk 349 Jurong East Avenue 1,address_block,1.344407,103.731434,1492.1,commercial
+JE-097,Blk 315 Jurong East Street 32,address_block,1.346149,103.732998,1488.6,residential
+JE-098,Blk 288C Jurong East Street 21,address_block,1.339525,103.743492,1461.2,residential
+JE-099,Blk 131 Jurong Gateway Road,address_block,1.334406,103.740198,1460.8,commercial
+JE-100,Blk 53 Teban Gardens Road,address_block,1.321352,103.737681,1451.1,residential
+JE-101,Blk 216 Jurong East Street 21,address_block,1.339496,103.737855,1449.2,residential
+JE-102,Blk 245 Jurong East Avenue 1,address_block,1.341695,103.741974,1412.6,apartments
+JE-103,Galilee Bible-Presbyterian Church,osm_name,1.3217,103.746336,1412.1,church
+JE-104,Blk 266 Toh Guan Road,address_block,1.34111,103.744184,1409.7,residential
+JE-105,Blk 135B Yung Ho Walk,address_block,1.326614,103.727537,1403.9,residential
+JE-106,Blk 134A Yung Ho Walk,address_block,1.32691,103.729001,1402.7,residential
+JE-107,Blk 190 Jurong East Avenue 1,address_block,1.349755,103.730704,1402.0,public
+JE-108,Blk 319 Jurong East Street 31,address_block,1.348016,103.730702,1392.2,residential
+JE-109,Blk 311 Jurong East Street 32,address_block,1.347634,103.7326,1378.0,residential
+JE-110,CPF Jurong Building,osm_name,1.335009,103.739693,1377.9,public
+JE-111,Blk 32 Teban Gardens Road,address_block,1.32184,103.739847,1371.3,residential
+JE-112,Blk 25 Teban Gardens Road,address_block,1.323078,103.73791,1369.9,residential
+JE-113,Blk 41 Teban Gardens Road,address_block,1.321581,103.740963,1368.5,residential
+JE-114,Blk 46 Teban Gardens Road,address_block,1.320194,103.740564,1367.3,residential
+JE-115,Blk 425A Teban Gardens Road,address_block,1.32006,103.743449,1362.8,residential
+JE-116,Residential JE-116,building_type,1.342387,103.74367,1360.4,residential
+JE-117,Masjid Hasanah,osm_name,1.321692,103.738213,1353.8,yes
+JE-118,Blk 221A Jurong East Street 21,address_block,1.340677,103.736351,1351.1,residential
+JE-119,Blk 52 Teban Gardens Road,address_block,1.320999,103.737425,1347.7,residential
+JE-120,Blk 108 Jurong East Street 13,address_block,1.338367,103.737283,1340.7,residential
+JE-121,Blk 324 Jurong East Street 31,address_block,1.348799,103.730007,1331.1,residential
+JE-122,Blk 24 Teban Gardens Road,address_block,1.323471,103.737956,1320.5,residential
+JE-123,Blk 30 Teban Gardens Road,address_block,1.320805,103.738987,1317.1,residential
+JE-124,Blk 115 Jurong East Street 13,address_block,1.339849,103.735556,1307.8,residential
+JE-125,Blk 31 Teban Gardens Road,address_block,1.320268,103.739109,1307.5,residential
+JE-126,Blk 334 Jurong East Avenue 1,address_block,1.350781,103.731506,1297.0,residential
+JE-127,Blk 246 Jurong East Street 24,address_block,1.341752,103.740098,1295.4,residential
+JE-128,Blk 107 Jurong East Street 13,address_block,1.337804,103.73817,1294.6,residential
+JE-129,Blk 105 Jurong East Street 13,address_block,1.337385,103.738531,1290.5,residential
+JE-130,Blk 240 Jurong East Street 21,address_block,1.341043,103.741637,1286.4,residential
+JE-131,Blk 402 Pandan Gardens,address_block,1.32072,103.749677,1277.2,residential
+JE-132,Blk 325 Jurong East Street 31,address_block,1.348797,103.729034,1274.4,residential
+JE-133,Blk 323 Jurong East Street 31,address_block,1.348385,103.728965,1272.6,residential
+JE-134,Blk 233 Jurong East Street 21,address_block,1.340372,103.740992,1272.2,residential
+JE-135,Blk 408 Pandan Gardens,address_block,1.318154,103.74897,1271.5,residential
+JE-136,Blk 409 Pandan Gardens,address_block,1.318481,103.747535,1269.2,residential
+JE-137,Blk 327 Jurong East Street 31,address_block,1.349113,103.728976,1266.3,residential
+JE-138,Blk 286C Toh Guan Road,address_block,1.339039,103.744534,1265.2,residential
+JE-139,Blk 50 Teban Gardens Road,address_block,1.320536,103.737935,1265.1,residential
+JE-140,Blk 206 Jurong East Street 21,address_block,1.337736,103.742062,1250.9,residential
+JE-141,Blk 328 Jurong East Street 31,address_block,1.349369,103.730161,1247.7,residential
+JE-142,Blk 45 Teban Gardens Road,address_block,1.320222,103.741181,1245.9,residential
+JE-143,Blk 287A Jurong East Street 21,address_block,1.338315,103.743693,1244.5,residential
+JE-144,Blk 414 Pandan Gardens,address_block,1.320063,103.747298,1244.5,residential
+JE-145,Blk 234 Jurong East Street 21,address_block,1.339791,103.741852,1234.3,residential
+JE-146,Blk 287D Jurong East Street 21,address_block,1.337856,103.74412,1222.8,residential
+JE-147,Blk 329 Jurong East Avenue 1,address_block,1.350147,103.729889,1222.0,residential
+JE-148,Blk 330 Jurong East Avenue 1,address_block,1.350544,103.730082,1221.6,residential
+JE-149,Blk 273 Toh Guan Road,address_block,1.342556,103.745229,1219.7,residential
+JE-150,Blk 339 Jurong East Avenue 1,address_block,1.349512,103.731566,1209.2,residential
+JE-151,Blk 341 Jurong East Avenue 1,address_block,1.349218,103.731255,1209.1,residential
+JE-152,Gardenhouse,osm_name,1.333895,103.727571,1208.2,public
+JE-153,Blk 203 Jurong East Street 21,address_block,1.337015,103.742674,1208.0,residential
+JE-154,Blk 285C Toh Guan Road,address_block,1.337884,103.74662,1204.9,residential
+JE-155,Blk 21 Teban Gardens Road,address_block,1.323722,103.739459,1201.9,residential
+JE-156,Blk 22 Teban Gardens Road,address_block,1.322782,103.73979,1201.7,residential
+JE-157,Blk 404 Pandan Gardens,address_block,1.3198,103.749296,1199.0,residential
+JE-158,Blk 135A Yung Ho Walk,address_block,1.327116,103.727684,1197.6,residential
+JE-159,Blk 407 Pandan Gardens,address_block,1.318866,103.748656,1193.6,residential
+JE-160,Blk 51 Teban Gardens Road,address_block,1.320759,103.736957,1192.5,residential
+JE-161,Public JE-161,building_type,1.329213,103.725309,1182.9,public
+JE-162,Blk 403 Pandan Gardens,address_block,1.320296,103.74944,1163.1,residential
+JE-163,Blk 406 Pandan Gardens,address_block,1.318797,103.749255,1161.6,residential
+JE-164,Blk 412 Pandan Gardens,address_block,1.31959,103.74709,1158.0,residential
+JE-165,Blk 425B Teban Gardens Road,address_block,1.319463,103.743493,1156.4,residential
+JE-166,Blk 313 Jurong East Street 32,address_block,1.347122,103.733403,1150.8,residential
+JE-167,Blk 336 Jurong East Avenue 1,address_block,1.350556,103.731298,1148.1,residential
+JE-168,Blk 224 Jurong East Street 21,address_block,1.341674,103.736753,1142.8,residential
+JE-169,Blk 275 Toh Guan Road,address_block,1.341013,103.747963,1142.2,residential
+JE-170,Blk 219 Jurong East Street 21,address_block,1.340755,103.738034,1139.8,residential
+JE-171,Blk 47 Teban Gardens Road,address_block,1.320125,103.739858,1135.5,residential
+JE-172,Blk 283 Toh Guan Road,address_block,1.339157,103.746707,1135.1,residential
+JE-173,Blk 120 Jurong East Street 13,address_block,1.335769,103.735914,1135.1,residential
+JE-174,Blk 411 Pandan Gardens,address_block,1.318978,103.746689,1133.7,residential
+JE-175,Blk 353 Jurong East Street 31,address_block,1.344369,103.730588,1133.3,commercial
+JE-176,Blk 48 Teban Gardens Road,address_block,1.320476,103.74001,1131.3,residential
+JE-177,Blk 417B Teban Gardens Road,address_block,1.322254,103.744452,1126.9,residential
+JE-178,Blk 44 Teban Gardens Road,address_block,1.320763,103.741567,1122.5,residential
+JE-179,Blk 352 Jurong East Street 31,address_block,1.344808,103.730399,1117.2,commercial
+JE-180,Blk 43 Teban Gardens Road,address_block,1.321083,103.741731,1114.8,residential
+JE-181,Blk 217 Jurong East Street 21,address_block,1.339949,103.73807,1110.1,residential
+JE-182,Blk 218 Jurong East Street 21,address_block,1.340308,103.737945,1109.9,residential
+JE-183,Blk 321 Jurong East Street 31,address_block,1.348317,103.7301,1106.6,residential
+JE-184,Blk 232 Jurong East Street 21,address_block,1.339924,103.740717,1106.2,residential
+JE-185,Blk 287C Jurong East Street 21,address_block,1.337998,103.744994,1103.5,residential
+JE-186,Blk 287B Jurong East Street 21,address_block,1.338344,103.744454,1103.3,residential
+JE-187,Blk 285A Toh Guan Road,address_block,1.338404,103.746065,1100.3,residential
+JE-188,Blk 285D Toh Guan Road,address_block,1.337992,103.745844,1100.2,residential
+JE-189,Blk 286B Toh Guan Road,address_block,1.338605,103.745263,1100.0,residential
+JE-190,Blk 7 Jurong East Street 32,address_block,1.34595,103.733798,1092.9,residential
+JE-191,Blk 350 Jurong East Avenue 1,address_block,1.344034,103.731257,1074.8,commercial
+JE-192,Blk 282 Toh Guan Road,address_block,1.339576,103.747234,1071.9,residential
+JE-193,Blk 104 Jurong East Street 13,address_block,1.336572,103.737659,1066.2,residential
+JE-194,Blk 250 Jurong East Street 24,address_block,1.342608,103.739994,1065.3,residential
+JE-195,Blk 205 Jurong East Street 21,address_block,1.337532,103.743035,1063.4,residential
+JE-196,Blk 291A Jurong East Street 24,address_block,1.342984,103.743943,1046.2,residential
+JE-197,Blk 288D Jurong East Street 21,address_block,1.339904,103.74413,1041.3,residential
+JE-198,Blk 60 Teban Gardens Road,address_block,1.322682,103.738809,1036.9,residential
+JE-199,Blk 280 Toh Guan Road,address_block,1.340428,103.747336,1034.2,residential
+JE-200,Blk 348 Jurong East Avenue 1,address_block,1.34456,103.731074,1029.2,commercial
+JE-201,Blk 288B Jurong East Street 21,address_block,1.339148,103.742746,1027.9,residential
+JE-202,All Saints Home (Jurong East),osm_name,1.341727,103.740808,1026.4,residential
+JE-203,Blk 288A Jurong East Street 21,address_block,1.33884,103.743387,1024.2,residential
+JE-204,Blk 288E Jurong East Street 21,address_block,1.340242,103.743917,1014.1,residential
+JE-205,Lakeside Tower,osm_housename,1.337297,103.725504,1012.3,residential
+JE-206,Blk 134B Yung Ho Walk,address_block,1.327156,103.728373,1010.0,residential
+JE-207,Blk 5 Jurong East Street 32,address_block,1.346057,103.733472,1009.2,residential
+JE-208,Blk 20 Teban Gardens Road,address_block,1.32386,103.738772,1006.7,residential
+JE-209,Blk 343 Jurong East Street 31,address_block,1.345908,103.731088,1005.2,commercial
+JE-210,Blk 374 Jurong East Avenue 1,address_block,1.349658,103.732704,1004.8,residential
+JE-211,Blk 136A Yung Ho Walk,address_block,1.326809,103.726833,997.9,residential
+JE-212,Blk 410 Pandan Gardens,address_block,1.319003,103.747453,997.4,residential
+JE-213,Blk 37 Teban Gardens Road,address_block,1.320508,103.742712,991.4,residential
+JE-214,J Gateway,osm_housename,1.336308,103.741744,989.6,residential
+JE-215,Blk 372 Jurong East Avenue 1,address_block,1.348663,103.731986,985.1,residential
+JE-216,Blk 272 Toh Guan Road,address_block,1.342118,103.745645,982.8,residential
+JE-217,Blk 256 Jurong East Street 24,address_block,1.344188,103.738278,976.6,residential
+JE-218,Blk 416 Pandan Gardens,address_block,1.320985,103.748387,974.9,residential
+JE-219,Blk 286D Toh Guan Road,address_block,1.339626,103.744521,972.8,residential
+JE-220,Entrance Pavilion,osm_name,1.339028,103.724617,972.7,public
+JE-221,Lakegarden showflat,osm_name,1.342906,103.733044,971.7,retail
+JE-222,Blk 123 Jurong East Street 13,address_block,1.334589,103.736984,971.7,residential
+JE-223,Lakeside Tower,osm_housename,1.337942,103.725193,968.9,residential
+JE-224,Blk 121 Jurong East Street 13,address_block,1.335094,103.736518,961.3,residential
+JE-225,Blk 415 Pandan Gardens,address_block,1.32076,103.748245,961.0,residential
+JE-226,Blk 289C Toh Guan Road,address_block,1.340333,103.745901,951.7,residential
+JE-227,Blk 267 Toh Guan Road,address_block,1.341125,103.744806,949.1,residential
+JE-228,Blk 373 Jurong East Avenue 1,address_block,1.349297,103.732314,948.7,residential
+JE-229,Blk 268 Toh Guan Road,address_block,1.341968,103.745245,946.3,residential
+JE-230,Blk 1 Jurong East Street 32,address_block,1.345086,103.733454,935.8,residential
+JE-231,Blk 3 Jurong East Street 32,address_block,1.345587,103.733186,935.7,residential
+JE-232,Blk 33 Teban Gardens Road,address_block,1.320273,103.741863,935.5,residential
+JE-233,Blk 286A Toh Guan Road,address_block,1.338831,103.745714,931.4,residential
+JE-234,Blk 82 Yuan Ching Road,address_block,1.336623,103.725707,927.3,residential
+JE-235,Blk 371 Jurong East Avenue 1,address_block,1.348327,103.73192,925.9,residential
+JE-236,Blk 51 Jurong East Avenue 1,address_block,1.344435,103.732706,921.8,residential
+JE-237,Blk 43 Jurong East Avenue 1,address_block,1.342308,103.735165,910.2,residential
+JE-238,Blk 39 Jurong East Avenue 1,address_block,1.343146,103.734141,910.1,residential
+JE-239,Blk 41 Jurong East Avenue 1,address_block,1.342671,103.73458,910.1,residential
+JE-240,Blk 38 Teban Gardens Road,address_block,1.32114,103.742765,909.1,residential
+JE-241,Blk 34 Teban Gardens Road,address_block,1.319856,103.741751,909.0,residential
+JE-242,Blk 289B Toh Guan Road,address_block,1.340731,103.745377,907.3,residential
+JE-243,Dahlia,osm_housename,1.343889,103.734063,902.8,residential
+JE-244,Blk 80 Yuan Ching Road,address_block,1.335766,103.725705,899.6,residential
+JE-245,Blk 39 Teban Gardens Road,address_block,1.321355,103.742898,899.4,residential
+JE-246,Blk 49 Jurong East Avenue 1,address_block,1.343763,103.732883,898.8,residential
+JE-247,Blk 76 Yuan Ching Road,address_block,1.334563,103.72549,894.3,residential
+JE-248,Blk 265 Toh Guan Road,address_block,1.34071,103.744569,894.0,residential
+JE-249,Blk 36 Teban Gardens Road,address_block,1.319968,103.742744,893.9,residential
+JE-250,Blk 37 Jurong East Avenue 1,address_block,1.343518,103.734709,891.6,residential
+JE-251,Blk 53 Jurong East Avenue 1,address_block,1.344182,103.73341,889.3,residential
+JE-252,Blk 40 Teban Gardens Road,address_block,1.321328,103.742056,885.1,residential
+JE-253,Blk 78 Yuan Ching Road,address_block,1.335038,103.725508,883.8,residential
+JE-254,Blk 269 Toh Guan Road,address_block,1.34157,103.745632,878.0,residential
+JE-255,Blk 277 Toh Guan Road,address_block,1.341331,103.746848,877.9,residential
+JE-256,Blk 279 Toh Guan Road,address_block,1.340745,103.746908,877.9,residential
+JE-257,Blk 270 Toh Guan Road,address_block,1.341227,103.745993,877.8,residential
+JE-258,Blk 418B Teban Gardens Road,address_block,1.321633,103.744684,873.8,residential
+JE-259,Blk 271 Toh Guan Road,address_block,1.341679,103.746279,873.7,residential
+JE-260,Blk 35 Teban Gardens Road,address_block,1.319553,103.742648,867.9,residential
+JE-261,Blk 318 Jurong East Street 31,address_block,1.347508,103.730599,850.7,residential
+JE-262,Blk 276 Toh Guan Road,address_block,1.340968,103.747467,849.4,residential
+JE-263,Blk 278 Toh Guan Road,address_block,1.340899,103.746421,844.3,residential
+JE-264,Blk 346 Jurong East Street 31,address_block,1.34536,103.730582,841.5,commercial
+JE-265,Blk 335 Jurong East Avenue 1,address_block,1.350245,103.73214,839.6,residential
+JE-266,Blk 418A Teban Gardens Road,address_block,1.321758,103.744121,835.8,residential
+JE-267,Blk 318A Jurong East Street 31,address_block,1.347618,103.731014,835.2,residential
+JE-268,Blk 63 Teban Place,address_block,1.321073,103.739476,830.3,residential
+JE-269,Blk 338 Jurong East Avenue 1,address_block,1.350194,103.731291,817.9,residential
+JE-270,Blk 291B Jurong East Street 24,address_block,1.343462,103.743763,804.6,residential
+JE-271,Calvary Pandan Kindergarten,osm_name,1.321056,103.745963,801.1,yes
+JE-272,Blk 284 Toh Guan Road,address_block,1.339472,103.746225,796.2,residential
+JE-273,Blk 281 Toh Guan Road,address_block,1.339894,103.746566,796.1,residential
+JE-274,Blk 222 Jurong East Street 21,address_block,1.340918,103.735696,795.6,residential
+JE-275,Bukit Timah Seu Teck Sean Tong Temple,osm_name,1.341775,103.741132,786.0,temple
+JE-276,Commercial JE-276,building_type,1.32386,103.736713,780.0,commercial
+JE-277,Blk 23 Teban Gardens Road,address_block,1.32291,103.739138,776.5,residential
+JE-278,Blk 242 Jurong East Avenue 1,address_block,1.341872,103.742812,775.1,apartments
+JE-279,Blk 259 Jurong East Street 24,address_block,1.344175,103.739887,773.4,residential
+JE-280,Blk 118 Jurong East Street 13,address_block,1.336977,103.735467,770.1,residential
+JE-281,Blk 417A Teban Gardens Road,address_block,1.322245,103.744031,761.5,residential
+JE-282,Blk 119 Jurong East Street 13,address_block,1.336303,103.735506,756.2,residential
+JE-283,Blk 133 Jurong Gateway Road,address_block,1.334101,103.739329,752.8,commercial
+JE-284,Blk 223 Jurong East Street 21,address_block,1.341054,103.736127,739.4,residential
+JE-285,Blk 344 Jurong East Street 31,address_block,1.345689,103.730709,735.4,commercial
+JE-286,Blk 72 Yuan Ching Road,address_block,1.333303,103.72548,712.2,residential
+JE-287,Blk 64 Teban Place,address_block,1.321433,103.739876,712.1,residential
+JE-288,Blk 74 Yuan Ching Road,address_block,1.333733,103.725509,709.7,residential
+JE-289,Blk 262 Jurong East Street 24,address_block,1.34411,103.741117,703.6,residential
+JE-290,Blk 49 Teban Gardens Road,address_block,1.320864,103.738174,689.2,residential
+JE-291,Blk 201 Jurong East Street 21,address_block,1.336389,103.743067,678.3,residential
+JE-292,Blk 401 Pandan Gardens,address_block,1.320333,103.750326,675.1,residential
+JE-293,Blk 65 Teban Place,address_block,1.322,103.739033,668.6,residential
+JE-294,Blk 413 Pandan Gardens,address_block,1.31949,103.747962,653.8,residential
+JE-295,Blk 114 Jurong East Street 13,address_block,1.339213,103.734651,652.2,residential
+JE-296,Blk 405 Pandan Gardens,address_block,1.319207,103.749671,651.6,residential
+JE-297,Blk 333 Jurong East Avenue 1,address_block,1.351266,103.730941,640.9,residential
+JE-298,Blk 326 Jurong East Street 31,address_block,1.348999,103.72963,638.5,residential
+JE-299,Blk 215A Jurong East Street 21,address_block,1.339517,103.738347,628.0,residential
+JE-300,Clusia Cove,osm_name,1.340887,103.725177,627.3,public
+JE-301,Westmere,osm_housename,1.337629,103.736629,621.1,residential
+JE-302,Clusia Cove Pavilion,osm_name,1.340288,103.724278,612.7,public
+JE-303,Blk 62 Teban Place,address_block,1.321525,103.738965,604.1,residential
+JE-304,Blk 219A Jurong East Street 21,address_block,1.340595,103.737461,603.2,residential
+JE-305,Blk 220 Jurong East Street 21,address_block,1.341051,103.737502,603.0,residential
+JE-306,Blk 221 Jurong East Street 21,address_block,1.340792,103.736957,602.5,residential
+JE-307,Blk 55 Teban Gardens Road,address_block,1.321859,103.737496,600.7,residential
+JE-308,Blk 237 Jurong East Street 21,address_block,1.340676,103.741265,591.7,residential
+JE-309,Blk 45 Jurong East Avenue 1,address_block,1.341808,103.734842,591.4,residential
+JE-310,Blk 47 Jurong East Avenue 1,address_block,1.342126,103.734335,591.4,residential
+JE-311,Blk 235 Jurong East Street 21,address_block,1.339944,103.7422,590.3,residential
+JE-312,Blk 217A Jurong East Street 21,address_block,1.340419,103.738449,583.7,residential
+JE-313,Blk 215 Jurong East Street 21,address_block,1.339933,103.738521,579.2,residential
+JE-314,Blk 116 Jurong East Street 13,address_block,1.339695,103.734706,575.7,residential
+JE-315,Blk 106 Jurong East Street 13,address_block,1.337247,103.737695,575.6,residential
+JE-316,Blk 213 Jurong East Street 21,address_block,1.339015,103.739805,575.6,residential
+JE-317,Blk 238 Jurong East Street 21,address_block,1.340691,103.740603,575.6,residential
+JE-318,Blk 103 Jurong East Street 13,address_block,1.336676,103.738076,575.5,residential
+JE-319,Blk 226 Jurong East Street 21,address_block,1.341388,103.735863,575.5,residential
+JE-320,Blk 227 Jurong East Street 21,address_block,1.341805,103.73611,575.5,residential
+JE-321,Blk 230 Jurong East Street 21,address_block,1.341513,103.737533,575.5,residential
+JE-322,Blk 212 Jurong East Street 21,address_block,1.339077,103.740415,575.5,residential
+JE-323,Blk 239 Jurong East Street 21,address_block,1.340941,103.740951,575.5,residential
+JE-324,Blk 109 Jurong East Street 13,address_block,1.338342,103.735941,575.4,residential
+JE-325,Blk 111 Jurong East Street 13,address_block,1.338773,103.735647,575.4,residential
+JE-326,Westmere,osm_housename,1.337314,103.736922,568.5,residential
+JE-327,Westmere,osm_housename,1.337317,103.736366,568.4,residential
+JE-328,Blk 57 Teban Gardens Road,address_block,1.322605,103.737698,564.5,residential
+JE-329,Blk 202 Jurong East Street 21,address_block,1.336744,103.742961,563.9,residential
+JE-330,Blk 225 Jurong East Street 21,address_block,1.341759,103.737241,563.5,residential
+JE-331,Play Pavilion,osm_name,1.336245,103.726933,558.8,public
+JE-332,Sri Arulmigu Murugan Temple,osm_name,1.341499,103.7387,518.2,temple
+JE-333,Blk 56 Teban Gardens Road,address_block,1.322171,103.73777,507.9,residential
+JE-334,Calvary Pandan Bible-Presbyterian Church,osm_name,1.321259,103.746257,479.8,church
+JE-335,Westmere,osm_housename,1.337545,103.736078,454.2,residential
+JE-336,Blk 240B Jurong East Avenue 1,address_block,1.340894,103.742688,410.9,residential
+JE-337,Blk 2 Jurong Gateway Road,address_block,1.33698,103.745671,390.6,commercial
+JE-338,Blk 2 Jurong Gateway Road,address_block,1.33673,103.745671,390.5,commercial
+JE-339,Blk 2 Jurong Gateway Road,address_block,1.336641,103.744784,390.5,commercial
+JE-340,Blk 2 Jurong Gateway Road,address_block,1.336891,103.744785,390.4,commercial
+JE-341,Blk 240A Jurong East Avenue 1,address_block,1.340977,103.742467,367.2,residential
+JE-342,Blk 9 Jurong East Street 32,address_block,1.345512,103.733639,322.3,residential
+JE-343,Blk 342 Jurong East Street 31,address_block,1.346045,103.731411,314.3,commercial
+JE-344,Commercial JE-344,building_type,1.324782,103.736872,313.0,commercial
+JE-345,Lakeside House,osm_name,1.343465,103.722015,278.5,commercial
+JE-346,Blk 57B Teban Gardens Road,address_block,1.322609,103.737972,200.4,residential
+JE-347,J Gateway,osm_housename,1.336154,103.741989,197.8,residential
+JE-348,Commercial JE-348,building_type,1.324684,103.737103,119.3,commercial
+JE-349,Commercial JE-349,building_type,1.325384,103.735154,98.0,commercial
+JE-350,Public JE-350,building_type,1.32862,103.726914,56.1,public
+JE-351,Public JE-351,building_type,1.327988,103.728495,56.1,public
+JE-352,Public JE-352,building_type,1.327168,103.73181,56.1,public
+JE-353,Public JE-353,building_type,1.335654,103.727242,50.2,public
+JE-354,Public JE-354,building_type,1.335253,103.728497,42.7,public
+JE-355,Public JE-355,building_type,1.3351,103.726549,38.4,public
+JE-356,Public JE-356,building_type,1.336076,103.728266,37.0,public
+JE-357,Public JE-357,building_type,1.336812,103.726539,34.2,public
+JE-358,Public JE-358,building_type,1.341328,103.722419,31.4,public
+JE-359,Public JE-359,building_type,1.340946,103.722959,26.5,public
+JE-360,Public JE-360,building_type,1.338401,103.726084,26.0,public

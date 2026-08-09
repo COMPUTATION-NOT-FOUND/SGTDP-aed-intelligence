@@ -1,0 +1,812 @@
+site_id,label,label_source,lat,lon,footprint_m2,building
+AMK-001,ITE College Central,osm_name,1.377978,103.856249,50243.3,college
+AMK-002,Ang Mo Kio Hub,osm_name,1.369435,103.848334,13056.5,retail
+AMK-003,Block A,osm_name,1.380101,103.848504,11919.6,school
+AMK-004,Administration and ITE Headquarters,osm_name,1.376604,103.856223,11446.0,college
+AMK-005,Lentor Modern,osm_name,1.385787,103.83459,11407.1,retail
+AMK-006,Econ Medicare,osm_name,1.390877,103.85333,11182.7,no
+AMK-007,Techpoint,osm_housename,1.389363,103.849307,10106.3,industrial
+AMK-008,9@Tagore,osm_name,1.384046,103.826052,9034.6,commercial
+AMK-009,School AMK-009,building_type,1.366695,103.852345,8548.8,school
+AMK-010,Blk 17 Ang Mo Kio Avenue 9,address_block,1.384126,103.840583,7097.8,hospital
+AMK-011,Block S - School of Engineering,osm_name,1.379083,103.848491,6117.1,school
+AMK-012,ST Engineering Digital Hub,osm_name,1.389466,103.846508,5894.7,commercial
+AMK-013,School AMK-013,building_type,1.360267,103.853485,5827.4,school
+AMK-014,School AMK-014,building_type,1.376606,103.843566,5795.3,school
+AMK-015,School AMK-015,building_type,1.359404,103.853982,5775.1,school
+AMK-016,ActiveSG Sport Park @ Teck Ghee,osm_name,1.363197,103.849919,5638.2,yes
+AMK-017,Sky Courts,osm_name,1.379242,103.856392,5481.8,college
+AMK-018,School AMK-018,building_type,1.371818,103.851784,5415.6,school
+AMK-019,Apple South Asia AMK 3,osm_name,1.390438,103.846554,5325.5,commercial
+AMK-020,Tagore Building,osm_name,1.386533,103.826648,5182.5,apartments
+AMK-021,Blk 19 Ang Mo Kio Avenue 9,address_block,1.384662,103.840815,4594.9,school
+AMK-022,Sports Centre,osm_name,1.379195,103.857337,4265.6,college
+AMK-023,Blk 628 Upper Thomson Road,address_block,1.380569,103.827502,3953.9,apartments
+AMK-024,Blk 527 Ang Mo Kio Avenue 10,address_block,1.372682,103.85442,3732.8,public
+AMK-025,Floravista,osm_name,1.391581,103.850623,3702.8,residential
+AMK-026,Blk 409 Ang Mo Kio Avenue 10,address_block,1.362717,103.855339,3557.5,public
+AMK-027,Blk 50 Tagore Lane,address_block,1.383696,103.828168,3412.3,commercial
+AMK-028,Blk 724 Ang Mo Kio Avenue 6,address_block,1.372059,103.846482,3358.8,public
+AMK-029,Block P,osm_name,1.377882,103.849348,3324.0,school
+AMK-030,Blk K,osm_name,1.37729,103.855677,3310.5,college
+AMK-031,Blk 626 Upper Thomson Road,address_block,1.379426,103.82864,3305.1,apartments
+AMK-032,Blk H,osm_name,1.378581,103.855903,3288.0,college
+AMK-033,Blk 511,osm_name,1.382841,103.836914,3275.9,residential
+AMK-034,Cheng San Community Club,osm_name,1.371928,103.849547,3182.0,yes
+AMK-035,Yio Chu Kang Community Club,osm_name,1.381404,103.841416,3174.4,yes
+AMK-036,Blk 180 Ang Mo Kio Avenue 4,address_block,1.376551,103.837906,3168.9,residential
+AMK-037,Blk J,osm_name,1.377874,103.855793,3150.8,college
+AMK-038,Block L - School of Information Technology,osm_name,1.379268,103.849817,3147.5,school
+AMK-039,Blk 541 Ang Mo Kio Avenue 10,address_block,1.373984,103.855591,3106.5,residential
+AMK-040,Blk 338 Ang Mo Kio Street 32,address_block,1.363927,103.848504,3085.1,commercial
+AMK-041,Apple South Asia AMK 3,osm_name,1.390139,103.845949,3054.3,commercial
+AMK-042,Blk 532 Ang Mo Kio Avenue 10,address_block,1.373768,103.854314,2920.7,commercial
+AMK-043,Yio Chu Kang Swimming Complex,osm_name,1.381891,103.847088,2913.4,yes
+AMK-044,Blk 453A Ang Mo Kio Avenue 10,address_block,1.368204,103.856362,2884.2,public
+AMK-045,Ang Mo Kio 628 Market,osm_name,1.38095,103.840651,2865.4,public
+AMK-046,P1,osm_name,1.37708,103.849514,2811.1,school
+AMK-047,Blk 513,osm_name,1.382659,103.837426,2800.8,residential
+AMK-048,Yes on Upper Thomson Road,address_street,1.373778,103.828957,2796.3,yes
+AMK-049,Block R - School of Engineering,osm_name,1.378366,103.848596,2774.3,school
+AMK-050,SIT Building,osm_name,1.377363,103.848718,2763.5,school
+AMK-051,Yio Chu Kang Sport Hall,osm_name,1.38364,103.845861,2757.9,sports_centre
+AMK-052,Blk 129 Ang Mo Kio Avenue 3,address_block,1.370086,103.842486,2714.3,residential
+AMK-053,Block D1 - School of Business Management,osm_name,1.382119,103.848623,2685.1,school
+AMK-054,Blk 538 Ang Mo Kio Avenue 5,address_block,1.375371,103.853699,2665.5,residential
+AMK-055,Ang Mo Kio Public Library,osm_name,1.374728,103.845586,2654.2,public
+AMK-056,Blk 408 Ang Mo Kio Avenue 10,address_block,1.362279,103.85434,2542.4,commercial
+AMK-057,Blk 570 Ang Mo Kio Avenue 3,address_block,1.369907,103.85557,2479.1,residential
+AMK-058,Blk 121 Ang Mo Kio Avenue 3,address_block,1.369926,103.843957,2470.4,residential
+AMK-059,Kebun Baru Community Club,osm_name,1.373032,103.837622,2452.8,yes
+AMK-060,Blk 211 Ang Mo Kio Avenue 3,address_block,1.369205,103.841719,2417.3,residential
+AMK-061,Blk 212 Ang Mo Kio Avenue 3,address_block,1.368811,103.84158,2416.9,residential
+AMK-062,Blk 555 Ang Mo Kio Avenue 10,address_block,1.37123,103.857021,2404.4,commercial
+AMK-063,Blk 571 Ang Mo Kio Avenue 3,address_block,1.37022,103.854424,2403.5,residential
+AMK-064,Blk 463 Ang Mo Kio Avenue 10,address_block,1.366769,103.857669,2381.9,residential
+AMK-065,Peirce View,osm_name,1.371732,103.828187,2374.2,apartments
+AMK-066,Block E,osm_name,1.382026,103.849378,2369.8,school
+AMK-067,Teck Ghee Community Club,osm_name,1.363077,103.853661,2367.0,public
+AMK-068,Blk 457 Ang Mo Kio Avenue 10,address_block,1.365864,103.858638,2360.7,residential
+AMK-069,Blk 529 Ang Mo Kio Avenue 10,address_block,1.372632,103.855819,2344.6,commercial
+AMK-070,Blk 410 Ang Mo Kio Avenue 10,address_block,1.362891,103.854294,2293.2,commercial
+AMK-071,Blk 471 Ang Mo Kio Avenue 10,address_block,1.363515,103.856704,2291.7,residential
+AMK-072,Blk 631 Ang Mo Kio Avenue 4,address_block,1.379597,103.840904,2285.3,residential
+AMK-073,Blk 344 Ang Mo Kio Avenue 3,address_block,1.367981,103.849262,2277.8,residential
+AMK-074,Blk 119 Ang Mo Kio Avenue 3,address_block,1.3698,103.845092,2277.6,residential
+AMK-075,Blk 10 Ang Mo Kio Avenue 8,address_block,1.360807,103.85324,2270.8,yes
+AMK-076,Blk 534 Ang Mo Kio Avenue 10,address_block,1.374154,103.853802,2259.6,residential
+AMK-077,Blk 415 Ang Mo Kio Avenue 10,address_block,1.364389,103.853876,2234.5,residential
+AMK-078,Blk 191 Ang Mo Kio Avenue 8,address_block,1.379864,103.845599,2232.2,residential
+AMK-079,Block K - School of Health Sciences,osm_name,1.380728,103.849749,2208.2,school
+AMK-080,Blk 626 Upper Thomson Road,address_block,1.37907,103.828169,2204.7,apartments
+AMK-081,Blk 157 Ang Mo Kio Avenue 4,address_block,1.375122,103.838994,2203.6,apartments
+AMK-082,Blk 445 Ang Mo Kio Avenue 10,address_block,1.366997,103.855681,2197.7,residential
+AMK-083,Blk 565 Ang Mo Kio Avenue 3,address_block,1.369591,103.858419,2163.4,residential
+AMK-084,Block M - School of Interactive & Digital Media,osm_name,1.378524,103.849906,2155.5,school
+AMK-085,Blk 3000 Ang Mo Kio Avenue 8,address_block,1.381652,103.845061,2149.9,train_station
+AMK-086,Blk 456 Ang Mo Kio Avenue 10,address_block,1.3672,103.858629,2148.3,residential
+AMK-087,Blk 332 Ang Mo Kio Avenue 1,address_block,1.361716,103.851904,2129.8,residential
+AMK-088,Blk 564 Ang Mo Kio Avenue 3,address_block,1.369892,103.859432,2125.4,residential
+AMK-089,Ang Mo Kio Community Centre,osm_name,1.366681,103.84101,2124.9,yes
+AMK-090,Blk 134 Ang Mo Kio Avenue 3,address_block,1.372053,103.842266,2123.2,residential
+AMK-091,Blk 444 Ang Mo Kio Avenue 10,address_block,1.366607,103.855603,2102.5,residential
+AMK-092,Blk 258 Ang Mo Kio Street 21,address_block,1.369785,103.836588,2101.0,residential
+AMK-093,Blk 515,osm_name,1.382411,103.837739,2087.0,residential
+AMK-094,Blk 345 Ang Mo Kio Street 31,address_block,1.367526,103.849649,2085.3,residential
+AMK-095,Blk 343 Ang Mo Kio Avenue 3,address_block,1.368414,103.84915,2085.3,residential
+AMK-096,Blk 346 Ang Mo Kio Street 31,address_block,1.367077,103.849667,2085.2,residential
+AMK-097,Blk 319 Ang Mo Kio Street 31,address_block,1.365118,103.847377,2084.4,residential
+AMK-098,Blk 313 Ang Mo Kio Street 31,address_block,1.366673,103.850164,2083.9,residential
+AMK-099,Blk 443 Ang Mo Kio Avenue 10,address_block,1.36605,103.85534,2082.6,residential
+AMK-100,Blk 442 Ang Mo Kio Avenue 10,address_block,1.365654,103.855261,2072.2,residential
+AMK-101,Blk 422 Ang Mo Kio Avenue 3,address_block,1.367923,103.851559,2049.8,residential
+AMK-102,Blk 517,osm_name,1.381763,103.836946,2034.2,residential
+AMK-103,Blk 253 Ang Mo Kio Street 21,address_block,1.369587,103.834467,2025.4,residential
+AMK-104,Block Q - School of Chemical & Life sciences,osm_name,1.377873,103.848622,2023.2,school
+AMK-105,Blk 302 Ang Mo Kio Street 31,address_block,1.367088,103.845683,2019.1,residential
+AMK-106,Blk 301 Ang Mo Kio Street 31,address_block,1.367444,103.845891,2019.1,residential
+AMK-107,Blk 540 Ang Mo Kio Avenue 10,address_block,1.375172,103.85518,2011.7,residential
+AMK-108,Blk 130 Ang Mo Kio Avenue 3,address_block,1.37038,103.84189,2008.1,residential
+AMK-109,Blk 330 Ang Mo Kio Avenue 1,address_block,1.362442,103.851046,1988.6,residential
+AMK-110,Block N1,osm_name,1.377607,103.850065,1984.0,school
+AMK-111,Block H - School of Health Sciences,osm_name,1.381498,103.849876,1977.3,school
+AMK-112,Blk 503 Ang Mo Kio Avenue 5,address_block,1.375458,103.848889,1976.1,residential
+AMK-113,Kebun Baru Market and Food Centre,osm_name,1.366813,103.839188,1952.7,public
+AMK-114,Blk 331 Ang Mo Kio Avenue 1,address_block,1.362127,103.850756,1944.0,residential
+AMK-115,Blk 333 Ang Mo Kio Avenue 1,address_block,1.361353,103.851688,1937.7,residential
+AMK-116,Blk 524 Ang Mo Kio Avenue 5,address_block,1.373375,103.853047,1927.8,residential
+AMK-117,Blk 424 Ang Mo Kio Avenue 3,address_block,1.368603,103.85082,1919.7,residential
+AMK-118,Blk 339 Ang Mo Kio Street 32,address_block,1.364878,103.849125,1916.8,commercial
+AMK-119,Blk 472 Ang Mo Kio Avenue 10,address_block,1.363145,103.858101,1914.9,residential
+AMK-120,Blk 407 Ang Mo Kio Avenue 10,address_block,1.36207,103.854982,1905.5,commercial
+AMK-121,Blk 215 Ang Mo Kio Avenue 1,address_block,1.366559,103.841644,1900.1,residential
+AMK-122,Ang Mo Kio Methodist Church,osm_name,1.367098,103.835356,1896.3,yes
+AMK-123,School of Business and Services,osm_name,1.378062,103.856673,1894.7,college
+AMK-124,Blk 225 Ang Mo Kio Avenue 1,address_block,1.367408,103.838152,1891.5,residential
+AMK-125,Blk 216 Ang Mo Kio Avenue 1,address_block,1.366209,103.841476,1885.4,residential
+AMK-126,Blk 513 Ang Mo Kio Avenue 8,address_block,1.372937,103.85037,1885.1,residential
+AMK-127,Blk 470 Ang Mo Kio Avenue 10,address_block,1.364106,103.85676,1884.8,residential
+AMK-128,Blk 644 Ang Mo Kio Avenue 4,address_block,1.379166,103.840869,1880.9,residential
+AMK-129,Blk 485 Yio Chu Kang Road,address_block,1.38536,103.840636,1852.7,residential
+AMK-130,Blk 481 Yio Chu Kang Road,address_block,1.386674,103.841106,1852.3,residential
+AMK-131,Blk 487 Yio Chu Kang Road,address_block,1.386169,103.840283,1852.2,residential
+AMK-132,Blk 483 Yio Chu Kang Road,address_block,1.385947,103.841903,1852.1,residential
+AMK-133,School of Design and Media,osm_name,1.37717,103.856697,1849.2,college
+AMK-134,Blk 502 Ang Mo Kio Avenue 5,address_block,1.375735,103.849927,1849.2,residential
+AMK-135,School of Engineering,osm_name,1.378527,103.856833,1849.1,college
+AMK-136,Blk 419 Ang Mo Kio Avenue 10,address_block,1.365354,103.854147,1843.9,residential
+AMK-137,Blk 418 Ang Mo Kio Avenue 10,address_block,1.364961,103.854045,1843.8,residential
+AMK-138,Blk 417 Ang Mo Kio Avenue 10,address_block,1.364964,103.855206,1843.7,residential
+AMK-139,Blk 416 Ang Mo Kio Avenue 10,address_block,1.364572,103.855093,1843.6,residential
+AMK-140,Blk 304 Ang Mo Kio Street 31,address_block,1.366306,103.845018,1841.7,residential
+AMK-141,Blk 720 Ang Mo Kio Avenue 6,address_block,1.371888,103.847282,1834.9,commercial
+AMK-142,School of Electronics and Infocomm Technology,osm_name,1.37758,103.856627,1834.3,college
+AMK-143,Blk 132 Ang Mo Kio Avenue 3,address_block,1.371455,103.841803,1831.8,residential
+AMK-144,Blk 170 Ang Mo Kio Street 13,address_block,1.373985,103.836495,1830.6,residential
+AMK-145,Blk 131 Ang Mo Kio Avenue 3,address_block,1.371032,103.841785,1815.5,residential
+AMK-146,Blk 561 Ang Mo Kio Avenue 10,address_block,1.370568,103.85785,1808.2,residential
+AMK-147,Blk 557 Ang Mo Kio Avenue 10,address_block,1.371655,103.857756,1807.7,residential
+AMK-148,Blk 727 Ang Mo Kio Avenue 6,address_block,1.372661,103.846057,1806.1,commercial
+AMK-149,Blk 556 Ang Mo Kio Avenue 10,address_block,1.372032,103.857605,1800.2,residential
+AMK-150,Blk 173 Ang Mo Kio Street 13,address_block,1.375355,103.836407,1799.3,residential
+AMK-151,Blk 175 Ang Mo Kio Street 13,address_block,1.375726,103.837108,1797.9,residential
+AMK-152,Blk 560 Ang Mo Kio Avenue 10,address_block,1.370799,103.859191,1794.9,residential
+AMK-153,Blk 559 Ang Mo Kio Avenue 10,address_block,1.371032,103.857853,1789.0,residential
+AMK-154,Blk 246B Ang Mo Kio Street 21,address_block,1.367737,103.833585,1775.3,residential
+AMK-155,Blk 201 Ang Mo Kio Avenue 3,address_block,1.368838,103.844565,1774.3,residential
+AMK-156,Blk 501 Ang Mo Kio Avenue 5,address_block,1.376006,103.848864,1767.0,residential
+AMK-157,Blk 466 Ang Mo Kio Avenue 10,address_block,1.365815,103.857101,1767.0,residential
+AMK-158,Blk 465 Ang Mo Kio Avenue 10,address_block,1.366223,103.857175,1752.4,residential
+AMK-159,Infant Jesus Homes and Children's Centres,osm_name,1.374797,103.833717,1747.7,yes
+AMK-160,Blk 218 Ang Mo Kio Avenue 1,address_block,1.365218,103.841686,1740.8,residential
+AMK-161,Blk 177 Ang Mo Kio Avenue 4,address_block,1.375815,103.838172,1737.7,residential
+AMK-162,Blk 523 Ang Mo Kio Avenue 5,address_block,1.372942,103.852882,1734.7,residential
+AMK-163,Blk 715 Ang Mo Kio Avenue 6,address_block,1.371026,103.845923,1732.7,commercial
+AMK-164,Blk 428 Ang Mo Kio Avenue 3,address_block,1.368941,103.854411,1730.0,residential
+AMK-165,Blk 127 Ang Mo Kio Avenue 3,address_block,1.371226,103.843608,1726.5,residential
+AMK-166,Blk 128 Ang Mo Kio Avenue 3,address_block,1.370841,103.843528,1723.5,residential
+AMK-167,Blk 126 Ang Mo Kio Avenue 3,address_block,1.37166,103.843656,1723.1,residential
+AMK-168,Jubilee Square,osm_name,1.371786,103.847777,1718.0,retail
+AMK-169,Blk 504 Ang Mo Kio Avenue 8,address_block,1.374844,103.848964,1712.1,residential
+AMK-170,Blk 423 Ang Mo Kio Avenue 3,address_block,1.36873,103.85156,1711.2,residential
+AMK-171,Blk 202 Ang Mo Kio Avenue 3,address_block,1.368461,103.844515,1703.9,residential
+AMK-172,Blk 633 Ang Mo Kio Avenue 6,address_block,1.381162,103.842056,1700.9,residential
+AMK-173,Blk 637 Ang Mo Kio Avenue 6,address_block,1.380315,103.84212,1700.8,residential
+AMK-174,Blk 427 Ang Mo Kio Avenue 3,address_block,1.369326,103.854553,1699.9,residential
+AMK-175,Blk 624 Ang Mo Kio Avenue 4,address_block,1.381574,103.839997,1694.2,residential
+AMK-176,Blk 452 Ang Mo Kio Avenue 10,address_block,1.368808,103.856415,1693.7,residential
+AMK-177,Blk 558 Ang Mo Kio Avenue 10,address_block,1.371275,103.859184,1693.6,residential
+AMK-178,Church of Christ the King,osm_name,1.361915,103.852421,1687.1,yes
+AMK-179,Broadway Plaza,osm_name,1.371935,103.84596,1685.5,retail
+AMK-180,Blk 155 Ang Mo Kio Avenue 4,address_block,1.375875,103.84006,1668.8,residential
+AMK-181,Blk 156 Ang Mo Kio Avenue 4,address_block,1.375483,103.839943,1668.7,residential
+AMK-182,Blk 648 Ang Mo Kio Avenue 9,address_block,1.378237,103.84374,1661.0,residential
+AMK-183,Blk 622 Ang Mo Kio Avenue 9,address_block,1.382066,103.839735,1660.8,residential
+AMK-184,Blk 620 Ang Mo Kio Avenue 9,address_block,1.382442,103.839553,1660.6,residential
+AMK-185,Masjid Al-Muttaqin,osm_name,1.370464,103.84603,1649.6,yes
+AMK-186,Blk 642 Ang Mo Kio Avenue 5,address_block,1.377956,103.840506,1647.6,residential
+AMK-187,Blk 449 Ang Mo Kio Avenue 10,address_block,1.36812,103.855931,1642.5,residential
+AMK-188,Blk 214 Ang Mo Kio Avenue 3,address_block,1.367404,103.841128,1639.5,residential
+AMK-189,Blk 213 Ang Mo Kio Avenue 3,address_block,1.367773,103.841244,1639.2,residential
+AMK-190,Blk 172 Ang Mo Kio Street 13,address_block,1.374703,103.836419,1637.2,residential
+AMK-191,Djitsun Mall,osm_name,1.372834,103.847658,1633.2,retail
+AMK-192,Blk 426 Ang Mo Kio Avenue 3,address_block,1.369487,103.8533,1624.9,residential
+AMK-193,Block T - T-Junction,osm_name,1.379849,103.847347,1622.8,school
+AMK-194,Blk 587 Ang Mo Kio Avenue 3,address_block,1.370183,103.852381,1606.0,residential
+AMK-195,Blk 112 Ang Mo Kio Avenue 4,address_block,1.37129,103.8359,1605.9,residential
+AMK-196,Blk 107 Ang Mo Kio Avenue 4,address_block,1.371391,103.837496,1605.9,residential
+AMK-197,Blk 106 Ang Mo Kio Avenue 4,address_block,1.371953,103.837447,1605.9,residential
+AMK-198,Blk 118 Ang Mo Kio Avenue 4,address_block,1.373324,103.83544,1602.1,residential
+AMK-199,Blk 174 Ang Mo Kio Street 13,address_block,1.375252,103.837245,1595.9,residential
+AMK-200,Blk 178 Ang Mo Kio Avenue 4,address_block,1.376283,103.836925,1586.2,residential
+AMK-201,Blk 2 Ang Mo Kio Street 23,address_block,1.369365,103.840343,1583.6,yes
+AMK-202,Blk 117 Ang Mo Kio Avenue 4,address_block,1.373735,103.83558,1577.2,residential
+AMK-203,Blk 414 Ang Mo Kio Avenue 10,address_block,1.363947,103.853851,1575.0,residential
+AMK-204,Blk 232 Ang Mo Kio Avenue 3,address_block,1.368337,103.837208,1565.9,residential
+AMK-205,51@AMK,osm_name,1.369337,103.847135,1563.9,retail
+AMK-206,Blk 255 Ang Mo Kio Avenue 4,address_block,1.370651,103.834657,1559.9,residential
+AMK-207,Blk 586 Ang Mo Kio Avenue 3,address_block,1.370282,103.853462,1556.4,residential
+AMK-208,Blk 180 Ang Mo Kio Avenue 8,address_block,1.379125,103.848958,1551.9,school
+AMK-209,104C MSCP,osm_name,1.371915,103.838338,1546.6,residential
+AMK-210,Block D - School of Business Management,osm_name,1.381656,103.84869,1544.0,school
+AMK-211,Blk 473 Ang Mo Kio Avenue 10,address_block,1.363037,103.856851,1540.9,residential
+AMK-212,Blk 334 Ang Mo Kio Avenue 1,address_block,1.363732,103.85098,1539.2,residential
+AMK-213,Blk 223 Ang Mo Kio Avenue 1,address_block,1.366123,103.837982,1539.1,residential
+AMK-214,Blk 536 Ang Mo Kio Avenue 10,address_block,1.374524,103.854094,1538.6,residential
+AMK-215,Sunglow Laundromat,osm_name,1.380205,103.835781,1537.6,residential
+AMK-216,Blk 604 Ang Mo Kio Avenue 5,address_block,1.37986,103.835949,1537.6,residential
+AMK-217,Blk 601 Ang Mo Kio Avenue 5,address_block,1.38105,103.835158,1537.6,residential
+AMK-218,Blk 602 Ang Mo Kio Avenue 5,address_block,1.380702,103.835323,1537.6,residential
+AMK-219,Blk 124 Ang Mo Kio Avenue 3,address_block,1.370906,103.844774,1533.2,residential
+AMK-220,Blk 230 Ang Mo Kio Avenue 3,address_block,1.368863,103.837976,1531.2,residential
+AMK-221,Blk 329 Ang Mo Kio Street 31,address_block,1.366597,103.846877,1531.0,residential
+AMK-222,Blk 328 Ang Mo Kio Street 31,address_block,1.366623,103.84787,1530.8,residential
+AMK-223,Blk 235 Ang Mo Kio Street 22,address_block,1.366832,103.836464,1530.3,residential
+AMK-224,Blk 584 Ang Mo Kio Avenue 3,address_block,1.370756,103.853492,1529.3,residential
+AMK-225,Kebun Baru Food Centre,osm_name,1.367187,103.840024,1528.1,public
+AMK-226,Blk 336 Ang Mo Kio Avenue 1,address_block,1.363614,103.851798,1526.9,residential
+AMK-227,Blk 507 Ang Mo Kio Avenue 8,address_block,1.374434,103.85015,1525.4,residential
+AMK-228,Blk 347 Ang Mo Kio Street 31,address_block,1.367249,103.848591,1522.7,commercial
+AMK-229,Blk 122 Ang Mo Kio Avenue 3,address_block,1.370199,103.843427,1521.8,residential
+AMK-230,Blk 509 Ang Mo Kio Avenue 8,address_block,1.373965,103.850168,1513.8,residential
+AMK-231,Blk 184B Ang Mo Kio Avenue 2,address_block,1.375993,103.835388,1513.4,residential
+AMK-232,Blk 723 Ang Mo Kio Avenue 8,address_block,1.372236,103.847203,1512.5,public
+AMK-233,Blk 425 Ang Mo Kio Avenue 3,address_block,1.36912,103.851539,1512.4,residential
+AMK-234,Blk 505 Ang Mo Kio Avenue 8,address_block,1.374856,103.850217,1511.5,residential
+AMK-235,Blk 533 Ang Mo Kio Avenue 5,address_block,1.374164,103.852991,1506.7,residential
+AMK-236,Blk 626 Upper Thomson Road,address_block,1.378692,103.828848,1506.6,apartments
+AMK-237,Blk 233 Ang Mo Kio avenue 3,address_block,1.367572,103.83676,1500.4,residential
+AMK-238,Blk 208 Ang Mo Kio Avenue 1,address_block,1.365468,103.842681,1498.2,residential
+AMK-239,Blk 535 Ang Mo Kio Avenue 5,address_block,1.374599,103.853043,1496.8,residential
+AMK-240,Blk 585 Ang Mo Kio Avenue 3,address_block,1.370605,103.852332,1496.3,residential
+AMK-241,Blk 468 Ang Mo Kio Avenue 10,address_block,1.364992,103.856315,1493.5,residential
+AMK-242,Blk 475 Ang Mo Kio Avenue 10,address_block,1.362636,103.856519,1490.7,residential
+AMK-243,Blk 476 Ang Mo Kio Avenue 10,address_block,1.362398,103.857889,1490.7,residential
+AMK-244,Blk 474 Ang Mo Kio Avenue 10,address_block,1.362769,103.858008,1490.4,residential
+AMK-245,Blk 531 Ang Mo Kio Avenue 10,address_block,1.373371,103.854237,1489.9,commercial
+AMK-246,Blk 506 Ang Mo Kio Avenue 8,address_block,1.374411,103.848946,1486.1,residential
+AMK-247,Blk 337 Ang Mo Kio Avenue 1,address_block,1.363187,103.851678,1476.9,residential
+AMK-248,S11,osm_name,1.371424,103.847882,1474.6,yes
+AMK-249,Block N,osm_name,1.378047,103.850029,1470.5,school
+AMK-250,Blk 210 Ang Mo Kio Avenue 3,address_block,1.368581,103.843248,1468.5,residential
+AMK-251,Blk 209 Ang Mo Kio Avenue 3,address_block,1.368977,103.843271,1468.5,residential
+AMK-252,Blk 180 Ang Mo Kio Avenue 8,address_block,1.379099,103.849464,1464.8,school
+AMK-253,Blk 625 Ang Mo Kio Avenue 9,address_block,1.38221,103.841209,1462.6,residential
+AMK-254,Blk 110 Ang Mo Kio Avenue 4,address_block,1.370412,103.837339,1458.8,residential
+AMK-255,Blk 348 Ang Mo Kio Street 31,address_block,1.366193,103.847903,1458.6,residential
+AMK-256,Blk 254 Ang Mo Kio Avenue 4,address_block,1.370219,103.834692,1456.5,residential
+AMK-257,Blk 217 Ang Mo Kio Avenue 1,address_block,1.365533,103.841813,1448.9,residential
+AMK-258,Adana @ Thomson,osm_name,1.369518,103.827746,1447.5,residential
+AMK-259,Block B - School of Business Management,osm_name,1.380934,103.848583,1441.8,school
+AMK-260,Blk 109 Ang Mo Kio Avenue 4,address_block,1.370063,103.83757,1439.2,residential
+AMK-261,Blk 635 Ang Mo Kio Avenue 6,address_block,1.380741,103.842403,1430.0,residential
+AMK-262,Blk 234 Ang Mo Kio Street 22,address_block,1.367132,103.836758,1429.9,residential
+AMK-263,Blk 325 Ang Mo Kio Avenue 3,address_block,1.367915,103.84688,1429.8,residential
+AMK-264,Blk 639 Ang Mo Kio Avenue 6,address_block,1.37989,103.842455,1429.8,residential
+AMK-265,Blk 324 Ang Mo Kio Avenue 3,address_block,1.368337,103.84688,1429.6,residential
+AMK-266,Blk 248A Ang Mo Kio Rise,address_block,1.368407,103.832066,1425.7,residential
+AMK-267,Blk 421 Ang Mo Kio Avenue 10,address_block,1.365379,103.852931,1421.8,residential
+AMK-268,Blk 512 Ang Mo Kio Avenue 8,address_block,1.372631,103.849168,1420.9,residential
+AMK-269,Blk 104B Ang Mo Kio Street 11,address_block,1.371468,103.838462,1418.1,residential
+AMK-270,Blk 441 Ang Mo Kio Avenue 10,address_block,1.36606,103.854142,1416.5,residential
+AMK-271,Blk 429 Ang Mo Kio Avenue 3,address_block,1.369094,103.853415,1413.9,residential
+AMK-272,Blk 111 Ang Mo Kio Avenue 4,address_block,1.370836,103.837325,1412.3,residential
+AMK-273,Blk 321 Ang Mo Kio Street 31,address_block,1.365107,103.848388,1412.3,residential
+AMK-274,Blk 320 Ang Mo Kio Street 31,address_block,1.365626,103.848383,1412.3,residential
+AMK-275,Blk 314 Ang Mo Kio Street 31,address_block,1.366244,103.850108,1408.5,residential
+AMK-276,Blk 405 Ang Mo Kio Avenue 10,address_block,1.361589,103.85377,1406.6,residential
+AMK-277,Blk 638 Ang Mo Kio Avenue 6,address_block,1.380458,103.843556,1398.3,residential
+AMK-278,Blk 634 Ang Mo Kio Avenue 6,address_block,1.381576,103.843249,1398.2,residential
+AMK-279,Blk 636 Ang Mo Kio Avenue 6,address_block,1.381154,103.843325,1398.1,residential
+AMK-280,Blk 640 Ang Mo Kio Avenue 6,address_block,1.380033,103.843624,1398.1,residential
+AMK-281,Blk 440 Ang Mo Kio Avenue 10,address_block,1.366438,103.854335,1397.2,residential
+AMK-282,Blk 511 Ang Mo Kio Avenue 8,address_block,1.373552,103.85016,1392.3,residential
+AMK-283,Blk 205 Ang Mo Kio Avenue 1,address_block,1.366949,103.843586,1389.5,residential
+AMK-284,Blk 335 Ang Mo Kio Avenue 1,address_block,1.363215,103.850683,1389.1,residential
+AMK-285,Blk 114 Ang Mo Kio Avenue 4,address_block,1.372601,103.836134,1388.5,residential
+AMK-286,Centro,osm_name,1.370357,103.848536,1388.1,commercial
+AMK-287,Blk 543 Ang Mo Kio Avenue 10,address_block,1.374324,103.85625,1378.8,residential
+AMK-288,Blk 546 Ang Mo Kio Avenue 10,address_block,1.373655,103.856975,1378.8,residential
+AMK-289,Blk 547 Ang Mo Kio Avenue 10,address_block,1.374214,103.858167,1378.8,residential
+AMK-290,Blk 544 Ang Mo Kio Avenue 10,address_block,1.373955,103.856455,1378.7,residential
+AMK-291,Blk 207 Ang Mo Kio Avenue 1,address_block,1.365831,103.842885,1372.2,residential
+AMK-292,Blk 574 Ang Mo Kio Avenue 10,address_block,1.370896,103.856411,1366.6,commercial
+AMK-293,Blk 461 Ang Mo Kio Avenue 10,address_block,1.367479,103.857387,1361.9,residential
+AMK-294,Blk 537 Ang Mo Kio Avenue 5,address_block,1.375214,103.853059,1358.9,residential
+AMK-295,Blk 102 Ang Mo Kio Street 11,address_block,1.370613,103.839408,1357.2,residential
+AMK-296,Blk 101 Ang Mo Kio Street 11,address_block,1.37024,103.839479,1356.5,residential
+AMK-297,Blk 469 Ang Mo Kio Avenue 10,address_block,1.364541,103.856858,1355.6,residential
+AMK-298,Blk 508 Ang Mo Kio Avenue 8,address_block,1.373794,103.849014,1354.0,residential
+AMK-299,Blk 435 Ang Mo Kio Avenue 10,address_block,1.367696,103.854229,1351.1,residential
+AMK-300,Blk 181 Ang Mo Kio Avenue 4,address_block,1.376722,103.837297,1346.6,residential
+AMK-301,Blk 222 Ang Mo Kio Avenue 1,address_block,1.366012,103.839511,1340.3,residential
+AMK-302,Blk 608 Ang Mo Kio Avenue 5,address_block,1.378688,103.836928,1338.7,residential
+AMK-303,Blk 605 Ang Mo Kio Avenue 5,address_block,1.379681,103.836495,1338.6,residential
+AMK-304,Blk 606 Ang Mo Kio Avenue 5,address_block,1.379332,103.836721,1338.4,residential
+AMK-305,Blk 611 Ang Mo Kio Avenue 5,address_block,1.378295,103.837247,1338.4,residential
+AMK-306,Blk 120 Ang Mo Kio Avenue 3,address_block,1.370061,103.8446,1333.3,residential
+AMK-307,Blk 322 Ang Mo Kio Avenue 3,address_block,1.368345,103.847744,1331.3,residential
+AMK-308,Blk 231 Ang Mo Kio Avenue 3,address_block,1.368573,103.837512,1330.5,residential
+AMK-309,Blk 510 Ang Mo Kio Avenue 8,address_block,1.373415,103.849086,1329.6,residential
+AMK-310,Blk 221 Ang Mo Kio Avenue 1,address_block,1.366418,103.839394,1328.5,residential
+AMK-311,Blk 467 Ang Mo Kio Avenue 10,address_block,1.365381,103.856845,1328.5,residential
+AMK-312,Blk 220 Ang Mo Kio Avenue 1,address_block,1.365597,103.840528,1327.8,residential
+AMK-313,Blk 438 Ang Mo Kio Avenue 10,address_block,1.366964,103.853948,1326.3,residential
+AMK-314,Blk 204 Ang Mo Kio Avenue 3,address_block,1.367365,103.843916,1320.6,residential
+AMK-315,Blk 229 Ang Mo Kio Avenue 3,address_block,1.369106,103.838265,1316.8,residential
+AMK-316,Blk 576 Ang Mo Kio Avenue 10,address_block,1.371401,103.854853,1316.7,residential
+AMK-317,Blk 575 Ang Mo Kio Avenue 10,address_block,1.371404,103.855961,1309.8,residential
+AMK-318,Blk 256 Ang Mo Kio Street 21,address_block,1.3706,103.835958,1299.7,residential
+AMK-319,Blk 433 Ang Mo Kio Avenue 10,address_block,1.368086,103.854333,1295.6,residential
+AMK-320,Block C - School of Business Management,osm_name,1.381309,103.84861,1293.3,school
+AMK-321,Blk 713 Ang Mo Kio Avenue 6,address_block,1.371463,103.846512,1292.0,commercial
+AMK-322,Blk 116 Ang Mo Kio Avenue 4,address_block,1.373344,103.83644,1291.3,residential
+AMK-323,Blk 13 Ang Mo Kio Avenue 9,address_block,1.383671,103.839225,1290.3,apartments
+AMK-324,Blk 108 Ang Mo Kio Avenue 4,address_block,1.370923,103.83821,1289.7,residential
+AMK-325,Blk 578 Ang Mo Kio Avenue 10,address_block,1.37179,103.854965,1289.6,residential
+AMK-326,Blk 577 Ang Mo Kio Avenue 10,address_block,1.371794,103.855868,1289.0,residential
+AMK-327,Blk 712 Ang Mo Kio Central 1,address_block,1.371381,103.847054,1286.8,commercial
+AMK-328,Block J - School of Health Sciences,osm_name,1.381085,103.849826,1286.6,school
+AMK-329,Blk 350 Ang Mo Kio Street 32,address_block,1.363794,103.849964,1279.4,residential
+AMK-330,Blk 542 Ang Mo Kio Avenue 10,address_block,1.374741,103.855867,1279.0,residential
+AMK-331,Blk 184A Ang Mo Kio Avenue 2,address_block,1.376527,103.836105,1274.7,residential
+AMK-332,Blk 219 Ang Mo Kio Avenue 1,address_block,1.36599,103.840647,1270.7,residential
+AMK-333,Blk 721 Ang Mo Kio Avenue 8,address_block,1.372362,103.847892,1262.0,commercial
+AMK-334,Blk 103 Ang Mo Kio Street 11,address_block,1.370965,103.839309,1261.8,residential
+AMK-335,Blk 462 Ang Mo Kio Avenue 10,address_block,1.367007,103.857992,1259.3,residential
+AMK-336,Blk 153 Ang Mo Kio Avenue 5,address_block,1.376342,103.842069,1253.6,residential
+AMK-337,Blk 151 Ang Mo Kio Avenue 5,address_block,1.376716,103.841086,1253.6,residential
+AMK-338,Blk 150 Ang Mo Kio Avenue 5,address_block,1.376822,103.841996,1253.6,residential
+AMK-339,Blk 152 Ang Mo Kio Avenue 5,address_block,1.376708,103.840152,1253.6,residential
+AMK-340,Blk 154 Ang Mo Kio Avenue 5,address_block,1.376252,103.841235,1253.4,residential
+AMK-341,Blk 317 Ang Mo Kio Street 31,address_block,1.3655,103.847159,1248.6,residential
+AMK-342,Blk 327 Ang Mo Kio Street 31,address_block,1.367059,103.846983,1244.7,residential
+AMK-343,Blk 326 Ang Mo Kio Street 31,address_block,1.367086,103.847897,1244.7,residential
+AMK-344,Blk 171 Ang Mo Kio Street 13,address_block,1.374766,103.835627,1241.9,residential
+AMK-345,Blk 572 Ang Mo Kio Avenue 3,address_block,1.370257,103.855963,1232.5,residential
+AMK-346,Blk 133 Ang Mo Kio Avenue 3,address_block,1.371148,103.842636,1229.6,residential
+AMK-347,Blk 226 Ang Mo Kio Avenue 1,address_block,1.367742,103.838376,1229.5,residential
+AMK-348,Blk 257 Ang Mo Kio Street 21,address_block,1.370174,103.835781,1229.5,residential
+AMK-349,Blk 123 Ang Mo Kio Avenue 3,address_block,1.370488,103.844793,1225.3,residential
+AMK-350,Bullion Park Tower 1,osm_name,1.392334,103.835561,1210.5,residential
+AMK-351,Bullion Park Tower 5,osm_name,1.390838,103.836565,1210.4,residential
+AMK-352,Bullion Park Tower 6,osm_name,1.390809,103.83704,1210.4,residential
+AMK-353,Bullion Park Tower 2,osm_name,1.391899,103.835719,1210.3,residential
+AMK-354,Bullion Park Tower 3,osm_name,1.391417,103.835927,1210.3,residential
+AMK-355,Bullion Park Tower 4,osm_name,1.390998,103.836171,1210.2,residential
+AMK-356,Blk 573 Ang Mo Kio Avenue 3,address_block,1.370569,103.854812,1209.4,residential
+AMK-357,Blk 309A Ang Mo Kio Street 31,address_block,1.364945,103.845519,1206.4,residential
+AMK-358,Blk 403 Ang Mo Kio Avenue 10,address_block,1.361307,103.854572,1202.1,residential
+AMK-359,Blk 436 Ang Mo Kio Avenue 10,address_block,1.367366,103.853999,1197.0,residential
+AMK-360,Blk 179 Ang Mo Kio Avenue 5,address_block,1.376903,103.836222,1191.7,residential
+AMK-361,Blk 91 Ang Mo Kio Avenue 4,address_block,1.372788,103.836805,1183.7,train_station
+AMK-362,Blk 315A Ang Mo Kio Street 31,address_block,1.36432,103.846588,1175.1,residential
+AMK-363,Blk 528 Ang Mo Kio Avenue 10,address_block,1.372657,103.854888,1166.1,public
+AMK-364,School AMK-364,building_type,1.371775,103.852228,1154.2,school
+AMK-365,Blk 253A Ang Mo Kio Street 21,address_block,1.3698,103.834032,1153.2,residential
+AMK-366,Blk 434 Ang Mo Kio Avenue 10,address_block,1.367901,103.853455,1149.4,residential
+AMK-367,Blk 420 Ang Mo Kio Avenue 10,address_block,1.364996,103.853086,1149.2,residential
+AMK-368,Yio Chu Kang Squash & Tennis Centre,osm_name,1.382278,103.845794,1148.9,yes
+AMK-369,Blk 519,osm_name,1.381635,103.836264,1148.2,residential
+AMK-370,Blk 550 Ang Mo Kio Avenue 10,address_block,1.373622,103.858224,1142.1,residential
+AMK-371,Blk 105 Ang Mo Kio Avenue 4,address_block,1.372335,103.837553,1141.3,residential
+AMK-372,Blk 432 Ang Mo Kio Avenue 10,address_block,1.368311,103.853604,1135.5,residential
+AMK-373,Blk 651B Ang Mo Kio Avenue 9,address_block,1.3834,103.842167,1131.1,residential
+AMK-374,Blk 311 Ang Mo Kio Street 31,address_block,1.366641,103.848778,1127.9,residential
+AMK-375,Blk 554 Ang Mo Kio Avenue 10,address_block,1.372872,103.857756,1126.3,commercial
+AMK-376,Blk 522 Ang Mo Kio Avenue 5,address_block,1.373114,103.851967,1122.5,residential
+AMK-377,Blk 228A Ang Mo Kio Street 22,address_block,1.367956,103.839735,1121.0,residential
+AMK-378,Flora Ville,osm_name,1.391874,103.851149,1117.3,residential
+AMK-379,Blk 206 Ang Mo Kio Avenue 1,address_block,1.366646,103.843352,1110.4,residential
+AMK-380,Blk 651A Ang Mo Kio Avenue 9,address_block,1.383386,103.841647,1110.1,residential
+AMK-381,Sembawang Hills Food Centre,osm_name,1.372402,103.828994,1108.4,yes
+AMK-382,Blk 125 Ang Mo Kio Avenue 3,address_block,1.371503,103.844759,1102.1,residential
+AMK-383,Blk 113 Ang Mo Kio Avenue 4,address_block,1.371777,103.835979,1100.3,residential
+AMK-384,Blk 413 Ang Mo Kio Avenue 10,address_block,1.363525,103.853696,1093.8,residential
+AMK-385,Blk 447 Ang Mo Kio Avenue 10,address_block,1.367493,103.855938,1089.0,residential
+AMK-386,Blk 312 Ang Mo Kio Street 31,address_block,1.366179,103.848785,1088.7,residential
+AMK-387,Blk 563 Ang Mo Kio Avenue 3,address_block,1.369888,103.857998,1080.9,residential
+AMK-388,Blk 203 Ang Mo Kio Avenue 3,address_block,1.367578,103.844258,1078.7,residential
+AMK-389,Blk 702 Ang Mo Kio Central 1,address_block,1.369766,103.847588,1071.8,commercial
+AMK-390,Blk 159 Ang Mo Kio Avenue 4,address_block,1.374804,103.839847,1070.4,apartments
+AMK-391,Blk 562 Ang Mo Kio Avenue 3,address_block,1.370196,103.859017,1069.9,residential
+AMK-392,Blk 722 Ang Mo Kio Avenue 8,address_block,1.372385,103.847505,1063.6,commercial
+AMK-393,Blk 323 Ang Mo Kio Avenue 3,address_block,1.367906,103.847724,1061.1,residential
+AMK-394,Blk 224 Ang Mo Kio Avenue 1,address_block,1.366531,103.838243,1060.5,residential
+AMK-395,Blk 623 Ang Mo Kio Avenue 9,address_block,1.382675,103.840911,1059.3,residential
+AMK-396,Blk 316A Ang Mo Kio Street 31,address_block,1.364697,103.8471,1059.2,residential
+AMK-397,Blk 621 Ang Mo Kio Avenue 9,address_block,1.383021,103.840631,1059.1,residential
+AMK-398,Blk 5 Lentor Central,address_block,1.385681,103.834446,1054.4,apartments
+AMK-399,Blk 446 Ang Mo Kio Avenue 10,address_block,1.367779,103.855334,1048.2,residential
+AMK-400,Blk 3 Lentor Central,address_block,1.386134,103.833806,1042.6,apartments
+AMK-401,School AMK-401,building_type,1.360514,103.854528,1041.3,school
+AMK-402,Blk 342 Ang Mo Kio Street 31,address_block,1.364607,103.848557,1040.3,commercial
+AMK-403,Blk 305 Ang Mo Kio Street 31,address_block,1.366079,103.846009,1037.5,residential
+AMK-404,Blk 1 Lentor Drive,address_block,1.384314,103.836727,1037.2,train_station
+AMK-405,Sprout @ AMK,osm_name,1.371694,103.846003,1035.7,yes
+AMK-406,Blk 651C Ang Mo Kio Avenue 9,address_block,1.382868,103.842198,1032.5,residential
+AMK-407,Blk 412 Ang Mo Kio Avenue 10,address_block,1.363868,103.855279,1029.1,residential
+AMK-408,Blk 451 Ang Mo Kio Avenue 10,address_block,1.368875,103.855579,1027.5,residential
+AMK-409,Blk 306 Ang Mo Kio Street 31,address_block,1.365733,103.845806,1019.5,residential
+AMK-410,Blk 7 Lentor Central,address_block,1.385251,103.835152,1018.0,apartments
+AMK-411,Blk 709 Ang Mo Kio Avenue 8,address_block,1.371094,103.847663,1014.7,commercial
+AMK-412,Blk 3000 Ang Mo Kio Avenue 8,address_block,1.381674,103.844862,1013.9,train_station
+AMK-413,Blk 726 Ang Mo Kio Avenue 6,address_block,1.372718,103.846305,1004.6,commercial
+AMK-414,Blk 307C Ang Mo Kio Avenue 1,address_block,1.365582,103.845183,981.8,residential
+AMK-415,Blk 591A Ang Mo Kio Street 51,address_block,1.370964,103.85223,981.6,residential
+AMK-416,Blk 411 Ang Mo Kio Avenue 10,address_block,1.363406,103.855282,969.1,residential
+AMK-417,Blk 176 Ang Mo Kio Street 13,address_block,1.375859,103.83617,963.5,residential
+AMK-418,Liuxun Sanhemiao Temple,osm_name,1.385551,103.84872,961.2,yes
+AMK-419,Blk 91 Ang Mo Kio Avenue 4,address_block,1.371572,103.83637,942.3,train_station
+AMK-420,Blk 549 Ang Mo Kio Avenue 10,address_block,1.37317,103.857387,932.1,residential
+AMK-421,Blk 115 Ang Mo Kio Avenue 4,address_block,1.372971,103.836342,929.4,residential
+AMK-422,Blk 448 Ang Mo Kio Avenue 10,address_block,1.367533,103.85644,919.4,residential
+AMK-423,Blk 525 Ang Mo Kio Avenue 10,address_block,1.372691,103.853909,916.5,commercial
+AMK-424,Blk 703 Ang Mo Kio Central 1,address_block,1.369768,103.847331,916.0,commercial
+AMK-425,Blk 180 Ang Mo Kio Avenue 8,address_block,1.378432,103.849064,912.3,school
+AMK-426,Blk 455B Ang Mo Kio Street 44,address_block,1.368333,103.858535,912.3,residential
+AMK-427,Blk 700A Ang Mo Kio Avenue 6,address_block,1.3699,103.846208,910.9,residential
+AMK-428,Blk 700B Ang Mo Kio Avenue 6,address_block,1.3695,103.845933,910.5,residential
+AMK-429,Blk 226G Ang Mo Kio Avenue 1,address_block,1.366828,103.839864,902.0,commercial
+AMK-430,Blk 227A Ang Mo Kio Street 23,address_block,1.36812,103.840363,899.9,residential
+AMK-431,Jin Ying Tang Temple,osm_name,1.3663,103.838785,896.4,yes
+AMK-432,Train station AMK-432,building_type,1.385396,103.835416,896.4,train_station
+AMK-433,Blk 25 Ang Mo Kio Avenue 9,address_block,1.385296,103.842186,884.9,apartments
+AMK-434,Blk 318 Ang Mo Kio Street 31,address_block,1.365579,103.847667,883.7,residential
+AMK-435,Blk 21 Ang Mo Kio Rise,address_block,1.368893,103.832866,861.4,apartments
+AMK-436,School AMK-436,building_type,1.367448,103.852409,861.0,school
+AMK-437,Blk 705 Ang Mo Kio Avenue 8,address_block,1.370439,103.847525,858.8,commercial
+AMK-438,Blk 596D Ang Mo Kio Street 52,address_block,1.371955,103.850932,855.0,residential
+AMK-439,Blk 245 Ang Mo Kio Street 21,address_block,1.367686,103.834752,852.0,residential
+AMK-440,Blk 340 Ang Mo Kio Street 32,address_block,1.364535,103.849528,851.5,commercial
+AMK-441,Potong Pasir Joint Temple,osm_name,1.365674,103.858247,849.0,temple
+AMK-442,Blk 310A Ang Mo Kio Avenue 1,address_block,1.364956,103.843818,837.6,residential
+AMK-443,St Thomas Orthodox Syrian Cathedral,osm_name,1.381287,103.833504,830.3,church
+AMK-444,Blk 20 Ang Mo Kio Avenue 2,address_block,1.375463,103.834346,828.3,residential
+AMK-445,Blk 18 Ang Mo Kio Avenue 2,address_block,1.375351,103.83487,828.3,residential
+AMK-446,Blk 704 Ang Mo Kio Avenue 8,address_block,1.370397,103.84725,820.9,commercial
+AMK-447,Blk 260B Ang Mo Kio Street 21,address_block,1.368938,103.83387,820.9,residential
+AMK-448,Blk 23 Ang Mo Kio Rise,address_block,1.369164,103.833284,819.8,apartments
+AMK-449,Blk 244 Ang Mo Kio Street 21,address_block,1.36729,103.834605,816.8,residential
+AMK-450,Blk 5 Ang Mo Kio Street 66,address_block,1.391512,103.850718,810.3,apartments
+AMK-451,Blk 590A Ang Mo Kio Street 51,address_block,1.37127,103.853852,806.0,residential
+AMK-452,Blk 353 Ang Mo Kio Street 32,address_block,1.364065,103.851638,801.6,residential
+AMK-453,Blk 590B Ang Mo Kio Street 51,address_block,1.371236,103.852961,797.3,residential
+AMK-454,Blk 226C Ang Mo Kio Avenue 1,address_block,1.367135,103.839256,795.9,commercial
+AMK-455,Blk 354 Ang Mo Kio Street 32,address_block,1.363992,103.851987,795.3,residential
+AMK-456,Blk 10 Ang Mo Kio Avenue 2,address_block,1.375908,103.834266,794.5,residential
+AMK-457,Blk 12 Ang Mo Kio Avenue 2,address_block,1.375997,103.834798,794.3,residential
+AMK-458,Blk 315B Ang Mo Kio Street 31,address_block,1.364118,103.847539,790.2,residential
+AMK-459,Blk 352 Ang Mo Kio Street 32,address_block,1.36442,103.850891,788.0,residential
+AMK-460,Blk 8 Ang Mo Kio Avenue 2,address_block,1.375506,103.833934,784.7,residential
+AMK-461,Blk 3 Ang Mo Kio Avenue 9,address_block,1.383542,103.83826,774.8,residential
+AMK-462,Blk 310B Ang Mo Kio Avenue 1,address_block,1.364778,103.844221,772.8,residential
+AMK-463,Blk 180 Ang Mo Kio Avenue 8,address_block,1.378498,103.849538,770.4,school
+AMK-464,Blk 700C Ang Mo Kio Avenue 6,address_block,1.36955,103.846556,769.3,residential
+AMK-465,Blk 455A Ang Mo Kio Street 44,address_block,1.36818,103.857549,757.3,residential
+AMK-466,Blk 455C Ang Mo Kio Street 44,address_block,1.368572,103.857985,757.3,residential
+AMK-467,Blk 596A Ang Mo Kio Street 52,address_block,1.37252,103.850993,753.2,residential
+AMK-468,Blk 596C Ang Mo Kio Street 52,address_block,1.37202,103.850188,753.2,residential
+AMK-469,Blk 596B Ang Mo Kio Street 52,address_block,1.372136,103.850592,753.2,residential
+AMK-470,Blk 1 Ang Mo Kio Street 66,address_block,1.391477,103.850454,753.1,apartments
+AMK-471,Blk 710 Ang Mo Kio Avenue 8,address_block,1.371048,103.848195,750.5,residential
+AMK-472,Blk 521,osm_name,1.382165,103.836359,748.6,residential
+AMK-473,McDonald's,osm_name,1.372423,103.844841,746.5,retail
+AMK-474,Blk 183A Ang Mo Kio Avenue 2,address_block,1.376879,103.835408,734.8,residential
+AMK-475,Blk 530 Ang Mo Kio Avenue 10,address_block,1.372763,103.855319,725.3,commercial
+AMK-476,Blk 3 Ang Mo Kio Street 66,address_block,1.391819,103.850674,725.1,apartments
+AMK-477,Blk 16 Ang Mo Kio Avenue 2,address_block,1.375488,103.835288,720.9,residential
+AMK-478,Blk 5 Ang Mo Kio Avenue 9,address_block,1.383836,103.838068,715.4,residential
+AMK-479,Blk 1 Ang Mo Kio Avenue 9,address_block,1.383187,103.838569,715.3,residential
+AMK-480,Blk 228B Ang Mo Kio Street 22,address_block,1.368401,103.839136,697.5,residential
+AMK-481,Blk 246A Ang Mo Kio Street 21,address_block,1.368331,103.834213,693.9,residential
+AMK-482,Blk 247A Ang Mo Kio Rise,address_block,1.367965,103.83257,693.4,residential
+AMK-483,Blk 12 Ang Mo Kio Central 3,address_block,1.376228,103.847372,692.8,residential
+AMK-484,Blk 16 Ang Mo Kio Central 3,address_block,1.3765,103.84696,687.9,residential
+AMK-485,Blk 14 Ang Mo Kio Central 3,address_block,1.376449,103.847168,684.0,residential
+AMK-486,Blk 308A Ang Mo Kio Avenue 1,address_block,1.365485,103.844025,676.4,residential
+AMK-487,Blk 308B Ang Mo Kio Avenue 1,address_block,1.36526,103.844425,676.4,residential
+AMK-488,Blk 1 Lentor Drive,address_block,1.38458,103.837328,672.0,train_station
+AMK-489,Blk 588B Ang Mo Kio Avenue 3,address_block,1.372019,103.85301,669.6,residential
+AMK-490,Blk 464 Ang Mo Kio Avenue 10,address_block,1.366748,103.856928,669.4,residential
+AMK-491,Blk 588C Ang Mo Kio Avenue 3,address_block,1.371877,103.853529,669.0,residential
+AMK-492,Blk 588A Ang Mo Kio Avenue 3,address_block,1.37212,103.852644,668.3,residential
+AMK-493,Blk 351 Ang Mo Kio Street 32,address_block,1.36433,103.850297,664.0,residential
+AMK-494,Blk 590 Thomson Grove,address_block,1.384463,103.835822,663.4,residential
+AMK-495,Blk 588 Thomson Grove,address_block,1.383979,103.835857,663.4,residential
+AMK-496,Blk 586 Thomson Grove,address_block,1.383505,103.83589,663.3,residential
+AMK-497,Blk 450 Ang Mo Kio Avenue 10,address_block,1.368489,103.855479,660.2,residential
+AMK-498,The Clover @ Kebun Baru,osm_name,1.368591,103.831561,659.7,residential
+AMK-499,Blk 1 Lentor Drive,address_block,1.383592,103.837334,659.6,train_station
+AMK-500,Blk 91 Ang Mo Kio Avenue 4,address_block,1.373757,103.837504,659.5,train_station
+AMK-501,Blk 310C Ang Mo Kio Avenue 1,address_block,1.364666,103.844869,656.5,residential
+AMK-502,Blk 10 Ang Mo Kio Central 3,address_block,1.375633,103.847461,652.8,residential
+AMK-503,Blk 226A Ang Mo Kio Avenue 1,address_block,1.367491,103.839277,652.6,commercial
+AMK-504,Blk 18 Ang Mo Kio Central 3,address_block,1.376532,103.846654,649.4,residential
+AMK-505,Blk 6 Ang Mo Kio Central 3,address_block,1.375565,103.846969,639.9,residential
+AMK-506,Blk 2 Ang Mo Kio Central 3,address_block,1.375546,103.846778,637.3,residential
+AMK-507,Blk 8 Ang Mo Kio Central 3,address_block,1.375601,103.847272,636.7,residential
+AMK-508,Blk 584 Thomson Grove,address_block,1.383533,103.836344,614.8,residential
+AMK-509,Blk 580 Thomson Grove,address_block,1.384401,103.836247,614.6,residential
+AMK-510,Blk 588D Ang Mo Kio Avenue 3,address_block,1.37177,103.853903,613.8,residential
+AMK-511,Blk 459 Ang Mo Kio Avenue 10,address_block,1.367028,103.859382,608.3,residential
+AMK-512,Blk 458 Ang Mo Kio Avenue 10,address_block,1.366576,103.859624,608.2,residential
+AMK-513,Blk 460 Ang Mo Kio Avenue 10,address_block,1.366353,103.859127,608.2,residential
+AMK-514,Blk 260A Ang Mo Kio Street 21,address_block,1.369269,103.834107,605.4,residential
+AMK-515,Blk 552 Ang Mo Kio Avenue 10,address_block,1.372274,103.856833,603.2,residential
+AMK-516,Blk 553 Ang Mo Kio Avenue 10,address_block,1.372606,103.857236,603.2,residential
+AMK-517,Blk 539 Ang Mo Kio Avenue 10,address_block,1.375386,103.85426,603.1,residential
+AMK-518,Blk 520 Ang Mo Kio Avenue 10,address_block,1.373412,103.851138,603.1,residential
+AMK-519,Blk 551 Ang Mo Kio Avenue 10,address_block,1.37394,103.858667,603.1,residential
+AMK-520,Blk 545 Ang Mo Kio Avenue 10,address_block,1.37319,103.856292,603.1,residential
+AMK-521,Blk 521 Ang Mo Kio Avenue 10,address_block,1.373579,103.851555,602.9,residential
+AMK-522,Residential on Thomson Green,address_street,1.379421,103.834119,601.8,residential
+AMK-523,Blk 401 Ang Mo Kio Avenue 10,address_block,1.361027,103.85539,590.4,residential
+AMK-524,Blk 402 Ang Mo Kio Avenue 10,address_block,1.361488,103.855297,590.3,residential
+AMK-525,Blk 725 Ang Mo Kio Avenue 6,address_block,1.372799,103.846907,586.1,residential
+AMK-526,Blk 714 Ang Mo Kio Central 1,address_block,1.371104,103.846228,586.1,residential
+AMK-527,Blk 716 Ang Mo Kio Avenue 6,address_block,1.371488,103.845866,586.0,residential
+AMK-528,Blk 91 Ang Mo Kio Avenue 4,address_block,1.371479,103.836724,583.6,train_station
+AMK-529,Blk 91 Ang Mo Kio Avenue 4,address_block,1.373934,103.837142,582.2,train_station
+AMK-530,Blk 1 Lentor Drive,address_block,1.385856,103.835865,581.2,train_station
+AMK-531,Blk 526 Ang Mo Kio Avenue 10,address_block,1.373058,103.854074,575.3,commercial
+AMK-532,Residential on Thomson Green,address_street,1.378854,103.834434,552.2,residential
+AMK-533,Blk 439 Ang Mo Kio Avenue 10,address_block,1.366303,103.853496,545.6,residential
+AMK-534,Blk 431 Ang Mo Kio Avenue 10,address_block,1.368233,103.852977,545.6,residential
+AMK-535,Blk 437 Ang Mo Kio Avenue 10,address_block,1.36721,103.853247,545.5,residential
+AMK-536,Blk 430 Ang Mo Kio Avenue 3,address_block,1.368998,103.852764,545.5,residential
+AMK-537,Residential on Thomson Green,address_street,1.378484,103.83315,542.2,residential
+AMK-538,Residential on Thomson Green,address_street,1.378552,103.834409,523.5,residential
+AMK-539,Residential on Thomson Green,address_street,1.378751,103.833997,513.6,residential
+AMK-540,Blk 548 Ang Mo Kio Avenue 10,address_block,1.372921,103.857057,501.7,commercial
+AMK-541,Swee Kow Kuan Temple,osm_name,1.380777,103.841631,499.2,yes
+AMK-542,Lavender,osm_housename,1.372529,103.828181,496.6,residential
+AMK-543,Blk 707 Ang Mo Kio Avenue 8,address_block,1.370886,103.847438,490.8,commercial
+AMK-544,Residential on Thomson Green,address_street,1.379473,103.832585,479.1,residential
+AMK-545,Residential on Thomson Green,address_street,1.378355,103.833884,478.9,residential
+AMK-546,Ang Mo Kio South Neighbourhood Police Centre,osm_name,1.369844,103.851642,471.6,yes
+AMK-547,Blk 226E Ang Mo Kio Avenue 1,address_block,1.366479,103.839806,469.8,commercial
+AMK-548,Residential on Thomson Green,address_street,1.378555,103.833386,468.4,residential
+AMK-549,Residential on Thomson Green,address_street,1.379231,103.834215,466.9,residential
+AMK-550,Residential on Thomson Green,address_street,1.379282,103.832185,463.8,residential
+AMK-551,Blk 307A Ang Mo Kio Avenue 1,address_block,1.366054,103.844458,459.2,residential
+AMK-552,Blk 307B Ang Mo Kio Avenue 1,address_block,1.365889,103.844689,459.1,residential
+AMK-553,Blk 453 Ang Mo Kio Avenue 10,address_block,1.368587,103.855985,450.6,residential
+AMK-554,Residential on Thomson Green,address_street,1.379196,103.832903,447.3,residential
+AMK-555,Residential on Thomson Green,address_street,1.379386,103.832385,444.1,residential
+AMK-556,Residential on Thomson Green,address_street,1.378278,103.833671,443.1,residential
+AMK-557,School AMK-557,building_type,1.383223,103.84293,441.4,school
+AMK-558,Residential on Thomson Green,address_street,1.378139,103.833265,440.9,residential
+AMK-559,Residential on Thomson Green,address_street,1.378432,103.834187,440.4,residential
+AMK-560,Residential on Thomson Green,address_street,1.379601,103.834007,433.4,residential
+AMK-561,Public AMK-561,building_type,1.366889,103.846385,425.6,public
+AMK-562,Geranium,osm_housename,1.372725,103.828179,424.8,residential
+AMK-563,Residential on Thomson Green,address_street,1.378202,103.833459,413.8,residential
+AMK-564,Residential on Thomson Green,address_street,1.378705,103.833781,409.4,residential
+AMK-565,Residential on Thomson Green,address_street,1.379361,103.83338,399.9,residential
+AMK-566,Koufu,osm_name,1.379698,103.849124,397.4,yes
+AMK-567,Residential on Thomson Green,address_street,1.379462,103.8336,391.4,residential
+AMK-568,Chen Sian Tng Temple,osm_name,1.368107,103.857091,389.0,yes
+AMK-569,First Evangelical Reformed Church,osm_name,1.381591,103.833386,386.5,church
+AMK-570,Chu Sheng Temple,osm_name,1.380967,103.841553,381.1,yes
+AMK-571,Blk 16 Tagore Lane,address_block,1.383245,103.826392,381.1,commercial
+AMK-572,Blk 226B Ang Mo Kio Avenue 1,address_block,1.367344,103.839551,379.9,commercial
+AMK-573,Blk 20 Jalan Leban,address_block,1.371839,103.829346,368.7,retail
+AMK-574,Tower 3,osm_name,1.384703,103.839859,367.4,residential
+AMK-575,Tower 1,osm_name,1.385577,103.839897,367.3,residential
+AMK-576,Tower 2,osm_name,1.385176,103.83943,367.2,residential
+AMK-577,Tower 4,osm_name,1.384977,103.840326,367.2,residential
+AMK-578,Tower 2,osm_name,1.385259,103.839241,365.3,residential
+AMK-579,Tower 3,osm_name,1.384865,103.839717,365.3,residential
+AMK-580,Tower 4,osm_name,1.385139,103.840184,365.3,residential
+AMK-581,Tower 1,osm_name,1.38566,103.839708,365.2,residential
+AMK-582,Residential on Thomson Green,address_street,1.378633,103.833576,364.4,residential
+AMK-583,Blk 307D Ang Mo Kio Avenue 1,address_block,1.365304,103.845501,363.2,public
+AMK-584,Residential on Thomson Green,address_street,1.379292,103.833142,363.0,residential
+AMK-585,Blk 226F Ang Mo Kio Avenue 1,address_block,1.366644,103.839574,360.9,commercial
+AMK-586,Blk 91 Ang Mo Kio Avenue 4,address_block,1.370691,103.836416,359.0,train_station
+AMK-587,Food Connect,osm_name,1.380518,103.849155,343.2,yes
+AMK-588,Blk 207A Ang Mo Kio Avenue 6,address_block,1.366049,103.842222,329.2,public
+AMK-589,Squash Court,osm_name,1.391794,103.836496,328.7,sports_hall
+AMK-590,Blk 12 Tagore Lane,address_block,1.383052,103.826492,317.1,commercial
+AMK-591,Blk 10 Tagore Lane,address_block,1.382954,103.826532,315.4,commercial
+AMK-592,Blk 16 Jalan Kuras,address_block,1.373072,103.829647,314.8,retail
+AMK-593,Blk 14 Tagore Lane,address_block,1.38314,103.826413,311.9,commercial
+AMK-594,Blk 6 Tagore Lane,address_block,1.382749,103.826627,310.4,commercial
+AMK-595,Blk 315 Ang Mo Kio Street 31,address_block,1.364388,103.847147,310.3,public
+AMK-596,Blk 8 Tagore Lane,address_block,1.38286,103.826587,306.4,commercial
+AMK-597,Blk 4 Tagore Lane,address_block,1.382659,103.826675,299.8,commercial
+AMK-598,Kidi Winkie,osm_name,1.390867,103.851667,299.6,yes
+AMK-599,Blk 591 Ang Mo Kio Street 51,address_block,1.371121,103.852506,299.0,public
+AMK-600,Blk 130B Ang Mo Kio Street 12,address_block,1.37078,103.841352,293.8,public
+AMK-601,Blk 310D Ang Mo Kio Avenue 1,address_block,1.364596,103.845195,292.7,public
+AMK-602,Blk 712A Ang Mo Kio Avenue 6,address_block,1.370786,103.847197,289.8,commercial
+AMK-603,School AMK-603,building_type,1.382995,103.843044,288.5,school
+AMK-604,Blk 20 Tagore Lane,address_block,1.38328,103.826723,287.5,commercial
+AMK-605,Blk 2 Tagore Lane,address_block,1.382554,103.82673,286.9,commercial
+AMK-606,Blk 64 Thomson Green,address_block,1.379169,103.831937,285.7,residential
+AMK-607,Blk 91 Ang Mo Kio Avenue 4,address_block,1.370764,103.836782,285.5,train_station
+AMK-608,Blk 4 Mayflower Avenue,address_block,1.372692,103.838522,285.4,residential
+AMK-609,Blk 700D Ang Mo Kio Avenue 6,address_block,1.369725,103.846879,279.5,public
+AMK-610,Blk 63 Thomson Green,address_block,1.379084,103.834305,278.4,residential
+AMK-611,Blk 20 Mayflower Avenue,address_block,1.372056,103.839279,273.6,residential
+AMK-612,Blk 2 Mayflower Avenue,address_block,1.372746,103.838443,268.4,residential
+AMK-613,Tower 1,osm_name,1.385525,103.839775,264.6,residential
+AMK-614,Tower 3,osm_name,1.384703,103.839696,264.5,residential
+AMK-615,Tower 4,osm_name,1.384976,103.840163,264.5,residential
+AMK-616,Tower 2,osm_name,1.385124,103.839308,264.4,residential
+AMK-617,Blk 248 Ang Mo Kio Rise,address_block,1.368073,103.83177,260.7,public
+AMK-618,Blk 42 Thomson Green,address_block,1.37956,103.832846,256.6,residential
+AMK-619,Blk 454 Ang Mo Kio Avenue 10,address_block,1.368038,103.857925,249.4,public
+AMK-620,Pano Club House,osm_name,1.375862,103.8351,246.5,residential
+AMK-621,Blk 38 Thomson Green,address_block,1.379632,103.833041,243.5,residential
+AMK-622,Blk 460A Ang Mo Kio Avenue 10,address_block,1.366617,103.858971,243.1,public
+AMK-623,Blk 21 Tung Po Avenue,address_block,1.381179,103.831305,241.6,residential
+AMK-624,Blk 573A Ang Mo Kio Avenue 3,address_block,1.370965,103.854376,240.2,public
+AMK-625,Blk 16 Mayflower Avenue,address_block,1.372303,103.839112,239.6,residential
+AMK-626,Blk 44 Thomson Green,address_block,1.379527,103.832758,239.4,residential
+AMK-627,Blk 25 Tung Po Avenue,address_block,1.38146,103.831275,236.8,residential
+AMK-628,Blk 2 Jalan Kuras,address_block,1.372577,103.829653,235.7,retail
+AMK-629,Blk 206A Ang Mo Kio Avenue 1,address_block,1.366091,103.843383,235.3,public
+AMK-630,Blk 56 Tung Po Avenue,address_block,1.382025,103.831621,227.6,residential
+AMK-631,Blk 8 Mayflower Avenue,address_block,1.372566,103.838708,223.1,residential
+AMK-632,Blk 58 Tung Po Avenue,address_block,1.382016,103.831515,223.0,residential
+AMK-633,Public AMK-633,building_type,1.367818,103.849011,222.6,public
+AMK-634,Blk 14 Jalan Leban,address_block,1.371599,103.829206,222.3,retail
+AMK-635,Blk 325A Ang Mo Kio Avenue 3,address_block,1.36753,103.846891,216.0,public
+AMK-636,Blk 54 Tung Po Avenue,address_block,1.38204,103.831765,216.0,residential
+AMK-637,Blk 46 Tung Po Avenue,address_block,1.382073,103.832255,216.0,residential
+AMK-638,Blk 455D Ang Mo Kio Avenue 10,address_block,1.368711,103.857644,214.8,public
+AMK-639,Public AMK-639,building_type,1.366899,103.84903,214.2,public
+AMK-640,Blk 589 Ang Mo Kio Street 52,address_block,1.372383,103.852596,213.1,public
+AMK-641,Blk 17 Tung Po Avenue,address_block,1.381064,103.83157,212.6,residential
+AMK-642,Blk 15 Tung Po Avenue,address_block,1.381084,103.831679,211.4,residential
+AMK-643,Blk 18 Mayflower Avenue,address_block,1.372163,103.839282,210.7,residential
+AMK-644,Blk 10 Mayflower Drive,address_block,1.373395,103.838985,210.4,residential
+AMK-645,Blk 1 Mayflower Drive,address_block,1.373401,103.83855,210.3,residential
+AMK-646,Blk 29 Tung Po Avenue,address_block,1.381686,103.83127,209.7,residential
+AMK-647,Residential AMK-647,building_type,1.378726,103.830811,209.1,residential
+AMK-648,Blk 228 Ang Mo Kio Street 22,address_block,1.367746,103.840154,208.5,public
+AMK-649,Blk 136 Cactus Road,address_block,1.391593,103.85127,208.3,residential
+AMK-650,Blk 12 Mayflower Avenue,address_block,1.372465,103.838903,207.9,residential
+AMK-651,Blk 52 Tung Po Avenue,address_block,1.382049,103.831871,204.9,residential
+AMK-652,Blk 44 Tung Po Avenue,address_block,1.382082,103.832361,204.9,residential
+AMK-653,Blk 184 Ang Mo Kio Avenue 2,address_block,1.376266,103.835526,204.9,public
+AMK-654,Blk 12 Tung Po Avenue,address_block,1.381573,103.832388,204.4,residential
+AMK-655,Blk 16 Tung Po Avenue,address_block,1.381552,103.832143,204.3,residential
+AMK-656,Blk 20 Tung Po Avenue,address_block,1.381525,103.8319,202.8,residential
+AMK-657,Blk 26 Tung Po Avenue,address_block,1.381503,103.831556,202.7,residential
+AMK-658,Blk 19 Tung Po Avenue,address_block,1.3811,103.831388,201.6,residential
+AMK-659,Blk 6 Mayflower Avenue,address_block,1.372622,103.838641,199.9,residential
+AMK-660,Blk 36 Tung Po Avenue,address_block,1.381722,103.832038,199.6,residential
+AMK-661,Blk 40 Tung Po Avenue,address_block,1.381737,103.832281,199.6,residential
+AMK-662,Blk 28 Tung Po Avenue,address_block,1.381677,103.83155,199.6,residential
+AMK-663,Blk 6 Mayflower Drive,address_block,1.373221,103.838846,198.9,residential
+AMK-664,Blk 40 Thomson Green,address_block,1.379609,103.832955,197.5,residential
+AMK-665,Blk 49 Thomson Green,address_block,1.379753,103.833926,195.5,residential
+AMK-666,Blk 3 Mayflower Drive,address_block,1.373461,103.838608,193.3,residential
+AMK-667,Blk 12 Mayflower Drive,address_block,1.373461,103.839035,193.2,residential
+AMK-668,Blk 18 Tung Po Avenue,address_block,1.381538,103.832046,191.3,residential
+AMK-669,Blk 24 Tung Po Avenue,address_block,1.381514,103.831662,190.9,residential
+AMK-670,Blk 48 Tung Po Avenue,address_block,1.382063,103.832109,189.5,residential
+AMK-671,Blk 58 Lentor Crescent,address_block,1.389848,103.835015,189.0,residential
+AMK-672,Blk 76 Lentor Crescent,address_block,1.390099,103.835496,189.0,residential
+AMK-673,Blk 70 Lentor Crescent,address_block,1.390015,103.835335,189.0,residential
+AMK-674,Blk 68 Lentor Crescent,address_block,1.389987,103.835282,189.0,residential
+AMK-675,Blk 32 Tung Po Avenue,address_block,1.381693,103.83179,188.9,residential
+AMK-676,Blk 74 Lentor Crescent,address_block,1.390071,103.835442,188.9,residential
+AMK-677,Blk 66 Lentor Crescent,address_block,1.38996,103.835229,188.9,residential
+AMK-678,Blk 64 Lentor Crescent,address_block,1.389932,103.835175,188.9,residential
+AMK-679,Blk 62 Lentor Crescent,address_block,1.389904,103.835122,188.9,residential
+AMK-680,Blk 72 Lentor Crescent,address_block,1.390043,103.835389,188.8,residential
+AMK-681,Blk 60 Lentor Crescent,address_block,1.389876,103.835068,188.8,residential
+AMK-682,Blk 42 Tung Po Avenue,address_block,1.381748,103.832378,187.2,residential
+AMK-683,Blk 30 Tung Po Avenue,address_block,1.381688,103.831647,187.2,residential
+AMK-684,Blk 38 Tung Po Avenue,address_block,1.381733,103.832136,187.2,residential
+AMK-685,Blk 14 Tung Po Avenue,address_block,1.381563,103.832291,185.7,residential
+AMK-686,Blk 12 Jalan Kuras,address_block,1.372922,103.829649,185.6,retail
+AMK-687,Blk 10 Mayflower Avenue,address_block,1.372521,103.838835,183.6,residential
+AMK-688,Blk 45 Mayflower Place,address_block,1.372461,103.840996,183.4,residential
+AMK-689,Blk 50 Tung Po Avenue,address_block,1.382056,103.832004,183.0,residential
+AMK-690,Blk 8 Mayflower Drive,address_block,1.373288,103.838896,182.6,residential
+AMK-691,Blk 22 Tung Po Avenue,address_block,1.38151,103.831806,182.3,residential
+AMK-692,Blk 8 Jalan Kuras,address_block,1.372786,103.82965,181.9,retail
+AMK-693,Blk 2 Mayflower Drive,address_block,1.373042,103.838721,180.7,residential
+AMK-694,Blk 65 Thomson Green,address_block,1.378988,103.83433,180.1,residential
+AMK-695,Blk 4 Mayflower Drive,address_block,1.373117,103.838757,179.7,residential
+AMK-696,Blk 18 Jalan Leban,address_block,1.3717,103.829322,178.2,retail
+AMK-697,Blk 52 Lentor Crescent,address_block,1.389654,103.834851,177.5,residential
+AMK-698,Blk 40 Lentor Crescent,address_block,1.389403,103.834583,177.5,residential
+AMK-699,Blk 56 Lentor Crescent,address_block,1.389737,103.83494,177.4,residential
+AMK-700,Blk 48 Lentor Crescent,address_block,1.38957,103.834762,177.4,residential
+AMK-701,Blk 46 Lentor Crescent,address_block,1.389528,103.834717,177.4,residential
+AMK-702,Blk 42 Lentor Crescent,address_block,1.389445,103.834628,177.4,residential
+AMK-703,Blk 38 Lentor Crescent,address_block,1.389361,103.834538,177.3,residential
+AMK-704,Blk 54 Lentor Crescent,address_block,1.389696,103.834896,177.3,residential
+AMK-705,Blk 50 Lentor Crescent,address_block,1.389612,103.834806,177.2,residential
+AMK-706,Blk 44 Lentor Crescent,address_block,1.389486,103.834672,177.2,residential
+AMK-707,Blk 34 Tung Po Avenue,address_block,1.381707,103.831887,176.1,residential
+AMK-708,Blk 6 Jalan Kuras,address_block,1.372716,103.82965,172.3,retail
+AMK-709,Blk 228C Ang Mo Kio Street 22,address_block,1.368056,103.839074,171.5,public
+AMK-710,Blk 4 Jalan Kuras,address_block,1.372649,103.829651,170.1,retail
+AMK-711,Blk 5 Tung Po Avenue,address_block,1.381187,103.832169,169.6,residential
+AMK-712,Little Footprints,osm_name,1.381239,103.832415,169.5,yes
+AMK-713,Blk 7 Lentor Street,address_block,1.388001,103.833701,169.5,residential
+AMK-714,Blk 5 Lentor Street,address_block,1.387982,103.833787,169.4,residential
+AMK-715,Blk 14 Lentor Crescent,address_block,1.388584,103.834211,169.0,residential
+AMK-716,Blk 12 Lentor Crescent,address_block,1.388525,103.834188,169.0,residential
+AMK-717,Blk 6 Lentor Crescent,address_block,1.388349,103.834117,169.0,residential
+AMK-718,Blk 2 Lentor Crescent,address_block,1.388231,103.83407,168.9,residential
+AMK-719,Blk 18 Lentor Crescent,address_block,1.388702,103.834258,168.9,residential
+AMK-720,Blk 10 Lentor Crescent,address_block,1.388466,103.834164,168.9,residential
+AMK-721,Blk 8 Lentor Crescent,address_block,1.388407,103.83414,168.9,residential
+AMK-722,Blk 4 Lentor Crescent,address_block,1.38829,103.834093,168.9,residential
+AMK-723,Blk 20 Lentor Crescent,address_block,1.38876,103.834282,168.8,residential
+AMK-724,Blk 16 Lentor Crescent,address_block,1.388643,103.834235,168.8,residential
+AMK-725,Blk 9 Tung Po Avenue,address_block,1.381115,103.831927,168.7,residential
+AMK-726,Blk 7 Mayflower Drive,address_block,1.373632,103.838834,166.7,residential
+AMK-727,Blk 23 Tung Po Avenue,address_block,1.381383,103.831289,161.9,residential
+AMK-728,Blk 10 Jalan Kuras,address_block,1.372853,103.829649,161.8,retail
+AMK-729,Blk 14 Mayflower Avenue,address_block,1.37236,103.839042,161.0,residential
+AMK-730,Blk 10 Jalan Leban,address_block,1.371461,103.829172,160.1,retail
+AMK-731,Blk 27 Tung Po Avenue,address_block,1.381623,103.831274,160.0,residential
+AMK-732,Blk 9 Lentor Crescent,address_block,1.388643,103.833746,157.9,residential
+AMK-733,Blk 13 Lentor Crescent,address_block,1.388758,103.83379,157.8,residential
+AMK-734,Blk 11 Lentor Crescent,address_block,1.388701,103.833768,157.8,residential
+AMK-735,Blk 1 Lentor Crescent,address_block,1.388412,103.833658,157.7,residential
+AMK-736,Blk 7 Lentor Crescent,address_block,1.388585,103.833724,157.7,residential
+AMK-737,Blk 5 Lentor Crescent,address_block,1.388528,103.833702,157.7,residential
+AMK-738,Blk 14 Jalan Kuras,address_block,1.37299,103.829648,157.6,retail
+AMK-739,Blk 3 Lentor Crescent,address_block,1.38847,103.83368,157.5,residential
+AMK-740,Blk 31 Tung Po Avenue,address_block,1.381873,103.83126,155.1,residential
+AMK-741,Blk 33 Tung Po Avenue,address_block,1.381988,103.831248,155.0,residential
+AMK-742,Blk 124 Casuarina Road,address_block,1.376699,103.828103,155.0,retail
+AMK-743,Blk 30 Lentor Crescent,address_block,1.389078,103.834401,154.3,residential
+AMK-744,Blk 26 Lentor Crescent,address_block,1.388962,103.834356,154.3,residential
+AMK-745,Blk 22 Lentor Crescent,address_block,1.388846,103.834312,154.2,residential
+AMK-746,Blk 36 Lentor Crescent,address_block,1.389252,103.834467,154.2,residential
+AMK-747,Blk 34 Lentor Crescent,address_block,1.389194,103.834445,154.2,residential
+AMK-748,Blk 32 Lentor Crescent,address_block,1.389136,103.834423,154.2,residential
+AMK-749,Blk 24 Lentor Crescent,address_block,1.388904,103.834334,154.2,residential
+AMK-750,Blk 28 Lentor Crescent,address_block,1.38902,103.834379,154.1,residential
+AMK-751,Blk 7 Tung Po Avenue,address_block,1.381172,103.832051,151.3,residential
+AMK-752,Blk 3 Tung Po Avenue,address_block,1.381232,103.832296,151.2,residential
+AMK-753,Blk 126 Casuarina Road,address_block,1.376773,103.8281,148.9,retail
+AMK-754,Blk 5 Mayflower Drive,address_block,1.373597,103.838763,148.3,residential
+AMK-755,Blk 11 Tung Po Avenue,address_block,1.381101,103.831813,147.6,residential
+AMK-756,Blk 122 Casuarina Road,address_block,1.376626,103.828107,147.5,retail
+AMK-757,Blk 130 Casuarina Road,address_block,1.376913,103.828093,146.8,retail
+AMK-758,School AMK-758,building_type,1.365137,103.850391,144.6,school
+AMK-759,Blk 3 Lentor Street,address_block,1.387959,103.833904,144.5,residential
+AMK-760,Blk 1 Lentor Street,address_block,1.387942,103.833982,144.4,residential
+AMK-761,Blk 136 Casuarina Road,address_block,1.377124,103.828083,144.3,retail
+AMK-762,Blk 4 Lentor Link,address_block,1.390295,103.835027,142.7,residential
+AMK-763,Blk 10 Lentor Link,address_block,1.390463,103.834944,142.7,residential
+AMK-764,Blk 12 Lentor Link,address_block,1.390519,103.834916,142.5,residential
+AMK-765,Blk 8 Lentor Link,address_block,1.390407,103.834972,142.5,residential
+AMK-766,Blk 2 Lentor Link,address_block,1.390239,103.835055,142.4,residential
+AMK-767,Blk 6 Lentor Link,address_block,1.390351,103.834999,142.4,residential
+AMK-768,School AMK-768,building_type,1.37248,103.852323,142.1,school
+AMK-769,Blk 16 Jalan Leban,address_block,1.371666,103.829251,141.7,retail
+AMK-770,Sembawang Baptist Church,osm_name,1.377269,103.828064,141.3,yes
+AMK-771,Blk 128 Casuarina Road,address_block,1.376843,103.828096,141.0,retail
+AMK-772,Blk 19 Mayflower Avenue,address_block,1.372302,103.8396,138.8,residential
+AMK-773,Blk 6 Jalan Leban,address_block,1.37139,103.829039,136.1,retail
+AMK-774,Construction AMK-774,building_type,1.383031,103.833303,134.2,construction
+AMK-775,Blk 8 Jalan Leban,address_block,1.371441,103.829083,133.4,retail
+AMK-776,Blk 4 Jalan Leban,address_block,1.371354,103.828968,133.1,retail
+AMK-777,Blk 16 Lentor Link,address_block,1.390659,103.834833,132.9,residential
+AMK-778,Blk 14 Lentor Link,address_block,1.390602,103.834862,132.8,residential
+AMK-779,Blk 20 Lentor Link,address_block,1.390774,103.834776,132.8,residential
+AMK-780,Blk 18 Lentor Link,address_block,1.390717,103.834805,132.8,residential
+AMK-781,Blk 1 Lentor Link,address_block,1.390017,103.834665,130.0,residential
+AMK-782,Blk 5 Lentor Link,address_block,1.39013,103.834609,130.0,residential
+AMK-783,"Blk 11,13 Lentor Link",address_block,1.390301,103.834524,129.9,residential
+AMK-784,Blk 9 Lentor Link,address_block,1.390244,103.834552,129.9,residential
+AMK-785,Blk 7 Lentor Link,address_block,1.390187,103.83458,129.9,residential
+AMK-786,Blk 3 Lentor Link,address_block,1.390073,103.834637,129.9,residential
+AMK-787,Retail AMK-787,building_type,1.367855,103.844648,129.6,retail
+AMK-788,Blk 2 Jalan Leban,address_block,1.371358,103.828889,128.5,retail
+AMK-789,Blk 96 Lentor Street,address_block,1.390901,103.834955,127.3,residential
+AMK-790,Blk 102 Lentor Street,address_block,1.390735,103.835037,127.2,residential
+AMK-791,Blk 88 Lentor Street,address_block,1.391122,103.834846,127.2,residential
+AMK-792,Blk 90 Lentor Street,address_block,1.391067,103.834874,127.2,residential
+AMK-793,Blk 92 Lentor Street,address_block,1.391011,103.834901,127.2,residential
+AMK-794,Blk 94 Lentor Street,address_block,1.390956,103.834928,127.2,residential
+AMK-795,Blk 98 Lentor Street,address_block,1.390846,103.834983,127.2,residential
+AMK-796,Blk 100 Lentor Street,address_block,1.39079,103.83501,127.2,residential
+AMK-797,Blk 21 Mayflower Avenue,address_block,1.372227,103.839621,126.5,residential
+AMK-798,Public AMK-798,building_type,1.36386,103.853543,123.6,public
+AMK-799,Blk 15 Mayflower Avenue,address_block,1.37244,103.839523,121.7,residential
+AMK-800,School AMK-800,building_type,1.383405,103.842848,119.3,school
+AMK-801,Blk 108 Lentor Street,address_block,1.390498,103.835166,118.5,residential
+AMK-802,Blk 114 Lentor Street,address_block,1.390326,103.83525,118.4,residential
+AMK-803,Blk 104 Lentor Street,address_block,1.390613,103.835109,118.4,residential
+AMK-804,Blk 106 Lentor Street,address_block,1.390555,103.835137,118.4,residential
+AMK-805,Blk 110 Lentor Street,address_block,1.390441,103.835194,118.4,residential
+AMK-806,Blk 112 Lentor Street,address_block,1.390384,103.835222,118.4,residential
+AMK-807,Blk 17 Mayflower Avenue,address_block,1.372372,103.839538,110.2,residential
+AMK-808,Blk 12 Jalan Leban,address_block,1.371551,103.829145,100.8,retail
+AMK-809,School AMK-809,building_type,1.382876,103.843133,89.2,school
+AMK-810,Public AMK-810,building_type,1.368216,103.851155,84.4,public
+AMK-811,School AMK-811,building_type,1.372399,103.852204,63.2,school

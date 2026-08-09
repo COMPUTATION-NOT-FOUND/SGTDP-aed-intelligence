@@ -1,0 +1,86 @@
+rank,site_id,site_index,label,label_source,coverage_added_pp,cumulative_coverage,demand_served,new_ground_share,nearest_existing_m,worst_case_closed_m,stable
+1,AMK-742,741,Blk 124 Casuarina Road,address_block,0.905,0.4738,0.0184,1.0,637.8,762.5,0.889
+2,AMK-698,697,Blk 40 Lentor Crescent,address_block,0.859,0.4824,0.0152,1.0,439.4,559.5,0.556
+3,AMK-548,547,Residential on Thomson Green,address_street,0.816,0.4906,0.0122,1.0,510.1,510.1,0.667
+4,AMK-102,101,Blk 517,osm_name,0.687,0.4974,0.0033,1.0,357.2,357.2,0.667
+5,AMK-084,83,Block M - School of Interactive & Digital Media,osm_name,0.659,0.504,0.005,1.0,148.6,148.6,0.667
+6,AMK-066,65,Block E,osm_name,0.606,0.5101,0.0122,1.0,162.6,162.6,0.556
+7,AMK-647,646,Residential AMK-647,building_type,0.61,0.5162,0.0128,1.0,814.7,814.7,0.556
+8,AMK-400,399,Blk 3 Lentor Central,address_block,0.572,0.5219,0.0088,1.0,650.6,650.6,0.667
+9,AMK-797,796,Blk 21 Mayflower Avenue,address_block,0.575,0.5277,0.0165,1.0,153.4,258.5,0.556
+10,AMK-378,377,Flora Ville,osm_name,0.529,0.533,0.009,1.0,214.8,300.3,0.667
+11,AMK-008,7,9@Tagore,osm_name,0.502,0.538,0.0102,1.0,331.6,331.6,0.667
+12,AMK-027,26,Blk 50 Tagore Lane,address_block,0.472,0.5427,0.0116,1.0,197.9,339.0,0.778
+13,AMK-755,754,Blk 11 Tung Po Avenue,address_block,0.442,0.5471,0.0058,1.0,526.1,624.3,0.667
+14,AMK-080,79,Blk 626 Upper Thomson Road,address_block,0.427,0.5514,0.0043,1.0,943.4,943.4,0.667
+15,AMK-621,620,Blk 38 Thomson Green,address_block,0.408,0.5555,0.0041,1.0,325.6,483.7,0.667
+16,AMK-023,22,Blk 628 Upper Thomson Road,address_block,0.389,0.5594,0.0105,1.0,665.9,835.9,0.778
+17,AMK-581,580,Tower 1,osm_name,0.389,0.5633,0.0147,1.0,270.3,352.2,0.778
+18,AMK-801,800,Blk 108 Lentor Street,address_block,0.389,0.5671,0.0042,1.0,380.2,380.2,0.444
+19,AMK-041,40,Apple South Asia AMK 3,osm_name,0.339,0.5705,0.0126,1.0,359.6,359.6,0.778
+20,AMK-592,591,Blk 16 Jalan Kuras,address_block,0.341,0.5739,0.0146,0.5,91.6,220.8,0.556
+21,AMK-020,19,Tagore Building,osm_name,0.327,0.5772,0.0243,1.0,313.3,313.3,0.556
+22,AMK-502,501,Blk 10 Ang Mo Kio Central 3,address_block,0.332,0.5805,0.0065,1.0,256.4,256.4,0.778
+23,AMK-713,712,Blk 7 Lentor Street,address_block,0.327,0.5838,0.0067,1.0,445.4,629.4,0.444
+24,AMK-542,541,Lavender,osm_housename,0.302,0.5868,0.0053,0.5,113.2,200.2,0.444
+25,AMK-418,417,Liuxun Sanhemiao Temple,osm_name,0.294,0.5898,0.0192,1.0,175.4,175.4,0.556
+26,AMK-571,570,Blk 16 Tagore Lane,address_block,0.283,0.5926,0.0029,1.0,388.5,508.9,0.667
+27,AMK-132,131,Blk 483 Yio Chu Kang Road,address_block,0.268,0.5953,0.0161,1.0,290.8,313.0,0.667
+28,AMK-154,153,Blk 246B Ang Mo Kio Street 21,address_block,0.263,0.5979,0.0115,1.0,152.2,152.2,0.556
+29,AMK-404,403,Blk 1 Lentor Drive,address_block,0.263,0.6005,0.0073,1.0,450.7,602.4,0.333
+30,AMK-522,521,Residential on Thomson Green,address_street,0.261,0.6032,0.0046,1.0,325.6,325.6,0.333
+31,AMK-048,47,Yes on Upper Thomson Road,address_street,0.246,0.6056,0.0191,0.5,266.6,266.6,0.222
+32,AMK-478,477,Blk 5 Ang Mo Kio Avenue 9,address_block,0.251,0.6081,0.0052,1.0,284.5,307.9,0.111
+33,AMK-012,11,ST Engineering Digital Hub,osm_name,0.239,0.6105,0.0206,1.0,301.9,301.9,0.111
+34,AMK-014,13,School AMK-014,building_type,0.235,0.6129,0.0068,1.0,239.2,239.2,0.111
+35,AMK-093,92,Blk 515,osm_name,0.239,0.6152,0.007,1.0,170.0,357.2,0.111
+36,AMK-145,144,Blk 131 Ang Mo Kio Avenue 3,address_block,0.239,0.6176,0.0058,0.5,6.9,163.6,0.0
+37,AMK-015,14,School AMK-015,building_type,0.234,0.62,0.0325,0.5,135.9,135.9,0.222
+38,AMK-213,212,Blk 223 Ang Mo Kio Avenue 1,address_block,0.238,0.6223,0.0031,1.0,143.8,227.9,0.111
+39,AMK-016,15,ActiveSG Sport Park @ Teck Ghee,osm_name,0.228,0.6246,0.0144,0.5,179.3,179.3,0.111
+40,AMK-159,158,Infant Jesus Homes and Children's Centres,osm_name,0.23,0.6269,0.0135,0.5,236.5,236.5,0.0
+41,AMK-598,597,Kidi Winkie,osm_name,0.233,0.6293,0.0536,1.0,298.4,298.4,0.0
+42,AMK-634,633,Blk 14 Jalan Leban,address_block,0.227,0.6315,0.014,0.5,125.9,236.0,0.111
+43,AMK-022,21,Sports Centre,osm_name,0.214,0.6337,0.0098,0.5,140.7,140.7,0.222
+44,AMK-228,227,Blk 347 Ang Mo Kio Street 31,address_block,0.218,0.6359,0.0191,1.0,133.5,133.5,0.222
+45,AMK-410,409,Blk 7 Lentor Central,address_block,0.194,0.6378,0.0052,1.0,763.5,763.5,0.333
+46,AMK-444,443,Blk 20 Ang Mo Kio Avenue 2,address_block,0.197,0.6398,0.0102,0.5,89.6,260.9,0.0
+47,AMK-350,349,Bullion Park Tower 1,osm_name,0.183,0.6416,0.0018,1.0,160.4,325.3,0.222
+48,AMK-034,33,Cheng San Community Club,osm_name,0.174,0.6433,0.031,0.5,171.1,171.1,0.111
+49,AMK-266,265,Blk 248A Ang Mo Kio Rise,address_block,0.172,0.6451,0.0106,1.0,136.1,136.1,0.222
+50,AMK-086,85,Blk 456 Ang Mo Kio Avenue 10,address_block,0.154,0.6466,0.0022,1.0,140.8,140.8,0.111
+51,AMK-155,154,Blk 201 Ang Mo Kio Avenue 3,address_block,0.151,0.6481,0.0108,1.0,140.5,140.5,0.111
+52,AMK-258,257,Adana @ Thomson,osm_name,0.151,0.6496,0.003,1.0,410.3,410.3,0.111
+53,AMK-560,559,Residential on Thomson Green,address_street,0.146,0.6511,0.0045,1.0,325.6,325.6,0.0
+54,AMK-186,185,Blk 642 Ang Mo Kio Avenue 5,address_block,0.143,0.6525,0.0217,1.0,147.2,147.2,0.0
+55,AMK-323,322,Blk 13 Ang Mo Kio Avenue 9,address_block,0.137,0.6539,0.0127,0.5,139.9,139.9,0.0
+56,AMK-032,31,Blk H,osm_name,0.133,0.6552,0.0013,1.0,179.1,179.1,0.0
+57,AMK-352,351,Bullion Park Tower 6,osm_name,0.135,0.6566,0.0248,0.5,58.1,226.2,0.111
+58,AMK-303,302,Blk 605 Ang Mo Kio Avenue 5,address_block,0.132,0.6579,0.0068,0.5,139.2,139.2,0.0
+59,AMK-369,368,Blk 519,osm_name,0.129,0.6592,0.0026,1.0,181.0,181.0,0.111
+60,AMK-286,285,Centro,osm_name,0.123,0.6604,0.0193,1.0,150.0,150.0,0.222
+61,AMK-043,42,Yio Chu Kang Swimming Complex,osm_name,0.118,0.6616,0.0103,1.0,148.2,148.2,0.0
+62,AMK-198,197,Blk 118 Ang Mo Kio Avenue 4,address_block,0.119,0.6628,0.0244,0.333,100.2,165.2,0.0
+63,AMK-250,249,Blk 210 Ang Mo Kio Avenue 3,address_block,0.119,0.664,0.0096,1.0,163.8,163.8,0.0
+64,AMK-289,288,Blk 547 Ang Mo Kio Avenue 10,address_block,0.117,0.6651,0.0205,1.0,135.4,135.4,0.111
+65,AMK-052,51,Blk 129 Ang Mo Kio Avenue 3,address_block,0.11,0.6662,0.0047,1.0,143.5,143.5,0.111
+66,AMK-061,60,Blk 212 Ang Mo Kio Avenue 3,address_block,0.103,0.6673,0.0111,0.5,11.9,179.1,0.0
+67,AMK-791,790,Blk 88 Lentor Street,address_block,0.102,0.6683,0.0035,1.0,220.8,407.6,0.111
+68,AMK-068,67,Blk 457 Ang Mo Kio Avenue 10,address_block,0.097,0.6692,0.0132,0.5,87.6,126.6,0.0
+69,AMK-774,773,Construction AMK-774,building_type,0.098,0.6702,0.004,1.0,425.4,425.4,0.111
+70,AMK-030,29,Blk K,osm_name,0.094,0.6712,0.0424,0.5,118.4,192.8,0.111
+71,AMK-124,123,Blk 225 Ang Mo Kio Avenue 1,address_block,0.093,0.6721,0.0137,1.0,227.9,227.9,0.111
+72,AMK-081,80,Blk 157 Ang Mo Kio Avenue 4,address_block,0.089,0.673,0.0109,0.5,182.3,182.3,0.0
+73,AMK-688,687,Blk 45 Mayflower Place,address_block,0.075,0.6737,0.007,0.667,258.5,258.5,0.111
+74,AMK-193,192,Block T - T-Junction,osm_name,0.073,0.6745,0.0111,1.0,144.2,175.8,0.222
+75,AMK-110,109,Block N1,osm_name,0.064,0.6751,0.012,1.0,148.6,148.6,0.222
+76,AMK-236,235,Blk 626 Upper Thomson Road,address_block,0.061,0.6757,0.0038,1.0,910.4,910.4,0.0
+77,AMK-033,32,Blk 511,osm_name,0.052,0.6762,0.0041,1.0,357.2,461.5,0.111
+78,AMK-443,442,St Thomas Orthodox Syrian Cathedral,osm_name,0.049,0.6767,0.0005,1.0,259.2,259.2,0.111
+79,AMK-362,361,Blk 315A Ang Mo Kio Street 31,address_block,0.048,0.6772,0.018,1.0,134.4,134.4,0.0
+80,AMK-505,504,Blk 6 Ang Mo Kio Central 3,address_block,0.038,0.6776,0.01,1.0,256.4,256.4,0.111
+81,AMK-426,425,Blk 455B Ang Mo Kio Street 44,address_block,0.037,0.678,0.0212,0.5,180.0,180.0,0.0
+82,AMK-484,483,Blk 16 Ang Mo Kio Central 3,address_block,0.026,0.6782,0.002,1.0,256.4,256.4,0.111
+83,AMK-512,511,Blk 458 Ang Mo Kio Avenue 10,address_block,0.025,0.6785,0.0005,0.333,172.7,172.7,0.0
+84,AMK-384,383,Blk 413 Ang Mo Kio Avenue 10,address_block,0.019,0.6787,0.0319,0.5,120.0,141.7,0.0
+85,AMK-630,629,Blk 56 Tung Po Avenue,address_block,0.016,0.6788,0.006,1.0,624.3,624.3,0.0

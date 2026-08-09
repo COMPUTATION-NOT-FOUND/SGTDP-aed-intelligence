@@ -1,0 +1,85 @@
+site_id,label,site_index,times_chosen,share
+JE-009,Jurong Town Hall,8,9,1.0
+JE-008,Blk 3 Buroh Lane,7,8,0.889
+JE-017,Blk 134 Jurong Gateway Road,16,8,0.889
+JE-019,Jurong Lake Gardens Gym,18,8,0.889
+JE-025,Blk 10 International Business Park,24,8,0.889
+JE-027,Ayer Rajah Community Centre,26,8,0.889
+JE-041,J Gateway,40,8,0.889
+JE-078,Blk 5 Jalan Papan,77,8,0.889
+JE-103,Galilee Bible-Presbyterian Church,102,8,0.889
+JE-238,Blk 39 Jurong East Avenue 1,237,8,0.889
+JE-002,Perennial Business City,1,7,0.778
+JE-033,Blk 305 Jurong East Street 32,32,7,0.778
+JE-036,Blk 117 Jurong East Street 13,35,7,0.778
+JE-039,Blk 124 Jurong East Street 13,38,7,0.778
+JE-105,Blk 135B Yung Ho Walk,104,7,0.778
+JE-196,Blk 291A Jurong East Street 24,195,7,0.778
+JE-234,Blk 82 Yuan Ching Road,233,7,0.778
+JE-247,Blk 76 Yuan Ching Road,246,7,0.778
+JE-266,Blk 418A Teban Gardens Road,265,7,0.778
+JE-337,Blk 2 Jurong Gateway Road,336,7,0.778
+JE-035,Sheng Hong Temple,34,6,0.667
+JE-106,Blk 134A Yung Ho Walk,105,6,0.667
+JE-115,Blk 425A Teban Gardens Road,114,6,0.667
+JE-224,Blk 121 Jurong East Street 13,223,6,0.667
+JE-052,Blk 204 Jurong East Street 21,51,5,0.556
+JE-060,Masjid Al-Mukminin,59,5,0.556
+JE-302,Clusia Cove Pavilion,301,5,0.556
+JE-236,Blk 51 Jurong East Avenue 1,235,4,0.444
+JE-301,Westmere,300,4,0.444
+JE-147,Blk 329 Jurong East Avenue 1,146,3,0.333
+JE-001,IMM,0,2,0.222
+JE-013,CJ GLS Building,12,2,0.222
+JE-016,Chinese Garden MRT Station,15,2,0.222
+JE-030,Blk 101 Jurong East Street 13,29,2,0.222
+JE-037,Blk 122 Jurong East Street 13,36,2,0.222
+JE-038,Blk 308 Jurong East Street 32,37,2,0.222
+JE-064,Blk 312 Jurong East Street 32,63,2,0.222
+JE-125,Blk 31 Teban Gardens Road,124,2,0.222
+JE-211,Blk 136A Yung Ho Walk,210,2,0.222
+JE-230,Blk 1 Jurong East Street 32,229,2,0.222
+JE-246,Blk 49 Jurong East Avenue 1,245,2,0.222
+JE-270,Blk 291B Jurong East Street 24,269,2,0.222
+JE-276,Commercial JE-276,275,2,0.222
+JE-345,Lakeside House,344,2,0.222
+JE-354,Public JE-354,353,2,0.222
+JE-003,Science Centre Singapore,2,1,0.111
+JE-004,JEM,3,1,0.111
+JE-005,Westgate,4,1,0.111
+JE-014,Blk 252 Jurong East Street 24,13,1,0.111
+JE-021,Jurong Regional Library,20,1,0.111
+JE-022,Blk 244 Jurong East Avenue 1,21,1,0.111
+JE-023,Blk 61 Teban Gardens Road,22,1,0.111
+JE-032,Blk 316 Jurong East Street 32,31,1,0.111
+JE-044,Blk 241 Jurong East Avenue 1,43,1,0.111
+JE-054,Saint Andrew's Nursing Home,53,1,0.111
+JE-059,Blk 310 Jurong East Street 32,58,1,0.111
+JE-063,Blk 251 Jurong East Street 24,62,1,0.111
+JE-071,Blk 332 Jurong East Avenue 1,70,1,0.111
+JE-079,Blk 247 Jurong East Street 24,78,1,0.111
+JE-080,Blk 5 Jalan Papan,79,1,0.111
+JE-085,Blk 285B Toh Guan Road,84,1,0.111
+JE-131,Blk 402 Pandan Gardens,130,1,0.111
+JE-156,Blk 22 Teban Gardens Road,155,1,0.111
+JE-175,Blk 353 Jurong East Street 31,174,1,0.111
+JE-177,Blk 417B Teban Gardens Road,176,1,0.111
+JE-189,Blk 286B Toh Guan Road,188,1,0.111
+JE-191,Blk 350 Jurong East Avenue 1,190,1,0.111
+JE-195,Blk 205 Jurong East Street 21,194,1,0.111
+JE-204,Blk 288E Jurong East Street 21,203,1,0.111
+JE-205,Lakeside Tower,204,1,0.111
+JE-206,Blk 134B Yung Ho Walk,205,1,0.111
+JE-208,Blk 20 Teban Gardens Road,207,1,0.111
+JE-216,Blk 272 Toh Guan Road,215,1,0.111
+JE-227,Blk 267 Toh Guan Road,226,1,0.111
+JE-239,Blk 41 Jurong East Avenue 1,238,1,0.111
+JE-244,Blk 80 Yuan Ching Road,243,1,0.111
+JE-286,Blk 72 Yuan Ching Road,285,1,0.111
+JE-291,Blk 201 Jurong East Street 21,290,1,0.111
+JE-344,Commercial JE-344,343,1,0.111
+JE-349,Commercial JE-349,348,1,0.111
+JE-350,Public JE-350,349,1,0.111
+JE-351,Public JE-351,350,1,0.111
+JE-352,Public JE-352,351,1,0.111
+JE-357,Public JE-357,356,1,0.111

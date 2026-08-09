@@ -1,0 +1,151 @@
+{
+  "generated_utc": "2026-08-08T09:45:06+00:00",
+  "towns": {
+    "toa-payoh": "TOA PAYOH",
+    "ang-mo-kio": "ANG MO KIO",
+    "bedok": "BEDOK",
+    "jurong-east": "JURONG EAST"
+  },
+  "note": "Every judged result is reproducible from these frozen files with no network access.",
+  "sources": [
+    {
+      "key": "aed",
+      "dataset_id": "d_4e6b82c58a8a832f6f1fee5dfa6d47ea",
+      "name": "Public Access AEDs",
+      "publisher": "Singapore Civil Defence Force (SCDF)",
+      "licence": "Singapore Open Data Licence",
+      "page_url": "https://data.gov.sg/datasets/d_4e6b82c58a8a832f6f1fee5dfa6d47ea/view",
+      "coverage_date": "2020-02",
+      "page_last_updated": "2025-11-13",
+      "role": "Existing public-access AED network (the Feb 2020 registry snapshot).",
+      "path": "data/raw/aed_public_access.geojson",
+      "format": "GeoJSON",
+      "bytes": 7248345,
+      "sha256": "e2ef793ffd0fd2dbe99ffdcfb21b38154c81fd0685d1f0fcc5b75a6d57205c02",
+      "retrieved_utc": "2026-08-08T09:45:06+00:00",
+      "transformations": []
+    },
+    {
+      "key": "planning_areas",
+      "dataset_id": "d_4765db0e87b9c86336792efe8a1f7a66",
+      "name": "Master Plan 2019 Planning Area Boundary (No Sea)",
+      "publisher": "Urban Redevelopment Authority (URA)",
+      "licence": "Singapore Open Data Licence",
+      "page_url": "https://data.gov.sg/datasets/d_4765db0e87b9c86336792efe8a1f7a66/view",
+      "coverage_date": "2019",
+      "page_last_updated": "2025-12-05",
+      "role": "Toa Payoh planning-area boundary; clips every layer. 'No Sea' variant is required so hexes are never generated over water.",
+      "path": "data/raw/planning_areas_no_sea.geojson",
+      "format": "GeoJSON",
+      "bytes": 2092229,
+      "sha256": "f23856251b467089f788d0fff72ef5a38e753f21aa69b4352401d7ed50d380cc",
+      "retrieved_utc": "2026-08-08T09:45:06+00:00",
+      "transformations": []
+    },
+    {
+      "key": "subzones",
+      "dataset_id": "d_8594ae9ff96d0c708bc2af633048edfb",
+      "name": "Master Plan 2019 Subzone Boundary (No Sea)",
+      "publisher": "Urban Redevelopment Authority (URA)",
+      "licence": "Singapore Open Data Licence",
+      "page_url": "https://data.gov.sg/datasets/d_8594ae9ff96d0c708bc2af633048edfb/view",
+      "coverage_date": "2019",
+      "page_last_updated": null,
+      "role": "Subzone polygons for the worst-served-subzone equity metric.",
+      "path": "data/raw/subzones_no_sea.geojson",
+      "format": "GeoJSON",
+      "bytes": 3180569,
+      "sha256": "77e30aa02b1784b649d9b6f23e3b2ebb825af787de554f3a3fb76bbee3013c42",
+      "retrieved_utc": "2026-08-08T09:45:06+00:00",
+      "transformations": []
+    },
+    {
+      "key": "osm:toa-payoh",
+      "dataset_id": null,
+      "name": "OpenStreetMap buildings and POIs, TOA PAYOH planning area",
+      "publisher": "OpenStreetMap contributors",
+      "licence": "ODbL 1.0 (attribution and share-alike required)",
+      "page_url": "https://overpass-api.de/api/interpreter",
+      "coverage_date": null,
+      "page_last_updated": null,
+      "role": "Candidate building footprints, tag allowlist signal, and the floor-area / POI-density demand proxies.",
+      "path": "data/raw/osm_toa-payoh.parquet",
+      "format": "GeoParquet",
+      "bytes": 656897,
+      "sha256": "5b2cebf999f95beffc15feae2ba6cb073b7a2cfadf91ea9daae648bf0f702d2a",
+      "retrieved_utc": "2026-08-08T09:45:06+00:00",
+      "transformations": [
+        "Clipped to the MP2019 TOA PAYOH planning-area polygon (No Sea).",
+        "Retained only the 11 tags the pipeline consumes; the remaining OSM tag columns were dropped unread.",
+        "Written as GeoParquet rather than GeoJSON for size."
+      ],
+      "notes": "OSM is unversioned: a later refetch returns different data. This frozen extract, not the live API, is the source of truth."
+    },
+    {
+      "key": "osm:ang-mo-kio",
+      "dataset_id": null,
+      "name": "OpenStreetMap buildings and POIs, ANG MO KIO planning area",
+      "publisher": "OpenStreetMap contributors",
+      "licence": "ODbL 1.0 (attribution and share-alike required)",
+      "page_url": "https://overpass-api.de/api/interpreter",
+      "coverage_date": null,
+      "page_last_updated": null,
+      "role": "Candidate building footprints, tag allowlist signal, and the floor-area / POI-density demand proxies.",
+      "path": "data/raw/osm_ang-mo-kio.parquet",
+      "format": "GeoParquet",
+      "bytes": 814635,
+      "sha256": "e3634b90ab2b02e599002984986bd2626aa4cc2027570af7a7191dfb0b05c303",
+      "retrieved_utc": "2026-08-08T09:45:06+00:00",
+      "transformations": [
+        "Clipped to the MP2019 ANG MO KIO planning-area polygon (No Sea).",
+        "Retained only the 11 tags the pipeline consumes; the remaining OSM tag columns were dropped unread.",
+        "Written as GeoParquet rather than GeoJSON for size."
+      ],
+      "notes": "OSM is unversioned: a later refetch returns different data. This frozen extract, not the live API, is the source of truth."
+    },
+    {
+      "key": "osm:bedok",
+      "dataset_id": null,
+      "name": "OpenStreetMap buildings and POIs, BEDOK planning area",
+      "publisher": "OpenStreetMap contributors",
+      "licence": "ODbL 1.0 (attribution and share-alike required)",
+      "page_url": "https://overpass-api.de/api/interpreter",
+      "coverage_date": null,
+      "page_last_updated": null,
+      "role": "Candidate building footprints, tag allowlist signal, and the floor-area / POI-density demand proxies.",
+      "path": "data/raw/osm_bedok.parquet",
+      "format": "GeoParquet",
+      "bytes": 1803683,
+      "sha256": "26e5036b359db980866aebd5d54c10ee72d9851bd05d8a236553642469202447",
+      "retrieved_utc": "2026-08-08T09:45:06+00:00",
+      "transformations": [
+        "Clipped to the MP2019 BEDOK planning-area polygon (No Sea).",
+        "Retained only the 11 tags the pipeline consumes; the remaining OSM tag columns were dropped unread.",
+        "Written as GeoParquet rather than GeoJSON for size."
+      ],
+      "notes": "OSM is unversioned: a later refetch returns different data. This frozen extract, not the live API, is the source of truth."
+    },
+    {
+      "key": "osm:jurong-east",
+      "dataset_id": null,
+      "name": "OpenStreetMap buildings and POIs, JURONG EAST planning area",
+      "publisher": "OpenStreetMap contributors",
+      "licence": "ODbL 1.0 (attribution and share-alike required)",
+      "page_url": "https://overpass-api.de/api/interpreter",
+      "coverage_date": null,
+      "page_last_updated": null,
+      "role": "Candidate building footprints, tag allowlist signal, and the floor-area / POI-density demand proxies.",
+      "path": "data/raw/osm_jurong-east.parquet",
+      "format": "GeoParquet",
+      "bytes": 467913,
+      "sha256": "bb8d96156d1fe14a1e4c674a675cc9766f3b5ed30939de2194871d1632b0bd8f",
+      "retrieved_utc": "2026-08-08T09:45:06+00:00",
+      "transformations": [
+        "Clipped to the MP2019 JURONG EAST planning-area polygon (No Sea).",
+        "Retained only the 11 tags the pipeline consumes; the remaining OSM tag columns were dropped unread.",
+        "Written as GeoParquet rather than GeoJSON for size."
+      ],
+      "notes": "OSM is unversioned: a later refetch returns different data. This frozen extract, not the live API, is the source of truth."
+    }
+  ]
+}

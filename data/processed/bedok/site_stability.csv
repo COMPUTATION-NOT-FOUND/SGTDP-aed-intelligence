@@ -1,0 +1,145 @@
+site_id,label,site_index,times_chosen,share
+BD-0005,Tanah Merah,4,7,0.778
+BD-0065,Commercial BD-0065,64,6,0.667
+BD-0803,Residential BD-0803,802,6,0.667
+BD-0875,Blk 99 Lorong N Telok Kurau,874,6,0.667
+BD-1037,Blk 127A Lorong L Telok Kurau,1036,6,0.667
+BD-1089,Blk 70 Lorong M Telok Kurau,1088,6,0.667
+BD-1120,Wat Pālēlāika,1119,6,0.667
+BD-1330,Residential BD-1330,1329,6,0.667
+BD-0193,Residential BD-0193,192,5,0.556
+BD-1372,Blk 42 Jalan Ismail,1371,5,0.556
+BD-1412,Blk 70 Jalan Lapang,1411,5,0.556
+BD-1601,Blk 3 Sennett Lane,1600,5,0.556
+BD-1639,Blk 17 Kew Drive,1638,5,0.556
+BD-1692,Blk 14 Senang Crescent,1691,5,0.556
+BD-1700,Blk 20 Lengkong Dua,1699,5,0.556
+BD-2131,Blk 27A Lengkong Satu,2130,5,0.556
+BD-2308,Blk 101 Jalan Senang,2307,5,0.556
+BD-3519,Residential BD-3519,3518,5,0.556
+BD-3989,Blk 44 Jalan Lapang,3988,5,0.556
+BD-0943,Residential BD-0943,942,4,0.444
+BD-1368,Residential BD-1368,1367,4,0.444
+BD-1389,Commercial BD-1389,1388,4,0.444
+BD-1640,Blk 50 Elite Park Avenue,1639,4,0.444
+BD-2104,Blk 42 Siglap Drive,2103,4,0.444
+BD-2129,Blk 22 Jalan Limau Purut,2128,4,0.444
+BD-2333,Blk 62 Jalan Limau Purut,2332,4,0.444
+BD-2523,Blk 36 Limau Garden,2522,4,0.444
+BD-2663,Blk 26 East Coast Avenue,2662,4,0.444
+BD-3191,Blk 11 Wilton Gardens,3190,4,0.444
+BD-3625,Blk 430 Changi Road,3624,4,0.444
+BD-0615,Blk 911C Bayshore Walk,614,3,0.333
+BD-0032,Blk 208B New Upper Changi Road,31,2,0.222
+BD-0049,Blk 18 Bedok South Road,48,2,0.222
+BD-0130,Commercial BD-0130,129,2,0.222
+BD-0545,Suites @ Eunos,544,2,0.222
+BD-1486,Residential BD-1486,1485,2,0.222
+BD-1762,Blk 97 Frankel Avenue,1761,2,0.222
+BD-0008,School BD-0008,7,1,0.111
+BD-0009,Telok Kurau Primary School,8,1,0.111
+BD-0012,Sceneca Square,11,1,0.111
+BD-0013,School BD-0013,12,1,0.111
+BD-0020,Blk 539 Bedok North Street 3,19,1,0.111
+BD-0030,Eastwood Center,29,1,0.111
+BD-0039,Apartments BD-0039,38,1,0.111
+BD-0051,Siglap Community Centre,50,1,0.111
+BD-0066,Commercial BD-0066,65,1,0.111
+BD-0084,Blk 113 Bedok Reservoir Road,83,1,0.111
+BD-0109,Blk 45 Chai Chee Street,108,1,0.111
+BD-0139,Commercial BD-0139,138,1,0.111
+BD-0171,Residential BD-0171,170,1,0.111
+BD-0190,Commercial BD-0190,189,1,0.111
+BD-0202,Blk 34 Tanah Merah Kechil Road,201,1,0.111
+BD-0259,Retail on Upper East Coast Road,258,1,0.111
+BD-0310,Blk 222B Bedok North Drive,309,1,0.111
+BD-0364,East Shine,363,1,0.111
+BD-0401,Blk 22 Bayshore Road,400,1,0.111
+BD-0435,Blk 28 Bayshore Road,434,1,0.111
+BD-0463,Blk 64 Bayshore Road,462,1,0.111
+BD-0472,Commercial BD-0472,471,1,0.111
+BD-0482,Tower H,481,1,0.111
+BD-0554,Residential BD-0554,553,1,0.111
+BD-0557,Masjid Al-Abdul Razak,556,1,0.111
+BD-0560,Train station BD-0560,559,1,0.111
+BD-0586,Blk 50 Lorong M Telok Kurau,585,1,0.111
+BD-0590,Windy Heights,589,1,0.111
+BD-0601,Blk 86 Bedok North Avenue 4,600,1,0.111
+BD-0619,St. Patrick's Green,618,1,0.111
+BD-0633,Blk 1 Bedok South Avenue 3,632,1,0.111
+BD-0656,Blk 521 Bedok Reservoir Road,655,1,0.111
+BD-0671,Yes on Frankel Avenue,670,1,0.111
+BD-0800,Blk 9 Jalan Ismail,799,1,0.111
+BD-0801,Residential BD-0801,800,1,0.111
+BD-0824,Apartments BD-0824,823,1,0.111
+BD-0829,Residential BD-0829,828,1,0.111
+BD-0862,Hong San Temple,861,1,0.111
+BD-0877,Blk 498 East Coast Road,876,1,0.111
+BD-0891,Blk 64 Lorong M Telok Kurau,890,1,0.111
+BD-0895,Blk 26 Bedok North Drive,894,1,0.111
+BD-0920,Blk 455 Upper East Coast Road,919,1,0.111
+BD-0923,Residential BD-0923,922,1,0.111
+BD-0924,Residential BD-0924,923,1,0.111
+BD-0948,Blk 2 Bedok Reservoir View,947,1,0.111
+BD-0965,Blk 18 Nallur Road,964,1,0.111
+BD-0969,Blk 3 Bedok Reservoir View,968,1,0.111
+BD-0974,Blk 13 Bedok Reservoir View,973,1,0.111
+BD-0987,Residential BD-0987,986,1,0.111
+BD-1007,Blk 80 Bayshore Road,1006,1,0.111
+BD-1026,Bliss Residences,1025,1,0.111
+BD-1028,Residential BD-1028,1027,1,0.111
+BD-1047,Blk 768 Bedok Reservoir Road,1046,1,0.111
+BD-1053,Blk 2 Bedok Rise,1052,1,0.111
+BD-1087,Blk 10 Elliot Road,1086,1,0.111
+BD-1140,Residential BD-1140,1139,1,0.111
+BD-1146,Residential BD-1146,1145,1,0.111
+BD-1147,Residential on Lothian Terrace,1146,1,0.111
+BD-1150,Blk 66 Jalan Lapang,1149,1,0.111
+BD-1172,Blk 95 Tanah Merah Kechil Avenue,1171,1,0.111
+BD-1182,Blk 9 Siglap Road,1181,1,0.111
+BD-1193,Guat Hoon Vegetarian Temple,1192,1,0.111
+BD-1195,Commercial BD-1195,1194,1,0.111
+BD-1197,Residential BD-1197,1196,1,0.111
+BD-1257,Blk 791A Upper East Coast Road,1256,1,0.111
+BD-1258,Blk 94K Jalan Senang,1257,1,0.111
+BD-1276,Blk 42 Eastwood Road,1275,1,0.111
+BD-1288,Blk 82 Bayshore Road,1287,1,0.111
+BD-1329,Blk 399 Changi Road,1328,1,0.111
+BD-1338,Blk 14 Jalan Rahmat,1337,1,0.111
+BD-1352,Blk 6 Tanah Merah Kechil Link,1351,1,0.111
+BD-1375,Blk 9 Lengkong Lima,1374,1,0.111
+BD-1402,Blk 96 Jalan Senang,1401,1,0.111
+BD-1404,Residential BD-1404,1403,1,0.111
+BD-1418,Blk 94A Jalan Senang,1417,1,0.111
+BD-1504,Blk 21 Jalan Tanah Puteh,1503,1,0.111
+BD-1510,Blk 44 Figaro Street,1509,1,0.111
+BD-1541,Blk 146 Lorong L Telok Kurau,1540,1,0.111
+BD-1680,Blk 71 Siglap Road,1679,1,0.111
+BD-1681,Blk 19 Kew Drive,1680,1,0.111
+BD-1727,Blk 14 Elite Terrace,1726,1,0.111
+BD-1784,Siglap Shopping Centre,1783,1,0.111
+BD-1806,Siglap Neighbourhood Police Post,1805,1,0.111
+BD-1831,Blk 47 Jalan Limau Purut,1830,1,0.111
+BD-1837,Blk 50 Jalan Limau Purut,1836,1,0.111
+BD-1868,Blk 27 Burnfoot Terrace,1867,1,0.111
+BD-1985,Blk 24 Taman Kembangan,1984,1,0.111
+BD-1986,Blk 2 Elite Terrace,1985,1,0.111
+BD-2081,Commercial BD-2081,2080,1,0.111
+BD-2359,Residential BD-2359,2358,1,0.111
+BD-2384,Blk 494 Changi Road,2383,1,0.111
+BD-2505,Blk 41 Jalan Lapang,2504,1,0.111
+BD-2569,Blk 27 Jalan Grisek,2568,1,0.111
+BD-2609,Residential BD-2609,2608,1,0.111
+BD-2736,Blk 23 Lengkong Satu,2735,1,0.111
+BD-2810,Blk 1 Lorong Marzuki,2809,1,0.111
+BD-2958,Residential BD-2958,2957,1,0.111
+BD-3022,Blk 8 Elite Terrace,3021,1,0.111
+BD-3023,Blk 318 Changi Road,3022,1,0.111
+BD-3119,Blk 6 Jalan Masjid,3118,1,0.111
+BD-3508,Blk 2 Taman Selamat,3507,1,0.111
+BD-3540,Blk 34A Jalan Kembangan,3539,1,0.111
+BD-3543,Residential BD-3543,3542,1,0.111
+BD-3608,Blk 78C Lorong Marican,3607,1,0.111
+BD-3850,Blk 4 Elite Park Avenue,3849,1,0.111
+BD-3917,Blk 77 Lengkong Empat,3916,1,0.111
+BD-3982,Blk 10 Lorong 110 Changi,3981,1,0.111

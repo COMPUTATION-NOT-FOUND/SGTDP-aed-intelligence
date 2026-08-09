@@ -1,0 +1,3 @@
+stage,devices,largest_empty_circle_m,load_gini,max_load,median_load,area_spread
+before,469,1078.6,0.719,0.05622,0.00083,35.98
+after,499,1078.6,0.6837,0.02173,0.00086,24.44

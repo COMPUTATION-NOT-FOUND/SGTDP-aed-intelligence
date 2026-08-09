@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Derived artefacts. `data/processed/` is deliberately NOT ignored: the app reads
+# only pre-computed artifacts, so committing them is what lets a reviewer clone
+# the repo and run the tool without first sitting through a ~25-minute pipeline.
+# They stay regenerable from the checksummed raw inputs -- rebuild with
+# `uv run python -m aed_siting.pipeline --all-towns --seed 42`.
+data/interim/
+outputs/
+
+# Raw inputs are committed ONLY if small and licence-compatible; large extracts are not.
+data/raw/*.osm.pbf
+data/raw/*.zip
+
+# Local development tracker — build log, not a deliverable.
+PROGRESS.md
+
+# osmnx's HTTP cache of raw Overpass responses. Written only by the optional
+# `make fetch` re-freeze; the pipeline reads the frozen data/raw/*.parquet
+# instead, so this is 24 MB the repository does not need.
+cache/
+
+.DS_Store
+.env

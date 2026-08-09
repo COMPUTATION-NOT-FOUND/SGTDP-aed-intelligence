@@ -1,0 +1,376 @@
+rank,site_id,site_index,label,label_source,coverage_added_pp,cumulative_coverage,demand_served,new_ground_share,nearest_existing_m,worst_case_closed_m,deciding_key,stable
+1,TP-160,159,Blk 110B Bidadari Park Drive,address_block,0.0,0.4704,0.0072,0.0,125.8,0.0,relief,0.111
+2,TP-112,111,Calvary Baptist Church,osm_name,0.705,0.4775,0.0129,1.0,413.0,424.5,relief,0.778
+3,TP-390,389,Train station TP-390,building_type,0.527,0.4828,0.0,0.667,99.4,215.9,relief,0.778
+4,TP-541,540,Blk 29 Bidadari Park Drive,address_block,0.0,0.4828,0.0,0.0,76.2,0.0,relief,0.0
+5,TP-188,187,Blk 227A Bartley Walk,address_block,0.307,0.4858,0.0,1.0,216.9,216.9,relief,0.0
+6,TP-050,49,The Commerze@Irving,osm_name,0.924,0.4951,0.0107,1.0,395.0,469.0,relief,0.889
+7,TP-420,419,Blk 213A Bidadari Park Drive,address_block,0.404,0.4991,0.0028,1.0,721.6,721.6,demand,0.0
+8,TP-304,303,Commercial on Upper Ajunied Road,address_street,0.356,0.5027,0.0187,1.0,163.3,163.3,demand,0.222
+9,TP-490,489,Sennett Residence,osm_housename,0.0,0.5027,0.0,1.0,194.7,215.9,relief,0.0
+10,TP-611,610,Blk 1 Jalan Wangi,address_block,0.21,0.5048,0.0059,1.0,738.5,738.5,demand,0.111
+11,TP-368,367,Blk 103A Bidadari Park Drive,address_block,0.119,0.506,0.0012,1.0,338.0,338.0,relief,0.0
+12,TP-321,320,Blk 10F Braddell View,address_block,0.171,0.5077,0.0036,1.0,269.2,404.7,relief,0.111
+13,TP-351,350,FGA @ Playfair,osm_housename,0.66,0.5143,0.0053,1.0,191.5,374.8,demand,0.889
+14,TP-163,162,Blk 115 Potong Pasir Avenue 1,address_block,0.0,0.5143,0.0058,0.0,40.2,0.0,relief,0.0
+15,TP-569,568,Blk 27 Bidadari Park Drive,address_block,0.0,0.5143,0.0,0.0,76.2,0.0,relief,0.0
+16,TP-448,447,Sennett Residence,osm_housename,0.0,0.5143,0.0056,1.0,194.7,194.7,relief,0.0
+17,TP-520,519,Blk 109A Bidadari Park Drive,address_block,0.427,0.5185,0.004,1.0,309.6,373.8,demand,0.556
+18,TP-498,497,Blk 70 Potong Pasir Avenue 1,address_block,0.311,0.5217,0.0033,1.0,245.5,245.5,relief,0.0
+19,TP-632,631,Blk 35 Tai Thong Crescent,address_block,0.358,0.5252,0.0,1.0,381.2,381.2,relief,0.0
+20,TP-008,7,HDB Hub,osm_name,0.0,0.5252,0.0,0.0,99.9,0.0,relief,0.0
+21,TP-198,197,Blk 215C Bidadari Park Drive,address_block,1.038,0.5356,0.0104,1.0,362.0,362.0,demand,0.111
+22,TP-391,390,Blk 223A Mount Vernon Road,address_block,0.23,0.5379,0.0051,1.0,231.9,231.9,relief,0.0
+23,TP-524,523,Blk 113B Alkaff Crescent,address_block,1.263,0.5505,0.0,1.0,261.9,261.9,demand,0.0
+24,TP-432,431,Retail TP-432,building_type,0.0,0.5505,0.0043,0.0,240.6,0.0,relief,0.0
+25,TP-417,416,Blk 266A Kim Keat Avenue,address_block,0.525,0.5558,0.0,1.0,154.7,326.1,demand,0.333
+26,TP-450,449,Blk 23 Bidadari Park Drive,address_block,0.0,0.5558,0.0138,0.0,76.2,0.0,relief,0.0
+27,TP-134,133,Blk 201B Woodleigh Link,address_block,0.917,0.565,0.0,1.0,238.7,425.3,relief,0.889
+28,TP-767,766,Blk 44 Jalan Kemajuan,address_block,0.765,0.5726,0.0,0.667,102.8,240.6,demand,0.0
+29,TP-656,655,Residential TP-656,building_type,0.571,0.5783,0.0,1.0,223.3,250.2,demand,0.0
+30,TP-408,407,Blk 66 Potong Pasir Avenue 1,address_block,0.296,0.5813,0.0177,1.0,311.9,311.9,relief,0.0
+31,TP-142,141,School TP-142,building_type,1.06,0.5919,0.0008,1.0,232.5,250.1,demand,0.556
+32,TP-084,83,Blk 102B Bidadari Park Drive,address_block,0.59,0.5978,0.0,1.0,219.8,338.0,demand,0.889
+33,TP-347,346,Blk 114B Alkaff Crescent,address_block,0.562,0.6034,0.0,1.0,261.9,310.0,demand,0.444
+34,TP-451,450,Gnoh Hock Realty Building,osm_name,0.192,0.6053,0.0145,1.0,266.2,266.2,relief,0.111
+35,TP-383,382,Blk 83 Pheng Geck Avenue,address_block,0.123,0.6066,0.0012,1.0,173.0,173.0,demand,0.0
+36,TP-519,518,Blk 9 Playfair Road,address_block,0.0,0.6066,0.0044,1.0,191.5,191.5,relief,0.0
+37,TP-622,621,Blk 161 MacPherson Road,address_block,0.414,0.6107,0.0108,1.0,738.5,738.5,demand,0.556
+38,TP-502,501,Blk 8 Meyappa Chettiar Road,address_block,0.197,0.6127,0.0,0.5,99.4,128.8,relief,0.0
+39,TP-242,241,Blk 271A Kim Keat Avenue,address_block,0.498,0.6176,0.0013,1.0,318.9,318.9,demand,0.0
+40,TP-457,456,Residential TP-457,building_type,0.409,0.6217,0.0,0.5,117.0,244.8,demand,0.333
+41,TP-185,184,Blk 228 Lorong 8 Toa Payoh,address_block,0.323,0.625,0.006,0.333,88.5,126.5,demand,0.0
+42,TP-781,780,Blk 3 Lorong Paya Lebar,address_block,0.264,0.6276,0.0,1.0,223.3,341.6,demand,0.0
+43,TP-195,194,Blk 206A Woodleigh Link,address_block,0.0,0.6276,0.0024,1.0,425.3,425.3,relief,0.0
+44,TP-358,357,Blk 115C Alkaff Crescent,address_block,0.0,0.6276,0.0,1.0,219.8,234.8,relief,0.0
+45,TP-466,465,Apartments TP-466,building_type,0.077,0.6284,0.0022,0.5,292.2,292.2,demand,0.0
+46,TP-317,316,Masjid Alkaff Upper Serangoon,osm_name,0.716,0.6355,0.0064,1.0,355.7,355.7,demand,0.667
+47,TP-002,1,School TP-002,building_type,0.0,0.6355,0.0,1.0,250.1,250.1,relief,0.222
+48,TP-039,38,Blk 190 Lorong 6 Toa Payoh,address_block,0.0,0.6355,0.0,0.0,105.1,0.0,relief,0.0
+49,TP-056,55,School TP-056,building_type,0.0,0.6355,0.0098,1.0,250.1,250.1,relief,0.0
+50,TP-345,344,Blk 233C Upper Aljunied Road,address_block,0.225,0.6378,0.0078,1.0,415.5,415.5,relief,0.0
+51,TP-429,428,Park Colonial,osm_housename,0.09,0.6387,0.0009,0.5,244.7,244.7,relief,0.0
+52,TP-121,120,Blk 206B Woodleigh Link,address_block,0.693,0.6456,0.0,1.0,561.5,561.5,demand,0.667
+53,TP-007,6,The Poiz Mall,osm_name,0.0,0.6456,0.0034,0.0,99.4,0.0,relief,0.111
+54,TP-370,369,Train station TP-370,building_type,0.0,0.6456,0.0089,0.0,99.4,0.0,relief,0.0
+55,TP-004,3,Maris Stella High School,osm_name,0.0,0.6456,0.0095,0.0,66.5,0.0,relief,0.0
+56,TP-460,459,Blk 113A Alkaff Crescent,address_block,0.0,0.6456,0.0,1.0,261.9,261.9,relief,0.0
+57,TP-005,4,Toa Payoh Mall,osm_name,0.0,0.6456,0.0082,0.0,96.2,0.0,relief,0.0
+58,TP-612,611,Blk 147 Upper Paya Lebar Road,address_block,0.0,0.6456,0.0,1.0,341.6,341.6,relief,0.0
+59,TP-165,164,ERA APAC Centre,osm_name,0.0,0.6456,0.0081,0.0,99.9,0.0,relief,0.111
+60,TP-514,513,Residential TP-514,building_type,0.0,0.6456,0.0012,1.0,244.8,244.8,relief,0.0
+61,TP-748,747,Blk 2 Jalan Kemajuan,address_block,0.0,0.6456,0.0,1.0,240.6,240.6,relief,0.111
+62,TP-272,271,Blk 406A Braddell Rise,address_block,0.564,0.6513,0.0,1.0,177.1,196.1,demand,0.556
+63,TP-037,36,Alkaff CourtView,osm_name,0.0,0.6513,0.0059,1.0,180.6,180.6,relief,0.111
+64,TP-655,654,Blk 187 MacPherson Road,address_block,0.383,0.6551,0.0072,1.0,590.2,590.2,demand,0.111
+65,TP-013,12,Blk 85 Lorong 4 Toa Payoh,address_block,0.0,0.6551,0.0,0.0,58.4,0.0,relief,0.0
+66,TP-020,19,Kim Keat Palm Market and Food Centre,osm_name,0.0,0.6551,0.0055,0.0,88.1,0.0,relief,0.111
+67,TP-410,409,Blk 85B Lorong 4 Toa Payoh,address_block,0.0,0.6551,0.0072,0.0,58.4,0.0,relief,0.0
+68,TP-500,499,Blk 72 Lorong 5 Toa Payoh,address_block,0.0,0.6551,0.0032,0.0,53.9,0.0,relief,0.0
+69,TP-581,580,Wisdom Block,osm_name,0.183,0.6569,0.0104,0.5,183.8,183.8,demand,0.111
+70,TP-213,212,Blk 20 Upper Aljunied Lane,address_block,0.0,0.6569,0.0061,0.0,92.0,0.0,relief,0.0
+71,TP-006,5,Singapore Press Holdings,osm_name,0.685,0.6638,0.0082,1.0,149.3,149.3,demand,0.556
+72,TP-009,8,Gantral Mall @ MacPherson,osm_name,0.665,0.6704,0.0051,1.0,368.1,522.5,demand,1.0
+73,TP-550,549,Blk 6 Tai Thong Crescent,address_block,0.497,0.6754,0.0,1.0,488.8,488.8,demand,0.0
+74,TP-683,682,Blk 87 Upper Paya Lebar Road,address_block,0.366,0.679,0.0031,1.0,469.0,469.0,demand,0.0
+75,TP-036,35,Blk 183 Lorong 6 Toa Payoh,address_block,0.0,0.679,0.0065,0.0,105.1,0.0,relief,0.111
+76,TP-275,274,Blk 201C Woodleigh Link,address_block,0.0,0.679,0.0068,1.0,238.7,238.7,relief,0.0
+77,TP-141,140,Blk 199 Toa Payoh North,address_block,0.0,0.679,0.0077,0.0,37.0,0.0,relief,0.0
+78,TP-449,448,Blk 1 Lorong 5 Toa Payoh,address_block,0.371,0.6828,0.0037,1.0,171.3,171.3,demand,0.0
+79,TP-265,264,8@Woodleigh,osm_housename,0.119,0.684,0.0037,0.5,88.8,214.3,demand,0.0
+80,TP-184,183,Blk 227 Lorong 8 Toa Payoh,address_block,0.0,0.684,0.0036,0.0,104.9,0.0,relief,0.0
+81,TP-344,343,Blk 114A Alkaff Crescent,address_block,0.0,0.684,0.0064,1.0,261.9,261.9,relief,0.111
+82,TP-016,15,Euro-Asia Park,osm_housename,0.279,0.6867,0.0078,1.0,163.3,167.0,demand,0.222
+83,TP-046,45,MacPherson Mall,osm_name,0.252,0.6893,0.0062,1.0,296.3,296.3,demand,0.111
+84,TP-028,27,Blk 115B Alkaff Crescent,address_block,0.0,0.6893,0.0063,1.0,219.8,219.8,relief,0.111
+85,TP-224,223,Blk 108A Bidadari Park Drive,address_block,0.0,0.6893,0.0,1.0,310.0,373.8,relief,0.333
+86,TP-363,362,Blk 207A Woodleigh Link,address_block,0.0,0.6893,0.0032,1.0,385.5,385.5,relief,0.0
+87,TP-245,244,Blk 273A Kim Keat Avenue,address_block,0.0,0.6893,0.0037,1.0,318.9,318.9,relief,0.111
+88,TP-297,296,Hospital TP-297,building_type,0.0,0.6893,0.0041,0.5,78.6,266.2,relief,0.0
+89,TP-516,515,Intero,osm_housename,0.176,0.691,0.0,0.667,110.1,297.2,demand,0.222
+90,TP-116,115,Bishan Toa Payoh Town Council,osm_name,0.0,0.691,0.0,0.0,59.9,0.0,relief,0.0
+91,TP-592,591,Leicester Suites,osm_housename,0.0,0.691,0.0018,0.5,110.1,297.2,relief,0.0
+92,TP-190,189,Blk 107A Bidadari Park Drive,address_block,0.0,0.691,0.0,1.0,310.0,310.0,relief,0.111
+93,TP-226,225,Blk 206C Woodleigh Link,address_block,0.0,0.691,0.0037,1.0,561.5,561.5,relief,0.0
+94,TP-025,24,Amphasis Design Pte Ltd,osm_name,0.0,0.691,0.0207,0.0,76.4,0.0,relief,0.0
+95,TP-234,233,Blk 37 Lorong 5 Toa Payoh,address_block,0.0,0.691,0.0,0.0,92.6,0.0,relief,0.0
+96,TP-352,351,Blk 107B Bidadari Park Drive,address_block,0.0,0.691,0.0056,1.0,310.0,310.0,relief,0.0
+97,TP-717,716,Blk 16 Lorong Paya Lebar,address_block,0.0,0.691,0.0,1.0,223.3,223.3,relief,0.0
+98,TP-034,33,Avon Park,osm_housename,0.298,0.694,0.0055,1.0,156.0,156.0,demand,0.0
+99,TP-749,748,Blk 6 Jalan Kemajuan,address_block,0.0,0.694,0.0,1.0,240.6,240.6,relief,0.0
+100,TP-750,749,Blk 8 Jalan Kemajuan,address_block,0.0,0.694,0.0,1.0,240.6,240.6,relief,0.0
+101,TP-751,750,Blk 10 Jalan Kemajuan,address_block,0.0,0.694,0.0054,1.0,240.6,240.6,relief,0.0
+102,TP-108,107,Blk 1 Upper Aljunied Lane,address_block,0.0,0.694,0.0053,0.0,62.6,0.0,relief,0.0
+103,TP-763,762,Blk 46 Jalan Kemajuan,address_block,0.0,0.694,0.0022,0.5,102.8,142.7,relief,0.0
+104,TP-021,20,School TP-021,building_type,0.0,0.694,0.0,1.0,177.1,177.1,relief,0.111
+105,TP-011,10,School TP-011,building_type,0.498,0.699,0.0,0.333,134.8,134.8,demand,0.444
+106,TP-067,66,Blk 1 Lorong 7 Toa Payoh,address_block,0.157,0.7005,0.0038,1.0,128.4,128.4,demand,0.0
+107,TP-401,400,Blk 25 Lorong 3 Toa Payoh,address_block,0.0,0.7005,0.0023,0.5,134.8,134.8,relief,0.111
+108,TP-407,406,Blk 23 Lorong 3 Toa Payoh,address_block,0.0,0.7005,0.005,1.0,134.8,134.8,relief,0.0
+109,TP-488,487,Blk 406 Braddell Rise,address_block,0.0,0.7005,0.0019,1.0,196.1,196.1,relief,0.0
+110,TP-100,99,Blk 3 Lorong 7 Toa Payoh,address_block,0.188,0.7024,0.0019,1.0,136.9,136.9,demand,0.0
+111,TP-274,273,Masjid Muhajirin,osm_name,0.478,0.7072,0.0048,1.0,175.9,181.3,demand,0.556
+112,TP-042,41,Apartments TP-042,building_type,0.0,0.7072,0.0031,0.0,60.0,0.0,relief,0.0
+113,TP-677,676,Residential TP-677,building_type,0.0,0.7072,0.0,1.0,250.2,250.2,relief,0.0
+114,TP-703,702,Blk 9 Jalan Bunga Rampai,address_block,0.0,0.7072,0.0041,1.0,250.2,250.2,relief,0.0
+115,TP-031,30,Blk 623 Lorong 5 Toa Payoh,address_block,0.059,0.7078,0.0139,0.5,58.5,145.2,demand,0.0
+116,TP-212,211,Blk 253 Kim Keat Avenue,address_block,0.0,0.7078,0.0047,0.0,53.4,0.0,relief,0.0
+117,TP-167,166,Guan Yin Dian,osm_name,0.447,0.7123,0.0,0.333,152.1,152.1,demand,0.444
+118,TP-072,71,Blk 119A Alkaff Crescent,address_block,0.236,0.7146,0.0049,0.5,102.5,258.1,demand,0.0
+119,TP-365,364,Blk 147 Lorong 2 Toa Payoh,address_block,0.0,0.7146,0.0,0.0,81.3,0.0,relief,0.0
+120,TP-469,468,Tian Wang Dian,osm_name,0.0,0.7146,0.0045,1.0,152.1,152.1,relief,0.111
+121,TP-364,363,Blk 153 Lorong 2 Toa Payoh,address_block,0.328,0.7179,0.0,0.333,104.3,153.3,demand,0.0
+122,TP-235,234,Elementary School Gabriel Block,osm_name,0.165,0.7196,0.0017,1.0,200.5,200.5,relief,0.333
+123,TP-038,37,Blk 118A Alkaff Crescent,address_block,0.0,0.7196,0.0024,1.0,258.1,258.1,relief,0.0
+124,TP-484,483,Blk 230 Lorong 8 Toa Payoh,address_block,0.0,0.7196,0.0001,0.0,88.5,0.0,relief,0.0
+125,TP-459,458,Blk 105A Bidadari Park Drive,address_block,0.06,0.7202,0.0,1.0,199.8,272.3,demand,0.111
+126,TP-504,503,Residential TP-504,building_type,0.0,0.7202,0.0041,1.0,244.8,244.8,relief,0.111
+127,TP-202,201,Blk 108 Lorong 1 Toa Payoh,address_block,0.0,0.7202,0.0017,0.0,90.6,0.0,relief,0.0
+128,TP-560,559,Blk 45 MacPherson Road,address_block,0.0,0.7202,0.004,1.0,381.2,381.2,relief,0.0
+129,TP-553,552,Train station TP-553,building_type,0.025,0.7204,0.0025,1.0,160.8,160.8,demand,0.0
+130,TP-019,18,School TP-019,building_type,0.0,0.7204,0.0039,0.0,100.5,0.0,relief,0.111
+131,TP-281,280,Blk 150 Lorong 1 Toa Payoh,address_block,0.0,0.7204,0.0017,0.5,110.4,153.3,relief,0.0
+132,TP-356,355,Park Colonial,osm_housename,0.0,0.7204,0.0063,0.333,244.7,244.7,relief,0.0
+133,TP-424,423,Blk 152 Lorong 2 Toa Payoh,address_block,0.0,0.7204,0.0071,0.0,81.3,0.0,relief,0.0
+134,TP-507,506,Blk 60 Potong Pasir Avenue 1,address_block,0.0,0.7204,0.0,0.0,59.2,0.0,relief,0.0
+135,TP-552,551,Blk 76 Potong Pasir Avenue 1,address_block,0.0,0.7204,0.0038,0.0,59.2,0.0,relief,0.0
+136,TP-609,608,Blk 21 Harper Road,address_block,0.0,0.7204,0.0022,1.0,374.8,522.5,relief,0.0
+137,TP-269,268,Blk 401A Toa Payoh Lorong 1,address_block,0.156,0.722,0.0,0.5,226.4,226.4,demand,0.111
+138,TP-060,59,Blk 38 Lorong 5 Toa Payoh,address_block,0.0,0.722,0.0038,0.0,98.4,0.0,relief,0.111
+139,TP-232,231,Blk 36 Lorong 5 Toa Payoh,address_block,0.0,0.722,0.0046,0.0,98.4,0.0,relief,0.0
+140,TP-251,250,Blk 249 Kim Keat Link,address_block,0.0,0.722,0.0,0.0,50.8,0.0,relief,0.0
+141,TP-465,464,Blk 245 Kim Keat Link,address_block,0.0,0.722,0.0038,0.0,50.8,0.0,relief,0.0
+142,TP-745,744,School TP-745,building_type,0.0,0.722,0.0038,1.0,177.1,177.1,relief,0.0
+143,TP-305,304,Blk 213C Bidadari Park Drive,address_block,0.366,0.7256,0.0024,1.0,538.4,538.4,demand,0.0
+144,TP-043,42,Potong Pasir Community Club,osm_name,0.0,0.7256,0.0036,0.0,34.0,0.0,relief,0.0
+145,TP-483,482,Blk 229 Lorong 8 Toa Payoh,address_block,0.0,0.7256,0.0037,0.0,88.5,0.0,relief,0.0
+146,TP-249,248,Blk 117 Lorong 1 Toa Payoh,address_block,0.0,0.7256,0.0036,0.0,106.4,0.0,relief,0.111
+147,TP-600,599,Blk 107 Upper Paya Lebar Road,address_block,0.0,0.7256,0.0037,1.0,365.1,365.1,relief,0.222
+148,TP-633,632,Blk 33 Tai Thong Crescent,address_block,0.0,0.7256,0.0036,1.0,381.2,381.2,relief,0.0
+149,TP-468,467,Apartments TP-468,building_type,0.038,0.726,0.0004,1.0,130.1,130.1,demand,0.0
+150,TP-015,14,The Venue Shoppes,osm_name,0.0,0.726,0.0,1.0,488.8,488.8,relief,0.889
+151,TP-215,214,Blk 4 Lorong 7 Toa Payoh,address_block,0.0,0.726,0.0035,0.0,18.7,0.0,relief,0.0
+152,TP-267,266,Blk 142 Lorong 2 Toa Payoh,address_block,0.0,0.726,0.0034,0.0,50.4,0.0,relief,0.0
+153,TP-340,339,Blk 105B Bidadari Park Drive,address_block,0.0,0.726,0.0034,1.0,199.8,199.8,relief,0.0
+154,TP-518,517,Blk 12 Tai Thong Crescent,address_block,0.0,0.726,0.0,1.0,488.8,488.8,relief,0.0
+155,TP-532,531,Blk 14 Tai Thong Crescent,address_block,0.0,0.726,0.0035,1.0,488.8,488.8,relief,0.0
+156,TP-023,22,Toa Payoh Lorong 8 Market,osm_name,0.335,0.7294,0.0,0.5,131.2,131.2,demand,0.0
+157,TP-173,172,Blk 212 Lorong 8 Toa Payoh,address_block,0.0,0.7294,0.0,0.333,131.2,131.2,relief,0.0
+158,TP-282,281,Blk 211 Lorong 8 Toa Payoh,address_block,0.0,0.7294,0.0034,1.0,131.2,131.2,relief,0.0
+159,TP-638,637,Residential TP-638,building_type,0.0,0.7294,0.0,1.0,223.3,223.3,relief,0.0
+160,TP-719,718,Blk 22 Lorong Paya Lebar,address_block,0.0,0.7294,0.0034,1.0,223.3,223.3,relief,0.0
+161,TP-374,373,Blk 215A Bidadari Park Drive,address_block,0.326,0.7326,0.0014,1.0,395.8,395.8,demand,0.111
+162,TP-094,93,Blk 808 Thomson Road,address_block,0.0,0.7326,0.0018,0.0,98.9,0.0,relief,0.0
+163,TP-157,156,Blk 126 Lorong 1 Toa Payoh,address_block,0.0,0.7326,0.0033,0.0,59.9,0.0,relief,0.0
+164,TP-074,73,Blk 178 Toa Payoh Central,address_block,0.02,0.7328,0.0,0.333,117.5,172.6,demand,0.222
+165,TP-266,265,Blk 156 Lorong 1 Toa Payoh,address_block,0.0,0.7328,0.0,0.5,29.0,153.3,relief,0.0
+166,TP-323,322,Blk 226B Bartley Walk,address_block,0.0,0.7328,0.0031,1.0,216.9,216.9,relief,0.111
+167,TP-373,372,Blk 913 Lorong 1 Toa Payoh,address_block,0.0,0.7328,0.0033,1.0,153.3,153.3,relief,0.0
+168,TP-427,426,Sennett Residence,osm_housename,0.0,0.7328,0.0033,1.0,215.9,215.9,relief,0.0
+169,TP-126,125,Blk 269A Toa Payoh East,address_block,0.32,0.736,0.0032,1.0,236.7,236.7,demand,0.0
+170,TP-080,79,Blk 103 Potong Pasir Avenue 1,address_block,0.0,0.736,0.0,0.0,94.9,0.0,relief,0.0
+171,TP-082,81,Blk 170 Lorong 1 Toa Payoh,address_block,0.0,0.736,0.0032,0.0,81.0,0.0,relief,0.0
+172,TP-090,89,School TP-090,building_type,0.0,0.736,0.0031,0.0,46.5,0.0,relief,0.0
+173,TP-102,101,Blk 259 Kim Keat Avenue,address_block,0.0,0.736,0.0034,0.0,105.3,0.0,relief,0.0
+174,TP-172,171,Blk 95 Lorong 4 Toa Payoh,address_block,0.0,0.736,0.0,0.0,97.8,0.0,relief,0.0
+175,TP-208,207,Blk 91 Lorong 3 Toa Payoh,address_block,0.0,0.736,0.0027,0.0,97.8,0.0,relief,0.0
+176,TP-241,240,Blk 96 Lorong 3 Toa Payoh,address_block,0.0,0.736,0.0032,0.0,97.8,0.0,relief,0.0
+177,TP-289,288,Blk 116 Potong Pasir Avenue 1,address_block,0.0,0.736,0.008,0.0,77.6,0.0,relief,0.0
+178,TP-333,332,Blk 122 Potong Pasir Avenue 1,address_block,0.0,0.736,0.0,0.0,43.5,0.0,relief,0.0
+179,TP-566,565,Blk 123 Potong Pasir Avenue 1,address_block,0.0,0.736,0.0,0.0,43.5,0.0,relief,0.0
+180,TP-568,567,Blk 128 Potong Pasir Avenue 1,address_block,0.0,0.736,0.0032,0.0,43.5,0.0,relief,0.0
+181,TP-433,432,Apartments TP-433,building_type,0.263,0.7387,0.0026,1.0,308.2,308.2,demand,0.0
+182,TP-030,29,Blk 177 Toa Payoh Central,address_block,0.0,0.7387,0.0,0.0,120.8,0.0,relief,0.0
+183,TP-101,100,Toa Payoh Central Horizon,osm_housename,0.0,0.7387,0.0067,0.0,120.8,0.0,relief,0.0
+184,TP-196,195,Blk 272B Kim Keat Avenue,address_block,0.0,0.7387,0.0,1.0,326.1,326.1,relief,0.444
+185,TP-223,222,Blk 137 Potong Pasir Avenue 3,address_block,0.0,0.7387,0.0031,0.0,44.6,0.0,relief,0.0
+186,TP-227,226,Blk 21 Upper Aljunied Lane,address_block,0.0,0.7387,0.0042,0.0,102.8,0.0,relief,0.0
+187,TP-319,318,Blk 265A Kim Keat Avenue,address_block,0.0,0.7387,0.0031,1.0,326.1,326.1,relief,0.0
+188,TP-113,112,School TP-113,building_type,0.3,0.7417,0.0058,0.333,17.4,175.1,demand,0.222
+189,TP-294,293,Blk 224C Mount Vernon Road,address_block,0.3,0.7447,0.0,1.0,171.6,171.6,demand,0.0
+190,TP-091,90,Blk 186 Toa Payoh Central,address_block,0.0,0.7447,0.001,0.0,117.5,0.0,relief,0.0
+191,TP-194,193,Blk 185 Lorong 6 Toa Payoh,address_block,0.0,0.7447,0.003,0.0,117.5,0.0,relief,0.0
+192,TP-299,298,Blk 222B Mount Vernon Road,address_block,0.0,0.7447,0.003,1.0,171.6,171.6,relief,0.0
+193,TP-434,433,Blk 39B Lorong 6 Toa Payoh,address_block,0.0,0.7447,0.0001,1.0,175.1,175.1,relief,0.0
+194,TP-476,475,Blk 39A Lorong 6 Toa Payoh,address_block,0.0,0.7447,0.004,1.0,175.1,175.1,relief,0.0
+195,TP-092,91,Toa Payoh Central Community Club,osm_name,0.0,0.7447,0.0,0.0,58.3,0.0,relief,0.0
+196,TP-128,127,Blk 232 Lorong 8 Toa Payoh,address_block,0.0,0.7447,0.0029,0.0,71.4,0.0,relief,0.0
+197,TP-335,334,Blk 80B Lorong 4 Toa Payoh,address_block,0.0,0.7447,0.0056,0.0,58.3,0.0,relief,0.0
+198,TP-491,490,School TP-491,building_type,0.283,0.7475,0.0023,1.0,144.2,144.2,demand,0.0
+199,TP-791,790,Blk 157 Lorong 1 Toa Payoh,address_block,0.0,0.7475,0.0029,0.0,29.0,0.0,relief,0.0
+200,TP-085,84,Blk 13 Lorong 7 Toa Payoh,address_block,0.0,0.7475,0.0056,0.0,68.9,0.0,relief,0.0
+201,TP-158,157,Blk 172A Lorong 1 Toa Payoh,address_block,0.0,0.7475,0.0028,0.0,38.4,0.0,relief,0.0
+202,TP-284,283,Blk 234 Lorong 8 Toa Payoh,address_block,0.0,0.7475,0.0028,0.0,104.9,0.0,relief,0.0
+203,TP-129,128,Blk 231 Lorong 8 Toa Payoh,address_block,0.0,0.7475,0.008,0.0,118.3,0.0,relief,0.0
+204,TP-153,152,600 @Toa Payoh,osm_name,0.0,0.7475,0.0027,0.0,75.6,0.0,relief,0.0
+205,TP-327,326,8@Woodleigh,osm_housename,0.144,0.7489,0.0,1.0,214.3,269.4,demand,0.0
+206,TP-462,461,Blk 3 Lorong 5 Toa Payoh,address_block,0.259,0.7515,0.002,1.0,179.9,179.9,demand,0.111
+207,TP-555,554,Solomon Block,osm_name,0.263,0.7542,0.0046,1.0,183.8,183.8,demand,0.333
+208,TP-103,102,Elementary School Raphael Block,osm_name,0.087,0.755,0.0033,1.0,302.1,302.1,demand,0.0
+209,TP-603,602,Blk 145 Upper Paya Lebar Road,address_block,0.0,0.755,0.0026,1.0,341.6,341.6,relief,0.0
+210,TP-273,272,Oasis Garden,osm_housename,0.254,0.7576,0.0074,0.5,183.4,183.4,demand,0.0
+211,TP-512,511,Residential TP-512,building_type,0.257,0.7601,0.0026,0.5,90.8,258.1,demand,0.0
+212,TP-026,25,School TP-026,building_type,0.252,0.7627,0.0019,1.0,215.3,215.3,demand,0.111
+213,TP-032,31,Blk 192 Lorong 4 Toa Payoh,address_block,0.0,0.7627,0.0025,0.0,46.8,0.0,relief,0.0
+214,TP-154,153,Blk 212B Bidadari Park Drive,address_block,0.0,0.7627,0.0,1.0,422.1,611.8,relief,0.444
+215,TP-268,267,Blk 257 Kim Keat Avenue,address_block,0.0,0.7627,0.0025,0.0,86.1,0.0,relief,0.0
+216,TP-058,57,Toa Payoh Polyclinic,osm_name,0.0,0.7627,0.0032,0.0,97.6,0.0,relief,0.0
+217,TP-164,163,Blk 110A Bidadari Park Drive,address_block,0.0,0.7627,0.0024,1.0,309.6,309.6,relief,0.0
+218,TP-221,220,Blk 9 Joo Seng Road,address_block,0.0,0.7627,0.0025,0.0,44.5,0.0,relief,0.0
+219,TP-257,256,Blk 216C Bidadari Park Drive,address_block,0.0,0.7627,0.0025,0.0,97.6,0.0,relief,0.0
+220,TP-409,408,Blk 85C Lorong 4 Toa Payoh,address_block,0.0,0.7627,0.0025,0.0,68.3,0.0,relief,0.0
+221,TP-521,520,Blk 109B Bidadari Park Drive,address_block,0.0,0.7627,0.0025,1.0,309.6,309.6,relief,0.0
+222,TP-580,579,Train station TP-580,building_type,0.1,0.7637,0.0,1.0,173.5,173.5,demand,0.0
+223,TP-044,43,Blk 271B Kim Keat Avenue,address_block,0.232,0.766,0.0096,1.0,262.3,262.3,demand,0.111
+224,TP-387,386,Blk 99C Lorong 2 Toa Payoh,address_block,0.0,0.766,0.0,0.0,63.6,0.0,relief,0.0
+225,TP-428,427,Blk 99B Lorong 2 Toa Payoh,address_block,0.0,0.766,0.0024,0.0,63.6,0.0,relief,0.0
+226,TP-455,454,Blk 14B Lorong 7 Toa Payoh,address_block,0.0,0.766,0.0024,0.0,84.9,0.0,relief,0.0
+227,TP-452,451,Blk 7 Lorong 7 Toa Payoh,address_block,0.0,0.766,0.0023,0.0,76.5,0.0,relief,0.0
+228,TP-699,698,Blk 7 Jalan Bunga Rampai,address_block,0.0,0.766,0.0,1.0,250.2,250.2,relief,0.0
+229,TP-700,699,Blk 5 Jalan Bunga Rampai,address_block,0.0,0.766,0.0,1.0,250.2,250.2,relief,0.0
+230,TP-701,700,Blk 1B Jalan Bunga Rampai,address_block,0.0,0.766,0.0,1.0,250.2,250.2,relief,0.0
+231,TP-702,701,Blk 1 Jalan Bunga Rampai,address_block,0.0,0.766,0.0,1.0,250.2,250.2,relief,0.0
+232,TP-705,704,Blk 1A Jalan Bunga Rampai,address_block,0.0,0.766,0.0023,1.0,250.2,250.2,relief,0.0
+233,TP-547,546,Toa Payoh Apex,osm_housename,0.221,0.7682,0.001,1.0,152.5,184.2,demand,0.111
+234,TP-197,196,Blk 107 Lorong 1 Toa Payoh,address_block,0.0,0.7682,0.0,0.0,109.3,0.0,relief,0.0
+235,TP-206,205,Blk 115 Lorong 1 Toa Payoh,address_block,0.0,0.7682,0.0022,0.0,117.8,0.0,relief,0.0
+236,TP-441,440,Blk 139B Lorong 1A Toa Payoh,address_block,0.0,0.7682,0.0029,0.0,42.5,0.0,relief,0.0
+237,TP-471,470,Blk 130A Lorong 1 Toa Payoh,address_block,0.0,0.7682,0.0022,0.0,104.3,0.0,relief,0.0
+238,TP-623,622,Train station TP-623,building_type,0.0,0.7682,0.0022,0.0,109.3,0.0,relief,0.0
+239,TP-220,219,Blk 57 Lorong 5 Toa Payoh,address_block,0.0,0.7682,0.0067,0.0,32.0,0.0,relief,0.0
+240,TP-718,717,Blk 14 Lorong Paya Lebar,address_block,0.0,0.7682,0.0022,1.0,223.3,223.3,relief,0.0
+241,TP-608,607,Blk 457 MacPherson Road,address_block,0.218,0.7704,0.0022,1.0,319.9,319.9,demand,0.0
+242,TP-022,21,School TP-022,building_type,0.0,0.7704,0.0022,0.0,74.5,0.0,relief,0.0
+243,TP-083,82,Blk 256 Kim Keat Avenue,address_block,0.0,0.7704,0.0021,0.5,154.7,154.7,relief,0.0
+244,TP-262,261,Blk 141 Lorong 2 Toa Payoh,address_block,0.0,0.7704,0.0,0.0,83.5,0.0,relief,0.0
+245,TP-285,284,Blk 235 Lorong 8 Toa Payoh,address_block,0.0,0.7704,0.0022,0.0,76.4,0.0,relief,0.0
+246,TP-493,492,Blk 16 Joo Seng Road,address_block,0.0,0.7704,0.0024,0.0,71.8,0.0,relief,0.0
+247,TP-494,493,Blk 14 Joo Seng Road,address_block,0.0,0.7704,0.0021,0.0,71.8,0.0,relief,0.0
+248,TP-564,563,Blk 25 Meyappa Chettiar Road,address_block,0.0,0.7704,0.0,0.0,110.1,0.0,relief,0.0
+249,TP-587,586,Platinum Edge,osm_housename,0.0,0.7704,0.0022,0.0,110.1,0.0,relief,0.0
+250,TP-639,638,Residential TP-639,building_type,0.207,0.7724,0.0,1.0,223.3,412.5,demand,0.0
+251,TP-325,324,Blk 103 Lorong 1 Toa Payoh,address_block,0.0,0.7724,0.0,0.0,83.5,0.0,relief,0.0
+252,TP-384,383,Blk 101B Lorong 2 Toa Payoh,address_block,0.0,0.7724,0.0035,0.0,83.5,0.0,relief,0.0
+253,TP-497,496,Blk 12 Joo Seng Road,address_block,0.0,0.7724,0.0021,0.0,60.0,0.0,relief,0.0
+254,TP-324,323,Seventh Day Adventist Community Church,osm_name,0.148,0.7739,0.0006,1.0,251.5,251.5,demand,0.0
+255,TP-040,39,Blk 104A Bidadari Park Drive,address_block,0.0,0.7739,0.0014,1.0,269.4,272.3,relief,0.111
+256,TP-114,113,Blk 105 Potong Pasir Avenue 1,address_block,0.0,0.7739,0.0,0.0,71.8,0.0,relief,0.0
+257,TP-218,217,Blk 63 Lorong 5 Toa Payoh,address_block,0.0,0.7739,0.0021,0.0,52.9,0.0,relief,0.0
+258,TP-338,337,Blk 107 Potong Pasir Avenue 1,address_block,0.0,0.7739,0.0036,0.0,71.8,0.0,relief,0.0
+259,TP-472,471,Blk 130B Lorong 1 Toa Payoh,address_block,0.0,0.7739,0.0,0.5,95.1,200.0,relief,0.0
+260,TP-482,481,Blk 131B Toa Payoh Rise,address_block,0.0,0.7739,0.0,0.0,95.1,0.0,relief,0.0
+261,TP-586,585,Blk 131C Toa Payoh Rise,address_block,0.0,0.7739,0.002,0.0,95.1,0.0,relief,0.0
+262,TP-642,641,Blk 189 Upper Paya Lebar Road,address_block,0.0,0.7739,0.0,1.0,412.5,412.5,relief,0.0
+263,TP-643,642,Blk 183 Upper Paya Lebar Road,address_block,0.0,0.7739,0.0,1.0,412.5,412.5,relief,0.0
+264,TP-644,643,Blk 181 Upper Paya Lebar Road,address_block,0.0,0.7739,0.0,1.0,412.5,412.5,relief,0.0
+265,TP-665,664,Blk 177 Upper Paya Lebar Road,address_block,0.0,0.7739,0.0021,1.0,412.5,412.5,relief,0.0
+266,TP-035,34,Blk 205 Toa Payoh North,address_block,0.0,0.7739,0.002,0.0,63.0,0.0,relief,0.0
+267,TP-253,252,Blk 3 Upper Aljunied Lane,address_block,0.0,0.7739,0.002,0.0,36.7,0.0,relief,0.0
+268,TP-326,325,Blk 206D Woodleigh Link,address_block,0.195,0.7759,0.0,1.0,561.5,704.4,demand,0.222
+269,TP-069,68,Blk 520 Lorong 6 Toa Payoh,address_block,0.0,0.7759,0.002,0.0,54.9,0.0,relief,0.0
+270,TP-088,87,Blk 104 Potong Pasir Avenue 1,address_block,0.0,0.7759,0.0,0.0,109.9,0.0,relief,0.0
+271,TP-118,117,Blk 102 Potong Pasir Avenue 1,address_block,0.0,0.7759,0.002,0.0,109.9,0.0,relief,0.0
+272,TP-252,251,Blk 93 Lorong 4 Toa Payoh,address_block,0.0,0.7759,0.002,0.0,71.6,0.0,relief,0.0
+273,TP-413,412,Blk 9 Meyappa Chettiar Road,address_block,0.0,0.7759,0.002,1.0,128.8,128.8,relief,0.0
+274,TP-382,381,Blk 101 Potong Pasir Avenue 1,address_block,0.0,0.7759,0.0019,0.0,72.8,0.0,relief,0.0
+275,TP-517,516,Toa Payoh Apex,osm_housename,0.0,0.7759,0.0,1.0,152.5,152.5,relief,0.0
+276,TP-544,543,Toa Payoh Apex,osm_housename,0.0,0.7759,0.0019,1.0,152.5,152.5,relief,0.0
+277,TP-093,92,Blk 216A Bidadari Park Drive,address_block,0.0,0.7759,0.0019,0.5,210.3,210.3,relief,0.0
+278,TP-295,294,Blk 54 Lorong 4 Toa Payoh,address_block,0.0,0.7759,0.0019,0.0,39.3,0.0,relief,0.0
+279,TP-029,28,School TP-029,building_type,0.178,0.7777,0.0018,1.0,384.1,384.1,demand,0.0
+280,TP-174,173,Blk 233A Upper Aljunied Road,address_block,0.179,0.7795,0.0,1.0,289.7,415.5,demand,0.667
+281,TP-176,175,Blk 143 Lorong 1 Toa Payoh,address_block,0.0,0.7795,0.0072,0.0,75.7,0.0,relief,0.0
+282,TP-181,180,Blk 119C Alkaff Crescent,address_block,0.0,0.7795,0.0018,1.0,289.7,289.7,relief,0.0
+283,TP-438,437,Blk 106B Bidadari Park Drive,address_block,0.0,0.7795,0.0018,1.0,373.8,373.8,relief,0.0
+284,TP-048,47,Apartments TP-048,building_type,0.174,0.7812,0.0044,0.5,172.2,172.2,demand,0.0
+285,TP-106,105,Blk 206 Toa Payoh North,address_block,0.17,0.7829,0.0,0.333,90.6,178.7,demand,0.0
+286,TP-135,134,Blk 700 Lorong 1 Toa Payoh,address_block,0.172,0.7846,0.0035,0.5,156.1,156.1,demand,0.111
+287,TP-582,581,Train station TP-582,building_type,0.17,0.7863,0.0017,1.0,563.7,563.7,demand,0.111
+288,TP-170,169,Blk 66 Lorong 4 Toa Payoh,address_block,0.0,0.7863,0.0017,0.0,99.2,0.0,relief,0.0
+289,TP-119,118,Blk 70 Lorong 4 Toa Payoh,address_block,0.0,0.7863,0.0017,0.0,64.0,0.0,relief,0.0
+290,TP-337,336,Blk 239 Lorong 1 Toa Payoh,address_block,0.0,0.7863,0.0065,0.0,36.1,0.0,relief,0.0
+291,TP-578,577,Toa Payoh Food Centre 2,osm_name,0.0,0.7863,0.0044,1.0,178.7,178.7,relief,0.0
+292,TP-061,60,Blk 109 Potong Pasir Avenue 1,address_block,0.0,0.7863,0.0016,0.0,65.9,0.0,relief,0.0
+293,TP-065,64,Blk 202 Woodleigh Link,address_block,0.159,0.7879,0.0016,1.0,204.3,204.3,demand,0.0
+294,TP-291,290,Blk 405A Braddell Rise,address_block,0.156,0.7895,0.0054,1.0,177.1,267.9,demand,0.111
+295,TP-057,56,Blk 94 Lorong 4 Toa Payoh,address_block,0.0,0.7895,0.0016,0.0,97.1,0.0,relief,0.0
+296,TP-156,155,Blk 128 Lorong 1 Toa Payoh,address_block,0.0,0.7895,0.0016,0.0,70.3,0.0,relief,0.0
+297,TP-018,17,Blk 195 Kim Keat Avenue,address_block,0.154,0.791,0.0026,0.5,61.8,146.2,demand,0.0
+298,TP-346,345,Blk 8 Joo Seng Road,address_block,0.0,0.791,0.0016,0.0,123.1,0.0,relief,0.0
+299,TP-372,371,Blk 196 Kim Keat Avenue,address_block,0.0,0.791,0.0015,1.0,146.2,146.2,relief,0.0
+300,TP-376,375,Blk 402B Toa Payoh Lorong 1,address_block,0.0,0.791,0.0,1.0,226.4,226.4,relief,0.0
+301,TP-486,485,Residential TP-486,building_type,0.0,0.791,0.0016,0.0,90.8,0.0,relief,0.0
+302,TP-143,142,Blk 20 Lorong 7 Toa Payoh,address_block,0.154,0.7925,0.0,0.5,188.9,188.9,demand,0.0
+303,TP-144,143,Blk 23 Lorong 7 Toa Payoh,address_block,0.0,0.7925,0.0015,0.5,188.9,188.9,relief,0.0
+304,TP-584,583,Train station TP-584,building_type,0.0,0.7925,0.0016,1.0,522.5,522.5,relief,0.0
+305,TP-615,614,Blk 402 Toa Payoh Lorong 1,address_block,0.0,0.7925,0.0016,1.0,226.4,226.4,relief,0.0
+306,TP-068,67,Blk 806 Thomson Road,address_block,0.0,0.7925,0.0015,1.0,251.5,251.5,relief,0.0
+307,TP-286,285,Sant Ritz,osm_housename,0.0,0.7925,0.0,1.0,304.5,381.2,relief,0.0
+308,TP-385,384,Residential TP-385,building_type,0.0,0.7925,0.0,1.0,304.5,304.5,relief,0.0
+309,TP-590,589,Apartments on Upper Serangoon Road,address_street,0.0,0.7925,0.0015,1.0,304.5,304.5,relief,0.0
+310,TP-109,108,Blk 46 Lorong 5 Toa Payoh,address_block,0.0,0.7925,0.0021,0.0,79.2,0.0,relief,0.0
+311,TP-271,270,Toa Payoh Market and Hawker Centre,osm_name,0.0,0.7925,0.0014,0.0,79.2,0.0,relief,0.0
+312,TP-501,500,Blk 215 Lorong 8 Toa Payoh,address_block,0.0,0.7925,0.0,0.0,100.1,0.0,relief,0.0
+313,TP-531,530,Blk 218 Lorong 8 Toa Payoh,address_block,0.0,0.7925,0.0015,0.0,100.1,0.0,relief,0.0
+314,TP-446,445,Train station TP-446,building_type,0.139,0.7939,0.0,1.0,183.2,290.6,demand,0.111
+315,TP-255,254,Blk 19 Lorong 7 Toa Payoh,address_block,0.0,0.7939,0.0014,0.0,92.6,0.0,relief,0.0
+316,TP-526,525,Blk 223 Lorong 8 Toa Payoh,address_block,0.0,0.7939,0.0066,0.0,45.9,0.0,relief,0.0
+317,TP-149,148,Blk 124 Lorong 1 Toa Payoh,address_block,0.0,0.7939,0.0014,0.0,104.3,0.0,relief,0.0
+318,TP-558,557,Train station TP-558,building_type,0.0,0.7939,0.0014,1.0,183.2,183.2,relief,0.0
+319,TP-334,333,Park Colonial,osm_housename,0.034,0.7943,0.0,0.5,115.3,145.2,demand,0.0
+320,TP-200,199,Blk 114 Lorong 1 Toa Payoh,address_block,0.0,0.7943,0.0008,0.0,81.6,0.0,relief,0.0
+321,TP-201,200,Blk 112 Lorong 1 Toa Payoh,address_block,0.0,0.7943,0.0063,0.0,69.2,0.0,relief,0.0
+322,TP-204,203,Blk 113 Lorong 1 Toa Payoh,address_block,0.0,0.7943,0.0019,0.0,112.6,0.0,relief,0.0
+323,TP-423,422,Blk 145 Lorong 2 Toa Payoh,address_block,0.0,0.7943,0.0014,0.0,83.5,0.0,relief,0.0
+324,TP-193,192,Blk 227B Bartley Walk,address_block,0.068,0.795,0.0007,1.0,232.4,232.4,demand,0.111
+325,TP-045,44,Blk 17 Joo Seng Road,address_block,0.128,0.7962,0.0013,1.0,137.9,137.9,demand,0.0
+326,TP-292,291,Blk 171 Lorong 1 Toa Payoh,address_block,0.0,0.7962,0.0013,0.0,90.5,0.0,relief,0.0
+327,TP-301,300,Blk 212A Bidadari Park Drive,address_block,0.0,0.7962,0.0013,1.0,422.1,422.1,relief,0.0
+328,TP-159,158,Blk 212C Bidadari Park Drive,address_block,0.0,0.7962,0.0012,1.0,611.8,611.8,relief,0.0
+329,TP-162,161,Blk 174 Lorong 1 Toa Payoh,address_block,0.0,0.7962,0.0012,0.0,92.5,0.0,relief,0.0
+330,TP-508,507,Residential TP-508,building_type,0.0,0.7962,0.0012,0.0,94.9,0.0,relief,0.0
+331,TP-398,397,Blk 226A Bartley Walk,address_block,0.121,0.7975,0.0001,1.0,216.9,331.9,demand,0.556
+332,TP-261,260,Blk 213 Lorong 8 Toa Payoh,address_block,0.0,0.7975,0.0012,0.0,63.3,0.0,relief,0.0
+333,TP-546,545,8@Woodleigh,osm_housename,0.0,0.7975,0.0012,1.0,214.3,214.3,relief,0.0
+334,TP-412,411,Blk 207D Woodleigh Link,address_block,0.0,0.7975,0.0038,1.0,531.1,531.1,relief,0.0
+335,TP-353,352,Blk 105 Lorong 1 Toa Payoh,address_block,0.0,0.7975,0.0017,0.0,97.9,0.0,relief,0.0
+336,TP-394,393,Blk 223B Mount Vernon Road,address_block,0.0,0.7975,0.0011,1.0,171.8,171.8,relief,0.0
+337,TP-371,370,Blk 154 Lorong 2 Toa Payoh,address_block,0.0,0.7975,0.0011,0.0,104.3,0.0,relief,0.0
+338,TP-402,401,Blk 403B Toa Payoh Lorong 1,address_block,0.0,0.7975,0.0,0.0,81.5,0.0,relief,0.0
+339,TP-616,615,Blk 403 Toa Payoh Lorong 1,address_block,0.0,0.7975,0.001,0.0,81.5,0.0,relief,0.0
+340,TP-341,340,Park Colonial,osm_housename,0.0,0.7975,0.001,0.0,115.3,0.0,relief,0.0
+341,TP-416,415,Train station TP-416,building_type,0.0,0.7975,0.001,1.0,173.5,173.5,relief,0.0
+342,TP-073,72,Blk 247 Kim Keat Link,address_block,0.0,0.7975,0.001,0.0,50.4,0.0,relief,0.0
+343,TP-510,509,Residential TP-510,building_type,0.0,0.7975,0.0009,0.0,117.0,0.0,relief,0.0
+344,TP-440,439,Blk 138A Lorong 2 Toa Payoh,address_block,0.081,0.7983,0.0008,1.0,156.3,156.3,relief,0.111
+345,TP-127,126,Blk 159 Lorong 1 Toa Payoh,address_block,0.08,0.7991,0.0025,0.5,138.5,138.5,demand,0.0
+346,TP-137,136,Blk 208A Woodleigh Link,address_block,0.0,0.7991,0.0008,1.0,704.4,704.4,relief,0.111
+347,TP-528,527,Blk 33 Bidadari Park Drive,address_block,0.069,0.7998,0.0007,1.0,167.7,167.7,demand,0.111
+348,TP-287,286,Blk 227C Bartley Walk,address_block,0.063,0.8004,0.0007,1.0,369.5,369.5,demand,0.0
+349,TP-189,188,Blk 163 Lorong 1 Toa Payoh,address_block,0.0,0.8004,0.0007,0.0,67.9,0.0,relief,0.0
+350,TP-487,486,Blk 220 Lorong 8 Toa Payoh,address_block,0.0,0.8004,0.0007,0.0,77.4,0.0,relief,0.0
+351,TP-237,236,School TP-237,building_type,0.0,0.8004,0.0047,0.667,133.9,215.3,relief,0.111
+352,TP-256,255,Parc Mondrian,osm_housename,0.06,0.801,0.0006,1.0,169.5,169.5,demand,0.0
+353,TP-041,40,Kwong Wai Shiu Hospital @ Potong Pasir,osm_name,0.0,0.801,0.0031,0.0,81.1,0.0,relief,0.0
+354,TP-166,165,Blk 103B Bidadari Park Drive,address_block,0.0,0.801,0.0,1.0,338.0,338.0,relief,0.0
+355,TP-244,243,Blk 12 Lorong 1 Toa Payoh,address_block,0.0,0.801,0.0006,1.0,155.6,155.6,relief,0.0
+356,TP-246,245,Blk 144 Potong Pasir Avenue 2,address_block,0.0,0.801,0.0048,0.0,84.9,0.0,relief,0.0
+357,TP-350,349,Blk 106A Bidadari Park Drive,address_block,0.0,0.801,0.0006,1.0,272.3,272.3,relief,0.0
+358,TP-478,477,Blk 126 Potong Pasir Avenue 1,address_block,0.0,0.801,0.0025,0.0,121.1,0.0,relief,0.0
+359,TP-381,380,Blk 69 Lorong 4 Toa Payoh,address_block,0.0,0.801,0.0006,0.5,145.2,145.2,relief,0.0
+360,TP-403,402,Sri Sivadurga Temple,osm_name,0.0,0.801,0.0006,0.0,77.3,0.0,relief,0.0
+361,TP-120,119,Blk 17 Lorong 7 Toa Payoh,address_block,0.0,0.801,0.0017,0.0,75.5,0.0,relief,0.0
+362,TP-470,469,Apartments TP-470,building_type,0.0,0.801,0.0005,1.0,404.7,497.1,relief,0.0
+363,TP-598,597,School TP-598,building_type,0.0,0.801,0.0,1.0,131.6,144.2,relief,0.0
+364,TP-599,598,School TP-599,building_type,0.0,0.801,0.0005,1.0,131.6,131.6,relief,0.0
+365,TP-349,348,Apartments TP-349,building_type,0.048,0.8015,0.0023,1.0,244.9,244.9,relief,0.0
+366,TP-495,494,Blk 19 Bidadari Park Drive,address_block,0.0,0.8015,0.002,0.333,145.2,145.2,relief,0.0
+367,TP-525,524,Blk 216 Lorong 8 Toa Payoh,address_block,0.0,0.8015,0.0003,0.0,97.7,0.0,relief,0.0
+368,TP-588,587,Apartments TP-588,building_type,0.0,0.8015,0.0045,0.5,103.3,225.3,relief,0.0
+369,TP-602,601,Apartments TP-602,building_type,0.0,0.8015,0.0003,0.0,103.3,0.0,relief,0.0
+370,TP-538,537,Toa Payoh Apex,osm_housename,0.0,0.8015,0.0003,1.0,184.2,184.2,relief,0.0
+371,TP-575,574,Blk 193 Lorong 4 Toa Payoh,address_block,0.0,0.8015,0.0002,0.0,98.2,0.0,relief,0.0
+372,TP-081,80,Toa Payoh Central Horizon,osm_housename,0.0,0.8015,0.0041,0.5,53.4,172.6,relief,0.0
+373,TP-790,789,Residential TP-790,building_type,0.0,0.8015,0.0015,0.0,68.6,0.0,relief,0.0
+374,TP-270,269,Blk 233B Upper Aljunied Road,address_block,0.0,0.8015,0.0001,1.0,415.5,415.5,relief,0.0
+375,TP-077,76,Blk 242 Kim Keat Link,address_block,0.0,0.8015,0.0087,0.0,44.2,0.0,relief,0.0

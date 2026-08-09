@@ -1,0 +1,50 @@
+rank,site_id,site_index,label,label_source,coverage_added_pp,cumulative_coverage,demand_served,new_ground_share,nearest_existing_m,worst_case_closed_m,stable
+1,JE-002,1,Perennial Business City,osm_name,1.174,0.3356,0.0447,1.0,354.6,354.6,0.778
+2,JE-078,77,Blk 5 Jalan Papan,address_block,0.447,0.34,0.041,1.0,1139.5,1139.5,0.889
+3,JE-041,40,J Gateway,osm_housename,0.423,0.3443,0.0177,0.667,88.3,196.3,0.889
+4,JE-009,8,Jurong Town Hall,osm_name,0.362,0.3479,0.0089,1.0,441.4,441.4,1.0
+5,JE-008,7,Blk 3 Buroh Lane,address_block,0.323,0.3511,0.3327,1.0,220.8,220.8,0.889
+6,JE-105,104,Blk 135B Yung Ho Walk,address_block,0.314,0.3543,0.0032,1.0,396.9,579.8,0.778
+7,JE-196,195,Blk 291A Jurong East Street 24,address_block,0.275,0.357,0.0229,1.0,184.7,184.7,0.778
+8,JE-238,237,Blk 39 Jurong East Avenue 1,address_block,0.252,0.3596,0.0036,1.0,269.1,269.1,0.889
+9,JE-027,26,Ayer Rajah Community Centre,osm_name,0.226,0.3618,0.017,1.0,158.2,158.2,0.889
+10,JE-025,24,Blk 10 International Business Park,address_block,0.199,0.3638,0.0245,1.0,135.1,135.1,0.889
+11,JE-224,223,Blk 121 Jurong East Street 13,address_block,0.189,0.3657,0.0151,1.0,137.6,178.1,0.667
+12,JE-017,16,Blk 134 Jurong Gateway Road,address_block,0.178,0.3675,0.0165,1.0,143.4,143.4,0.889
+13,JE-033,32,Blk 305 Jurong East Street 32,address_block,0.152,0.369,0.0092,1.0,134.7,134.7,0.778
+14,JE-019,18,Jurong Lake Gardens Gym,osm_name,0.141,0.3704,0.0018,1.0,206.6,206.6,0.889
+15,JE-039,38,Blk 124 Jurong East Street 13,address_block,0.131,0.3717,0.0025,1.0,160.4,278.5,0.778
+16,JE-266,265,Blk 418A Teban Gardens Road,address_block,0.125,0.373,0.0044,0.667,215.4,298.9,0.778
+17,JE-103,102,Galilee Bible-Presbyterian Church,osm_name,0.12,0.3742,0.0035,0.5,184.0,184.0,0.889
+18,JE-234,233,Blk 82 Yuan Ching Road,address_block,0.12,0.3754,0.0015,1.0,215.4,215.4,0.778
+19,JE-106,105,Blk 134A Yung Ho Walk,address_block,0.112,0.3765,0.0011,1.0,410.8,410.8,0.667
+20,JE-247,246,Blk 76 Yuan Ching Road,address_block,0.111,0.3776,0.0012,1.0,334.6,334.6,0.778
+21,JE-236,235,Blk 51 Jurong East Avenue 1,address_block,0.094,0.3785,0.0025,1.0,189.8,189.8,0.444
+22,JE-337,336,Blk 2 Jurong Gateway Road,address_block,0.095,0.3795,0.0368,1.0,194.8,194.8,0.778
+23,JE-036,35,Blk 117 Jurong East Street 13,address_block,0.086,0.3803,0.0037,0.5,172.7,172.7,0.778
+24,JE-035,34,Sheng Hong Temple,osm_name,0.083,0.3812,0.0506,1.0,137.6,137.6,0.667
+25,JE-052,51,Blk 204 Jurong East Street 21,address_block,0.072,0.3819,0.0047,0.5,146.4,146.4,0.556
+26,JE-060,59,Masjid Al-Mukminin,osm_name,0.072,0.3826,0.0184,1.0,140.8,140.8,0.556
+27,JE-302,301,Clusia Cove Pavilion,osm_name,0.056,0.3832,0.001,0.667,49.6,155.1,0.556
+28,JE-147,146,Blk 329 Jurong East Avenue 1,address_block,0.051,0.3837,0.0137,0.5,28.2,164.7,0.333
+29,JE-301,300,Westmere,osm_housename,0.052,0.3842,0.0085,0.5,101.4,128.3,0.444
+30,JE-115,114,Blk 425A Teban Gardens Road,address_block,0.049,0.3847,0.0725,0.5,194.4,194.4,0.667
+31,JE-211,210,Blk 136A Yung Ho Walk,address_block,0.046,0.3851,0.0008,1.0,481.7,481.7,0.222
+32,JE-156,155,Blk 22 Teban Gardens Road,address_block,0.042,0.3856,0.01,0.5,162.9,162.9,0.111
+33,JE-208,207,Blk 20 Teban Gardens Road,address_block,0.041,0.386,0.0098,1.0,142.3,142.3,0.111
+34,JE-125,124,Blk 31 Teban Gardens Road,address_block,0.039,0.3864,0.1402,0.5,26.5,148.6,0.222
+35,JE-276,275,Commercial JE-276,building_type,0.033,0.3867,0.0103,1.0,177.4,314.8,0.222
+36,JE-064,63,Blk 312 Jurong East Street 32,address_block,0.029,0.387,0.0112,0.5,91.7,156.0,0.222
+37,JE-310,309,Blk 47 Jurong East Avenue 1,address_block,0.021,0.3872,0.0116,1.0,277.3,277.3,0.0
+38,JE-345,344,Lakeside House,osm_name,0.018,0.3874,0.0002,1.0,608.5,608.5,0.222
+39,JE-038,37,Blk 308 Jurong East Street 32,address_block,0.014,0.3875,0.0018,0.5,68.1,131.3,0.222
+40,JE-344,343,Commercial JE-344,building_type,0.011,0.3876,0.0002,1.0,368.9,368.9,0.111
+41,JE-264,263,Blk 346 Jurong East Street 31,address_block,0.008,0.3877,0.0074,0.5,27.3,130.6,0.0
+42,JE-349,348,Commercial JE-349,building_type,0.007,0.3878,0.0036,1.0,486.7,486.7,0.111
+43,JE-191,190,Blk 350 Jurong East Avenue 1,address_block,0.006,0.3878,0.0017,0.5,69.2,186.0,0.111
+44,JE-354,353,Public JE-354,building_type,0.003,0.3878,0.0026,1.0,271.9,271.9,0.222
+45,JE-357,356,Public JE-357,building_type,0.002,0.3879,0.0023,1.0,228.7,228.7,0.111
+46,JE-350,349,Public JE-350,building_type,0.002,0.3879,0.0,1.0,221.6,221.6,0.111
+47,JE-351,350,Public JE-351,building_type,0.002,0.3879,0.0,1.0,394.8,394.8,0.111
+48,JE-352,351,Public JE-352,building_type,0.002,0.3879,0.0006,1.0,231.3,322.5,0.111
+49,JE-355,354,Public JE-355,building_type,0.001,0.3879,0.0,1.0,173.6,173.6,0.0

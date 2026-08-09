@@ -1,0 +1,4 @@
+budget_min,threshold_m,baseline_coverage,coverage_after,sites_placed
+2.0,84.0,0.1944,0.2492,30
+3.0,126.0,0.3124,0.4336,30
+4.0,168.0,0.3959,0.5438,30

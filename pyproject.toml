@@ -1,0 +1,86 @@
+[project]
+name = "aed-siting"
+version = "0.1.0"
+description = "Planning-only decision support for siting additional public-access AEDs in Toa Payoh, Singapore."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "geopandas>=1.0",
+    "shapely>=2.0",
+    "pyproj>=3.6",
+    "h3>=4.1",
+    "osmnx>=2.0",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "scipy>=1.13",
+    "pulp>=2.9",
+    "streamlit>=1.40",
+    "pydeck>=0.9",
+    # Imported directly in viz.py. It arrives transitively via streamlit, but an
+    # undeclared direct import is a break waiting on someone else's release.
+    "altair>=5.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "ruff>=0.8",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/aed_siting"]
+
+# ---------------------------------------------------------------------------
+# Lint / format
+# ---------------------------------------------------------------------------
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = [
+    "E", "W",   # pycodestyle
+    "F",        # pyflakes
+    "I",        # import sorting
+    "B",        # bugbear
+    "UP",       # pyupgrade
+    "SIM",      # simplify
+    "D",        # pydocstyle
+    "NPY",      # numpy legacy random
+    "RUF",
+]
+ignore = [
+    "D203",  # conflicts with D211
+    "D213",  # conflicts with D212
+    "E501",  # line length handled by formatter
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+# Docstrings are required on the public API only, not on tests or the UI shell.
+"tests/*" = ["D1"]
+# E402: app.py must put src/ on the path before importing `aed_siting`, for
+# hosted deploys where the editable install did not run. The guard has to
+# execute before those imports, so they cannot sit at the top of the file.
+"app.py" = ["D1", "E402"]
+"scripts/*" = ["D1"]
+
+[tool.ruff.format]
+docstring-code-format = true
+
+# ---------------------------------------------------------------------------
+# Tests
+# ---------------------------------------------------------------------------
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+markers = [
+    "gate: a phase gate — must pass before the phase is considered done",
+    "slow: takes more than a few seconds",
+]

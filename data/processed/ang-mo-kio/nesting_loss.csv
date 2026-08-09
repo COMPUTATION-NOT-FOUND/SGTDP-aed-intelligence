@@ -1,0 +1,5 @@
+k,ilp_coverage,greedy_coverage,nesting_loss_pp,greedy_share_of_optimal,proven_optimal
+1,0.4738,0.4738,0.0,1.0,True
+3,0.4906,0.4906,0.0,1.0,True
+5,0.504,0.504,0.0,1.0,True
+30,0.6049,0.6032,0.173,0.9971,True

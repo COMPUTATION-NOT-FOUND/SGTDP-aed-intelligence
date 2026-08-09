@@ -1,0 +1,4 @@
+method,k,coverage,median_m,p90_m,p95_m,max_m,p90_s,uncovered_demand
+do nothing (existing network only),0,0.3124,225.2,540.6,655.3,1269.7,772.3,0.6876
+demand-ranked top-k (baseline),30,0.3364,210.4,500.9,619.7,1256.4,715.5,0.6636
+marginal-coverage greedy (method),30,0.4311,158.2,386.0,500.5,1256.4,551.5,0.5689

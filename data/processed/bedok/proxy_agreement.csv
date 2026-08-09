@@ -1,0 +1,4 @@
+index,area,area_levels,poi
+area,1.0,0.706,0.109
+area_levels,0.706,1.0,0.298
+poi,0.109,0.298,1.0

@@ -1,0 +1,236 @@
+rank,site_id,site_index,label,label_source,coverage_added_pp,cumulative_coverage,demand_served,new_ground_share,nearest_existing_m,worst_case_closed_m,deciding_key,stable
+1,BD-0557,556,Masjid Al-Abdul Razak,osm_name,0.481,0.3172,0.0034,1.0,404.6,574.1,demand,0.111
+2,BD-1223,1222,Blk 40 Eastwood Road,address_block,0.102,0.3183,0.001,1.0,281.3,281.3,demand,0.0
+3,BD-1338,1337,Blk 14 Jalan Rahmat,address_block,0.475,0.323,0.0047,1.0,608.8,649.4,demand,0.111
+4,BD-1247,1246,Blk 38 Eastwood Road,address_block,0.0,0.323,0.0007,1.0,281.3,281.3,gap,0.0
+5,BD-1760,1759,Blk 81 Frankel Avenue,address_block,0.494,0.3279,0.0028,1.0,497.9,679.6,demand,0.0
+6,BD-1330,1329,Residential BD-1330,building_type,0.464,0.3326,0.0056,1.0,173.3,342.2,demand,0.667
+7,BD-1692,1691,Blk 14 Senang Crescent,address_block,0.461,0.3372,0.0047,1.0,259.0,312.8,demand,0.556
+8,BD-3989,3988,Blk 44 Jalan Lapang,address_block,0.459,0.3418,0.0031,1.0,480.2,541.0,demand,0.556
+9,BD-2333,2332,Blk 62 Jalan Limau Purut,address_block,0.43,0.3461,0.0029,1.0,480.0,480.0,demand,0.444
+10,BD-0005,4,Tanah Merah,osm_name,0.415,0.3502,0.0041,1.0,182.4,211.1,demand,0.778
+11,BD-1640,1639,Blk 50 Elite Park Avenue,address_block,0.42,0.3544,0.0042,1.0,411.2,411.2,demand,0.444
+12,BD-1037,1036,Blk 127A Lorong L Telok Kurau,address_block,0.397,0.3584,0.0026,1.0,478.7,495.4,demand,0.667
+13,BD-1089,1088,Blk 70 Lorong M Telok Kurau,address_block,0.401,0.3624,0.0026,1.0,520.6,520.6,demand,0.667
+14,BD-2131,2130,Blk 27A Lengkong Satu,address_block,0.397,0.3664,0.0025,1.0,264.2,438.9,demand,0.556
+15,BD-0803,802,Residential BD-0803,building_type,0.376,0.3701,0.0057,1.0,277.4,357.0,demand,0.667
+16,BD-0943,942,Residential BD-0943,building_type,0.378,0.3739,0.0038,1.0,360.9,546.5,demand,0.444
+17,BD-1120,1119,Wat Pālēlāika,osm_name,0.381,0.3777,0.0022,1.0,607.5,607.5,demand,0.667
+18,BD-2129,2128,Blk 22 Jalan Limau Purut,address_block,0.38,0.3815,0.0056,1.0,466.7,466.7,demand,0.444
+19,BD-2523,2522,Blk 36 Limau Garden,address_block,0.38,0.3853,0.0062,1.0,406.2,585.3,demand,0.444
+20,BD-3625,3624,Blk 430 Changi Road,address_block,0.381,0.3891,0.0038,1.0,352.8,543.0,demand,0.444
+21,BD-0875,874,Blk 99 Lorong N Telok Kurau,address_block,0.366,0.3928,0.0037,1.0,235.4,419.7,demand,0.667
+22,BD-1601,1600,Blk 3 Sennett Lane,address_block,0.372,0.3965,0.0052,1.0,209.4,387.5,demand,0.556
+23,BD-1639,1638,Blk 17 Kew Drive,address_block,0.371,0.4002,0.0025,1.0,438.7,438.7,demand,0.556
+24,BD-1700,1699,Blk 20 Lengkong Dua,address_block,0.372,0.4039,0.0069,1.0,164.1,279.6,demand,0.556
+25,BD-1412,1411,Blk 70 Jalan Lapang,address_block,0.362,0.4076,0.0036,1.0,353.4,450.1,demand,0.556
+26,BD-2663,2662,Blk 26 East Coast Avenue,address_block,0.366,0.4112,0.0058,1.0,251.0,327.2,demand,0.444
+27,BD-3519,3518,Residential BD-3519,building_type,0.368,0.4149,0.0037,1.0,527.4,527.4,demand,0.556
+28,BD-0065,64,Commercial BD-0065,building_type,0.358,0.4185,0.005,1.0,569.6,569.6,demand,0.667
+29,BD-0193,192,Residential BD-0193,building_type,0.345,0.4219,0.0051,1.0,222.5,333.6,demand,0.556
+30,BD-2308,2307,Blk 101 Jalan Senang,address_block,0.348,0.4254,0.0029,1.0,185.1,366.7,demand,0.556
+31,BD-3013,3012,Blk 420 East Coast Road,address_block,0.344,0.4288,0.0022,1.0,446.5,513.6,demand,0.0
+32,BD-1680,1679,Blk 71 Siglap Road,address_block,0.329,0.4321,0.0037,1.0,352.0,449.8,demand,0.111
+33,BD-3191,3190,Blk 11 Wilton Gardens,address_block,0.334,0.4355,0.0082,1.0,578.2,679.6,demand,0.444
+34,BD-0920,919,Blk 455 Upper East Coast Road,address_block,0.326,0.4387,0.0057,1.0,251.1,260.3,demand,0.111
+35,BD-3938,3937,Blk 30 Frankel Terrace,address_block,0.33,0.442,0.0033,1.0,428.7,428.7,demand,0.0
+36,BD-1177,1176,Residential BD-1177,building_type,0.322,0.4453,0.0063,1.0,248.5,436.2,demand,0.0
+37,BD-0862,861,Hong San Temple,osm_name,0.315,0.4484,0.0031,1.0,400.4,591.0,demand,0.111
+38,BD-1845,1844,Blk 33 Burnfoot Terrace,address_block,0.315,0.4516,0.0032,1.0,292.9,476.5,demand,0.0
+39,BD-0769,768,Residential on Figaro Street,address_street,0.293,0.4545,0.014,1.0,465.6,465.6,demand,0.0
+40,BD-2104,2103,Blk 42 Siglap Drive,address_block,0.298,0.4575,0.0053,1.0,499.5,499.5,demand,0.444
+41,BD-0730,729,Residential BD-0730,building_type,0.291,0.4604,0.0014,1.0,285.2,285.2,demand,0.0
+42,BD-2650,2649,Villa Marina Clubhouse,osm_name,0.295,0.4633,0.0029,1.0,299.2,389.1,demand,0.0
+43,BD-2835,2834,Blk 2D Figaro Street,address_block,0.296,0.4663,0.0054,1.0,266.9,266.9,demand,0.0
+44,BD-0299,298,Blk 460 Siglap Road,address_block,0.288,0.4692,0.0053,0.667,39.7,160.3,demand,0.0
+45,BD-3374,3373,Blk 26 Waringin Park,address_block,0.291,0.4721,0.002,1.0,444.9,444.9,demand,0.0
+46,BD-3853,3852,Blk 8D Lorong Sarina,address_block,0.293,0.475,0.0005,1.0,704.9,892.2,demand,0.0
+47,BD-0615,614,Blk 911C Bayshore Walk,address_block,0.275,0.4778,0.0028,1.0,412.0,412.0,demand,0.333
+48,BD-2473,2472,Residential BD-2473,building_type,0.278,0.4805,0.0062,1.0,334.6,334.6,demand,0.0
+49,BD-0027,26,Blk 55 Sims Avenue East,address_block,0.268,0.4832,0.0032,1.0,164.9,164.9,demand,0.0
+50,BD-0885,884,Apartments BD-0885,building_type,0.272,0.4859,0.0037,1.0,226.1,296.7,demand,0.0
+51,BD-1014,1013,Parc Bleu Condo,osm_name,0.269,0.4886,0.006,1.0,1135.5,1135.5,demand,0.0
+52,BD-1144,1143,Blk 56 Lorong M Telok Kurau,address_block,0.264,0.4913,0.0039,1.0,631.1,656.6,demand,0.0
+53,BD-1104,1103,Residential BD-1104,building_type,0.258,0.4939,0.0042,1.0,265.6,265.6,demand,0.0
+54,BD-1119,1118,Elliot at the East Coast,osm_name,0.256,0.4964,0.0047,1.0,272.6,272.6,demand,0.0
+55,BD-1504,1503,Blk 21 Jalan Tanah Puteh,address_block,0.259,0.499,0.0067,1.0,436.8,436.8,demand,0.111
+56,BD-4050,4049,Blk 215 Kew Crescent,address_block,0.257,0.5016,0.0027,1.0,439.0,439.0,demand,0.0
+57,BD-0009,8,Telok Kurau Primary School,osm_name,0.25,0.5041,0.0103,0.5,129.4,129.4,demand,0.111
+58,BD-1067,1066,Blk 54 Tanah Merah Kechil Avenue,address_block,0.247,0.5065,0.0025,1.0,419.5,465.1,demand,0.0
+59,BD-1257,1256,Blk 791A Upper East Coast Road,address_block,0.246,0.509,0.0086,1.0,215.4,225.5,demand,0.111
+60,BD-2686,2685,Blk 265 Changi Road,address_block,0.25,0.5115,0.0032,1.0,1209.1,1209.1,demand,0.0
+61,BD-1130,1129,Residential BD-1130,building_type,0.245,0.514,0.0025,1.0,445.6,445.6,demand,0.0
+62,BD-0545,544,Suites @ Eunos,osm_name,0.234,0.5163,0.0023,1.0,785.0,966.7,demand,0.222
+63,BD-3135,3134,Residential on Siglap Road,address_street,0.237,0.5187,0.0059,1.0,322.6,322.6,demand,0.0
+64,BD-1357,1356,Residential BD-1357,building_type,0.23,0.521,0.0037,1.0,632.3,655.2,demand,0.0
+65,BD-3110,3109,Blk 45 Jalan Limau Nipis,address_block,0.228,0.5233,0.0023,1.0,422.8,422.8,demand,0.0
+66,BD-3810,3809,Blk 17A Jalan Sayang,address_block,0.229,0.5255,0.0034,1.0,412.0,441.1,demand,0.0
+67,BD-1429,1428,Residential on Joo Chiat Avenue,address_street,0.224,0.5278,0.0058,1.0,705.4,705.4,demand,0.0
+68,BD-0202,201,Blk 34 Tanah Merah Kechil Road,address_block,0.213,0.5299,0.0034,1.0,254.4,378.6,demand,0.111
+69,BD-0542,541,Blk 222C Bedok North Drive,address_block,0.214,0.5321,0.0188,1.0,254.5,254.5,demand,0.0
+70,BD-0923,922,Residential BD-0923,building_type,0.214,0.5342,0.0062,1.0,782.2,782.2,demand,0.111
+71,BD-1053,1052,Blk 2 Bedok Rise,address_block,0.217,0.5364,0.0012,1.0,343.9,386.0,demand,0.111
+72,BD-1441,1440,Blk 35 Jalan Senang,address_block,0.213,0.5385,0.0036,1.0,500.4,541.0,demand,0.0
+73,BD-1410,1409,Residential BD-1410,building_type,0.206,0.5405,0.0021,1.0,581.1,581.1,demand,0.0
+74,BD-1732,1731,Man Fatt Lam Buddhist Temple,osm_name,0.207,0.5426,0.0114,1.0,197.3,213.2,demand,0.0
+75,BD-1349,1348,Train station BD-1349,building_type,0.2,0.5446,0.0121,0.5,71.8,136.4,demand,0.0
+76,BD-1466,1465,Residential BD-1466,building_type,0.202,0.5466,0.0042,1.0,140.3,145.8,demand,0.0
+77,BD-3677,3676,Blk 211 Bedok South Avenue 3,address_block,0.198,0.5486,0.0035,1.0,267.5,267.5,demand,0.0
+78,BD-0703,702,Residential BD-0703,building_type,0.191,0.5505,0.0019,1.0,610.4,610.4,demand,0.0
+79,BD-1182,1181,Blk 9 Siglap Road,address_block,0.192,0.5524,0.0018,1.0,214.6,244.0,demand,0.111
+80,BD-1491,1490,Blk 1 Tanah Merah Kechil Avenue,address_block,0.186,0.5543,0.0156,1.0,536.9,536.9,demand,0.0
+81,BD-0130,129,Commercial BD-0130,building_type,0.179,0.5561,0.0109,1.0,458.0,458.0,demand,0.222
+82,BD-0435,434,Blk 28 Bayshore Road,address_block,0.181,0.5579,0.0026,1.0,250.2,250.2,demand,0.111
+83,BD-3918,3917,Blk 81 Siglap Road,address_block,0.182,0.5597,0.0018,1.0,199.5,224.3,demand,0.0
+84,BD-1159,1158,Tower 18,osm_name,0.178,0.5615,0.0018,1.0,415.5,415.5,demand,0.0
+85,BD-1287,1286,Blk 142 Lorong J Telok Kurau,address_block,0.178,0.5633,0.0049,1.0,155.8,207.9,demand,0.0
+86,BD-0020,19,Blk 539 Bedok North Street 3,address_block,0.169,0.565,0.0082,1.0,140.5,140.5,demand,0.111
+87,BD-0365,364,Blk 470 Siglap Road,address_block,0.172,0.5667,0.0108,0.667,39.7,222.3,demand,0.0
+88,BD-0032,31,Blk 208B New Upper Changi Road,address_block,0.168,0.5684,0.0206,0.5,134.8,134.8,demand,0.222
+89,BD-1075,1074,Blk 223 Tanah Merah Kechil Avenue,address_block,0.17,0.5701,0.0017,1.0,447.6,447.6,demand,0.0
+90,BD-1727,1726,Blk 14 Elite Terrace,address_block,0.171,0.5718,0.0057,1.0,357.3,357.3,demand,0.111
+91,BD-0030,29,Eastwood Center,osm_name,0.165,0.5734,0.0092,1.0,174.0,174.0,demand,0.111
+92,BD-0049,48,Blk 18 Bedok South Road,address_block,0.163,0.575,0.0065,1.0,126.4,126.4,demand,0.222
+93,BD-0721,720,Blk 914A Bayshore Street,address_block,0.164,0.5767,0.0019,1.0,214.6,362.4,demand,0.0
+94,BD-1284,1283,Residential BD-1284,building_type,0.157,0.5783,0.0026,1.0,246.0,246.0,demand,0.0
+95,BD-0250,249,Residential BD-0250,building_type,0.154,0.5798,0.0025,1.0,132.7,154.7,demand,0.0
+96,BD-1147,1146,Residential on Lothian Terrace,address_street,0.154,0.5813,0.0028,1.0,569.6,663.4,demand,0.111
+97,BD-1906,1905,Blk 5 Jalan Lana,address_block,0.156,0.5829,0.0042,1.0,323.3,323.3,demand,0.0
+98,BD-1568,1567,Blk 70 Jalan Senyum,address_block,0.152,0.5844,0.0015,1.0,353.4,353.4,demand,0.0
+99,BD-1293,1292,Blk 14 Tanah Merah Kechil Link,address_block,0.149,0.5859,0.002,1.0,298.3,333.3,demand,0.0
+100,BD-1592,1591,Blk 136 Jalan Senang,address_block,0.151,0.5874,0.0062,1.0,185.1,185.1,demand,0.0
+101,BD-0531,530,Tai Kak Seah Temple,osm_name,0.146,0.5889,0.005,1.0,533.7,533.7,demand,0.0
+102,BD-0638,637,Blk 526 East Coast Road,address_block,0.148,0.5903,0.0052,0.5,134.1,134.1,demand,0.0
+103,BD-0948,947,Blk 2 Bedok Reservoir View,address_block,0.145,0.5918,0.0012,1.0,181.9,181.9,demand,0.111
+104,BD-1520,1519,Public BD-1520,building_type,0.148,0.5933,0.0119,0.667,150.2,164.2,demand,0.0
+105,BD-1916,1915,Blk 17 Lengkong Enam,address_block,0.145,0.5947,0.0008,1.0,351.3,536.7,demand,0.0
+106,BD-1935,1934,Blk 27 Kew Drive,address_block,0.148,0.5962,0.0046,1.0,395.2,565.3,demand,0.0
+107,BD-0225,224,Blk 150 Bedok Reservoir Road,address_block,0.144,0.5976,0.019,0.333,42.7,166.0,demand,0.0
+108,BD-0055,54,Fengshan Community Club,osm_name,0.139,0.599,0.0116,0.5,133.9,133.9,demand,0.0
+109,BD-0307,306,Blk 488 Upper East Coast Road,address_block,0.142,0.6004,0.0024,1.0,127.7,262.3,demand,0.0
+110,BD-0709,708,Residential BD-0709,building_type,0.141,0.6019,0.0014,1.0,753.8,753.8,demand,0.0
+111,BD-1365,1364,Blk 521 Upper East Coast Road,address_block,0.141,0.6033,0.0017,1.0,238.7,238.7,demand,0.0
+112,BD-0656,655,Blk 521 Bedok Reservoir Road,address_block,0.138,0.6046,0.0087,1.0,141.1,326.2,demand,0.111
+113,BD-0186,185,Springvale,osm_name,0.132,0.606,0.0013,1.0,128.8,128.8,demand,0.0
+114,BD-0259,258,Retail on Upper East Coast Road,address_street,0.132,0.6073,0.0053,1.0,144.4,230.6,demand,0.111
+115,BD-0718,717,Residential BD-0718,building_type,0.134,0.6086,0.0013,1.0,520.2,520.2,demand,0.0
+116,BD-1874,1873,Blk 38 Jalan Limau Bali,address_block,0.131,0.6099,0.0042,1.0,480.0,480.0,demand,0.0
+117,BD-2208,2207,Blk 10A Siglap Road,address_block,0.128,0.6112,0.0013,1.0,193.8,251.0,demand,0.0
+118,BD-0139,138,Commercial BD-0139,building_type,0.123,0.6124,0.0023,1.0,633.0,633.0,demand,0.111
+119,BD-0304,303,School BD-0304,building_type,0.125,0.6137,0.0041,0.5,14.9,140.7,demand,0.0
+120,BD-0618,617,Blk 11 Telok Kurau Road,address_block,0.125,0.6149,0.0025,1.0,816.1,816.1,demand,0.0
+121,BD-0695,694,Blk 132 Lorong K Telok Kurau,address_block,0.123,0.6162,0.0031,1.0,391.7,391.7,demand,0.0
+122,BD-1111,1110,Blk 60 Lengkong Tiga,address_block,0.125,0.6174,0.0012,1.0,170.9,241.2,demand,0.0
+123,BD-0023,22,Blk 510 Bedok North Street 3,address_block,0.122,0.6186,0.0114,0.333,145.6,145.6,demand,0.0
+124,BD-0190,189,Commercial BD-0190,building_type,0.122,0.6199,0.0022,1.0,512.3,512.3,demand,0.111
+125,BD-1222,1221,Astoria Park,osm_housename,0.122,0.6211,0.0012,1.0,196.9,300.0,demand,0.0
+126,BD-1276,1275,Blk 42 Eastwood Road,address_block,0.124,0.6223,0.0016,1.0,447.1,463.9,demand,0.111
+127,BD-0038,37,Kaki Recreation Centre,osm_name,0.118,0.6235,0.0148,0.5,169.1,169.1,demand,0.0
+128,BD-0169,168,Blk 125 Bedok Reservoir Road,address_block,0.12,0.6247,0.0052,1.0,127.2,127.2,demand,0.0
+129,BD-0669,668,Bethesda Kindergarten,osm_name,0.12,0.6259,0.0012,1.0,318.8,318.8,demand,0.0
+130,BD-0680,679,Residential on Frankel Avenue,address_street,0.117,0.6271,0.0062,1.0,346.2,346.2,demand,0.0
+131,BD-1394,1393,Blk 26 Kew Drive,address_block,0.117,0.6282,0.0021,1.0,252.3,299.6,demand,0.0
+132,BD-0284,283,Our Lady of Perpetual Succour,osm_name,0.11,0.6293,0.0034,1.0,312.4,312.4,demand,0.0
+133,BD-0322,321,Emmanuel Assembly of God,osm_name,0.111,0.6305,0.0085,0.5,125.3,235.8,demand,0.0
+134,BD-0633,632,Blk 1 Bedok South Avenue 3,address_block,0.11,0.6316,0.0027,1.0,141.8,323.7,demand,0.111
+135,BD-0881,880,Chai Chee United Temple,osm_name,0.111,0.6327,0.0055,0.5,256.2,256.2,demand,0.0
+136,BD-0041,40,Blk 58 New Upper Changi Road,address_block,0.108,0.6338,0.0078,0.5,130.0,130.0,demand,0.0
+137,BD-0059,58,Hospital BD-0059,building_type,0.108,0.6348,0.0011,1.0,817.3,817.3,demand,0.0
+138,BD-0965,964,Blk 18 Nallur Road,address_block,0.109,0.6359,0.003,1.0,226.1,226.1,demand,0.111
+139,BD-1201,1200,Residential BD-1201,building_type,0.107,0.637,0.0022,1.0,415.4,415.4,demand,0.0
+140,BD-2019,2018,Blk 103A Siglap Road,address_block,0.107,0.6381,0.0053,1.0,285.7,285.7,demand,0.0
+141,BD-0015,14,School BD-0015,building_type,0.101,0.6391,0.0099,0.5,142.1,142.1,demand,0.0
+142,BD-0045,44,Blk 25 Jalan Sempadan,address_block,0.1,0.6401,0.0036,1.0,258.8,258.8,demand,0.0
+143,BD-1290,1289,Residence 66,osm_name,0.101,0.6411,0.0029,1.0,895.0,895.0,demand,0.0
+144,BD-3196,3195,Blk 160 Telok Kurau Road,address_block,0.102,0.6421,0.0047,1.0,782.3,782.3,demand,0.0
+145,BD-0865,864,Commercial BD-0865,building_type,0.099,0.6431,0.0057,1.0,423.9,423.9,demand,0.0
+146,BD-1007,1006,Blk 80 Bayshore Road,address_block,0.098,0.6441,0.0002,1.0,277.3,433.5,demand,0.111
+147,BD-1047,1046,Blk 768 Bedok Reservoir Road,address_block,0.1,0.6451,0.0024,0.667,171.6,254.6,demand,0.111
+148,BD-0083,82,The Trumps,osm_housename,0.097,0.646,0.001,1.0,254.2,254.2,demand,0.0
+149,BD-0142,141,Blk 816A Chai Chee Lane,address_block,0.094,0.647,0.0039,1.0,252.2,252.2,demand,0.0
+150,BD-0485,484,Bedok Methodist Church,osm_name,0.096,0.6479,0.0117,1.0,146.5,146.5,demand,0.0
+151,BD-1215,1214,Residential on Frankel Avenue,address_street,0.094,0.6489,0.0052,1.0,318.0,318.0,demand,0.0
+152,BD-1377,1376,Blk 27 Lucky Crescent,address_block,0.095,0.6498,0.0019,1.0,423.5,423.5,demand,0.0
+153,BD-0078,77,Blk 89 Bedok North Avenue 4,address_block,0.091,0.6507,0.0061,0.5,95.5,143.1,demand,0.0
+154,BD-0691,690,The Domain,osm_housename,0.092,0.6517,0.0023,0.5,198.5,198.5,demand,0.0
+155,BD-0974,973,Blk 13 Bedok Reservoir View,address_block,0.092,0.6526,0.0009,1.0,339.0,339.0,demand,0.111
+156,BD-2180,2179,Residential BD-2180,building_type,0.092,0.6535,0.0027,1.0,409.0,409.0,demand,0.0
+157,BD-2209,2208,Residential BD-2209,building_type,0.092,0.6544,0.0024,1.0,178.6,343.7,demand,0.0
+158,BD-0619,618,St. Patrick's Green,osm_name,0.088,0.6553,0.0021,1.0,446.5,446.5,demand,0.111
+159,BD-1541,1540,Blk 146 Lorong L Telok Kurau,address_block,0.088,0.6562,0.0047,1.0,555.6,555.6,demand,0.111
+160,BD-2685,2684,Blk 54 Bedok Terrace,address_block,0.089,0.6571,0.0026,1.0,339.8,339.8,demand,0.0
+161,BD-0061,60,Blk 814A Chai Chee Lane,address_block,0.086,0.6579,0.0009,1.0,262.4,262.4,demand,0.0
+162,BD-0472,471,Commercial BD-0472,building_type,0.083,0.6588,0.0022,1.0,138.9,138.9,demand,0.111
+163,BD-0690,689,Residence 88,osm_name,0.083,0.6596,0.0008,1.0,326.6,326.6,demand,0.0
+164,BD-0981,980,Blk 21 Bedok South Road,address_block,0.081,0.6604,0.0129,0.5,24.3,205.2,demand,0.0
+165,BD-1335,1334,Blk 3 Kew Drive,address_block,0.08,0.6612,0.0014,0.667,250.7,252.3,demand,0.0
+166,BD-0025,24,Blk 44 Eastwood Road,address_block,0.078,0.662,0.001,1.0,611.0,611.0,demand,0.0
+167,BD-0377,376,Blk 772 Bedok Reservoir View,address_block,0.078,0.6628,0.0077,0.5,131.8,131.8,demand,0.0
+168,BD-0033,32,Blk 3 Siglap Road,address_block,0.077,0.6635,0.002,1.0,259.1,259.1,demand,0.0
+169,BD-0463,462,Blk 64 Bayshore Road,address_block,0.076,0.6643,0.0013,1.0,155.0,155.0,demand,0.111
+170,BD-0907,906,Blk 50 Saint Patrick's Road,address_block,0.077,0.6651,0.0016,1.0,313.4,313.4,demand,0.0
+171,BD-1220,1219,Residential on Palm Drive,address_street,0.076,0.6658,0.0038,0.5,111.0,296.9,demand,0.0
+172,BD-1292,1291,Blk 17 Waringin Walk,address_block,0.076,0.6666,0.0008,1.0,268.1,268.1,demand,0.0
+173,BD-0913,912,Blk 7 Marine Vista,address_block,0.075,0.6673,0.0036,1.0,260.7,260.7,demand,0.0
+174,BD-2088,2087,Blk 324T Changi Road,address_block,0.076,0.6681,0.0008,1.0,972.3,972.3,demand,0.0
+175,BD-0636,635,Blk 9 Bedok South Avenue 2,address_block,0.074,0.6688,0.0091,1.0,147.5,147.5,demand,0.0
+176,BD-1875,1874,Blk 47 Lorong Kembangan,address_block,0.074,0.6696,0.0029,1.0,438.9,536.7,demand,0.0
+177,BD-0719,718,Blk 207 Jalan Eunos,address_block,0.071,0.6703,0.0056,1.0,175.0,175.0,demand,0.0
+178,BD-0173,172,Blk 814B Chai Chee Lane,address_block,0.066,0.6709,0.0046,0.5,220.5,220.5,demand,0.0
+179,BD-0197,196,Blk 724 Bedok Reservoir Road,address_block,0.067,0.6716,0.0014,1.0,129.0,129.0,demand,0.0
+180,BD-0214,213,Blk 510 East Coast Road,address_block,0.068,0.6723,0.0035,0.333,118.1,193.3,demand,0.0
+181,BD-0228,227,Lions Home For The Elders,osm_name,0.063,0.6729,0.0048,1.0,148.8,148.8,demand,0.0
+182,BD-0594,593,Bedok North 187A,osm_name,0.064,0.6735,0.0138,0.5,147.6,147.6,demand,0.0
+183,BD-0046,45,Blk 419 Bedok North Avenue 1,address_block,0.061,0.6742,0.0035,1.0,189.9,189.9,demand,0.0
+184,BD-0373,372,Blk 24 Chai Chee Road,address_block,0.062,0.6748,0.0159,1.0,136.7,136.7,demand,0.0
+185,BD-0460,459,Escada View,osm_housename,0.062,0.6754,0.0029,1.0,169.7,169.7,demand,0.0
+186,BD-0266,265,Blk 522 Bedok North Street 2,address_block,0.058,0.676,0.0069,0.333,126.5,126.5,demand,0.0
+187,BD-0107,106,Blk 297 Bedok South Avenue 3,address_block,0.056,0.6765,0.0008,1.0,189.8,189.8,demand,0.0
+188,BD-0528,527,Deng Fu Ville,osm_housename,0.056,0.6771,0.0018,1.0,838.3,892.2,demand,0.0
+189,BD-0740,739,Blk 5000J Marine Parade Road,address_block,0.055,0.6777,0.0006,1.0,275.1,275.1,demand,0.0
+190,BD-0014,13,Blk 299 Bedok South Avenue 3,address_block,0.054,0.6782,0.0058,0.5,84.3,255.3,demand,0.0
+191,BD-0133,132,Blk 152A Bedok South Road,address_block,0.053,0.6787,0.001,1.0,174.0,174.0,demand,0.0
+192,BD-0319,318,Blk 74 Bedok North Road,address_block,0.054,0.6793,0.0043,0.5,74.0,128.5,demand,0.0
+193,BD-0560,559,Train station BD-0560,building_type,0.054,0.6798,0.0007,1.0,401.4,401.4,demand,0.111
+194,BD-0215,214,Blk 547 East Coast Road,address_block,0.051,0.6803,0.0019,1.0,340.2,340.2,demand,0.0
+195,BD-0623,622,Blk 16 Siglap Link,address_block,0.05,0.6808,0.0005,0.5,198.2,198.2,demand,0.0
+196,BD-4085,4084,Train station BD-4085,building_type,0.051,0.6813,0.0029,1.0,223.0,223.0,demand,0.0
+197,BD-0390,389,Blk 152B Bedok South Road,address_block,0.049,0.6818,0.0053,0.5,198.5,198.5,demand,0.0
+198,BD-0563,562,Blk 732 Bedok Reservoir Road,address_block,0.048,0.6823,0.0005,1.0,225.9,225.9,demand,0.0
+199,BD-0145,144,Blk 1202 East Coast Parkway,address_block,0.044,0.6827,0.0005,1.0,181.3,181.3,demand,0.0
+200,BD-0606,605,Residential BD-0606,building_type,0.044,0.6832,0.0008,1.0,154.7,274.4,demand,0.0
+201,BD-1052,1051,Train station BD-1052,building_type,0.042,0.6836,0.0038,1.0,406.2,406.2,demand,0.0
+202,BD-0131,130,Masjid Al-Ansar,osm_name,0.04,0.684,0.0078,1.0,144.3,144.3,demand,0.0
+203,BD-0410,409,Blk 26 Bayshore Road,address_block,0.041,0.6844,0.001,0.5,172.1,172.1,demand,0.0
+204,BD-1016,1015,Blk 6 Bedok Rise,address_block,0.039,0.6848,0.0016,1.0,243.2,386.0,demand,0.0
+205,BD-0362,361,Blk 702 Bedok Reservoir Road,address_block,0.037,0.6852,0.0049,0.333,58.9,136.2,demand,0.0
+206,BD-0777,776,Blk 3 Marine Vista,address_block,0.038,0.6855,0.0004,1.0,344.3,344.3,demand,0.0
+207,BD-0372,371,Masjid Alkaff Kampung Melayu,osm_name,0.036,0.6859,0.0113,1.0,203.9,203.9,demand,0.0
+208,BD-0181,180,Blk 101 Bedok Reservoir Road,address_block,0.035,0.6863,0.0024,1.0,134.5,134.5,demand,0.0
+209,BD-0597,596,Blk 71 Bedok South Road,address_block,0.036,0.6866,0.0026,0.5,39.8,129.8,demand,0.0
+210,BD-0739,738,Blk 5000E Marine Parade Road,address_block,0.034,0.687,0.0003,1.0,149.4,328.4,demand,0.0
+211,BD-0328,327,Blk 2-4 Still Road,address_block,0.033,0.6873,0.0003,1.0,501.2,501.2,demand,0.0
+212,BD-1829,1828,Commercial BD-1829,building_type,0.033,0.6876,0.0005,1.0,487.2,487.2,demand,0.0
+213,BD-0287,286,Blk 721 Bedok Reservoir Road,address_block,0.03,0.6879,0.0077,0.5,204.2,204.2,demand,0.0
+214,BD-0431,430,Blk 60 Bayshore Road,address_block,0.026,0.6882,0.0031,1.0,194.2,194.2,demand,0.0
+215,BD-1482,1481,Public BD-1482,building_type,0.026,0.6885,0.0324,0.5,72.3,165.7,demand,0.0
+216,BD-0532,531,Blk 12 Bedok Reservoir View,address_block,0.025,0.6887,0.0053,1.0,161.8,201.7,demand,0.0
+217,BD-0504,503,Blk 730 Bedok Reservoir Road,address_block,0.025,0.689,0.001,0.5,196.5,196.5,demand,0.0
+218,BD-0509,508,Windy Heights,osm_housename,0.025,0.6892,0.0015,0.5,64.9,201.7,demand,0.0
+219,BD-1006,1005,Tower 24,osm_name,0.023,0.6894,0.0002,1.0,424.4,424.4,demand,0.0
+220,BD-0579,578,Blk 34 Parbury Avenue,address_block,0.022,0.6897,0.0046,0.667,125.8,169.5,demand,0.0
+221,BD-1084,1083,Blk 78 Tanah Merah Kechil Avenue,address_block,0.02,0.6899,0.0011,1.0,137.3,283.4,demand,0.0
+222,BD-0738,737,Blk 5000M Marine Parade Road,address_block,0.018,0.69,0.0006,0.5,207.4,207.4,demand,0.0
+223,BD-0742,741,Blk 5000C Marine Parade Road,address_block,0.017,0.6902,0.0002,0.5,250.9,250.9,demand,0.0
+224,BD-0776,775,Blk 1 Marine Vista,address_block,0.016,0.6904,0.004,0.333,110.8,162.7,demand,0.0
+225,BD-0807,806,Blk 76 Bayshore Road,address_block,0.015,0.6905,0.0009,1.0,277.3,277.3,demand,0.0
+226,BD-1321,1320,Blk 1300 East Coast Parkway,address_block,0.014,0.6907,0.0002,1.0,839.7,839.7,demand,0.0
+227,BD-0863,862,Train station BD-0863,building_type,0.014,0.6908,0.0016,1.0,224.4,271.6,demand,0.0
+228,BD-0971,970,Blk 7 Bedok Reservoir View,address_block,0.012,0.6909,0.0002,1.0,318.9,339.0,demand,0.0
+229,BD-0031,30,Blk 1 Siglap Road,address_block,0.012,0.691,0.001,1.0,244.0,377.0,demand,0.0
+230,BD-1148,1147,Blk 1206A East Coast Parkway,address_block,0.01,0.6911,0.0001,1.0,150.7,150.7,demand,0.0
+231,BD-0997,996,Blk 60 New Upper Changi Road,address_block,0.006,0.6912,0.0025,0.5,23.6,133.1,demand,0.0
+232,BD-1381,1380,Retail BD-1381,building_type,0.006,0.6913,0.0006,1.0,273.3,273.3,demand,0.0
+233,BD-0421,420,Djitsun Mall Bedok,osm_name,0.004,0.6913,0.0059,0.5,81.9,156.7,demand,0.0
+234,BD-0147,146,Blk 524 Bedok North Street 3,address_block,0.002,0.6913,0.0046,0.5,72.3,127.5,demand,0.0
+235,BD-2081,2080,Commercial BD-2081,building_type,0.001,0.6913,0.0,1.0,487.2,487.2,demand,0.111
