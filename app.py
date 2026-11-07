@@ -4,8 +4,10 @@ Reads only pre-computed artifacts from ``data/processed/<town>/`` — there is n
 runtime network path, which keeps a deployed demo reproducible and inside the
 challenge brief's supplemental-data rules.
 
-Three screens: **Plan** (what to buy), **Test** (does it hold up), **Evidence**
-(why believe it). The safety banner renders on all three.
+Five screens: **Start here** (what an AED is, why not one everywhere),
+**Existing AEDs** (devices grouped by building), **Plan new AEDs** (what to buy),
+**Stress-test** (does it hold up) and **Evidence** (why believe it). The safety
+banner renders on every one.
 """
 
 from __future__ import annotations
@@ -18,6 +20,7 @@ from pathlib import Path
 import geopandas as gpd
 import numpy as np
 import pandas as pd
+import pydeck as pdk
 import streamlit as st
 
 # `aed_siting` lives under src/, so it is importable only via an install --
@@ -37,6 +40,7 @@ if _SRC.is_dir() and str(_SRC) not in sys.path:
 from aed_siting import viz
 from aed_siting.baselines import demand_ranked_topk
 from aed_siting.config import DEFAULT_TOWN, PROCESSED_DIR, SEED, TOWNS, town_label
+from aed_siting.hours import classify_frame
 from aed_siting.optimize.policy import KEY_LABELS, KEYS, PRESETS, covered_at_step
 from aed_siting.optimize.policy import build_queue as solve_policy
 from aed_siting.queue import build_queue as build_queue_frame
@@ -339,7 +343,7 @@ def cost_of_choice(art: dict, preset: str) -> str:
     delta = (here - base) * 100
     if preset == default:
         return f"Ranking by {keys}. Coverage {here:.1%} — the default."
-    return f"Ranking by {keys}. Coverage {here:.1%} ({delta:+.1f} pp against the default ordering)."
+    return f"Ranking by {keys}. Coverage {here:.1%} ({delta:+.1f} points against the default ordering)."
 
 
 def _gap_breakdown(art: dict, preset: str, budget: int) -> None:
@@ -368,8 +372,8 @@ def _gap_breakdown(art: dict, preset: str, budget: int) -> None:
         return
     st.caption(
         f"**{gap:.1%} of demand is still uncovered at {budget} device(s).** "
-        f"Of that, **{fundable * 100:.1f} pp** closes as you fund more of this same "
-        f"queue — those are the amber cells. The remaining **{inert * 100:.1f} pp** has "
+        f"Of that, **{fundable * 100:.1f} points** closes as you fund more of this same "
+        f"queue — those are the amber cells. The remaining **{inert * 100:.1f} points** has "
         "no eligible building within reach of it, so no plan at any budget covers "
         "it; those cells are drawn muted. Widening the candidate pool, not a better "
         "optimiser, is what would move them."
@@ -415,7 +419,289 @@ def apply_pending_overrides(slug: str) -> None:
             st.session_state[f"{target}_{slug}"] = [*current, pending]
 
 
+#: Plain-language names for the ranking methods. The keys stay the technical
+#: names because tests and docs refer to them.
+METHOD_LABELS = {
+    "Marginal-coverage greedy": "Most new people reached per device (recommended)",
+    "Demand-ranked top-k (baseline)": "Busiest spots first (simple baseline)",
+    "Greedy k-center (equity)": "Worst-served places first (fairness)",
+}
+
+#: What each stated-hours bucket means to a reader. These are the hours the
+#: registry lists, not checked access.
+HOURS_LABELS = {
+    "always_open": "24 hours, every day",
+    "extended": "Long hours (14 h+ a day)",
+    "daytime": "Daytime only",
+    "closed": "Listed as closed",
+    "unparseable": "Hours unclear",
+}
+_HOURS_RANK = list(HOURS_LABELS)
+_HOURS_COLOURS = {
+    "always_open": [33, 128, 84],
+    "extended": [52, 120, 190],
+    "daytime": [214, 140, 40],
+    "closed": [120, 120, 120],
+    "unparseable": [120, 120, 120],
+}
+
+
+@st.cache_data(show_spinner=False)
+def buildings_with_aeds(slug: str) -> pd.DataFrame | None:
+    """Existing devices grouped by building, with floors, locations and listed hours.
+
+    One building often holds several devices (a mall, a hospital, a sports hall),
+    and a map of single dots hides that. Grouping uses the postal code, which in
+    Singapore identifies one building.
+    """
+    existing = load_town(slug).get("existing_aeds")
+    if existing is None or len(existing) == 0:
+        return None
+    frame = pd.DataFrame(existing.drop(columns="geometry"))
+    frame["hours_bucket"] = classify_frame(frame)
+    frame["building_key"] = frame["POSTAL_CODE"].fillna(frame["AED_ID"])
+
+    def _join(values) -> str:
+        seen = [str(v).strip() for v in values if pd.notna(v) and str(v).strip()]
+        return "; ".join(dict.fromkeys(seen)) or "—"
+
+    rows = []
+    for _, group in frame.groupby("building_key", sort=False):
+        first = group.iloc[0]
+        buckets = sorted(set(group["hours_bucket"]), key=_HOURS_RANK.index)
+        best = buckets[0]
+        hours = HOURS_LABELS[best] + (" (varies by device)" if len(buckets) > 1 else "")
+        street = " ".join(
+            str(v) for v in (first.get("HOUSE_NUMBER"), first.get("ROAD_NAME")) if pd.notna(v)
+        )
+        rows.append(
+            {
+                "building": first.get("label") or first.get("BUILDING_NAME") or street,
+                "street": street,
+                "aeds": len(group),
+                "floors": _join(
+                    sorted(
+                        group["AED_LOCATION_FLOOR_LEVEL"].dropna().astype(str),
+                        key=lambda f: (not f.lstrip("B-").isdigit(), f.zfill(4)),
+                    )
+                ),
+                "where": _join(group["AED_LOCATION_DESCRIPTION"]),
+                "hours": hours,
+                "hours_bucket": best,
+                "lat": float(group["LATITUDE"].mean()),
+                "lon": float(group["LONGITUDE"].mean()),
+            }
+        )
+    return pd.DataFrame(rows).sort_values(["aeds", "building"], ascending=[False, True])
+
+
+def _buildings_map(buildings: pd.DataFrame, centre) -> pdk.Deck:
+    """Buildings with devices, sized by count and coloured by listed hours."""
+    data = buildings.assign(
+        label=lambda d: d["building"]
+        + " · "
+        + d["aeds"].astype(str)
+        + " AED(s) · "
+        + d["hours"],
+        colour=lambda d: d["hours_bucket"].map(_HOURS_COLOURS),
+        radius=lambda d: 18 + 10 * np.sqrt(d["aeds"]),
+    )[["lon", "lat", "label", "colour", "radius"]]
+    layer = pdk.Layer(
+        "ScatterplotLayer",
+        data.to_dict("records"),
+        get_position="[lon, lat]",
+        get_fill_color="colour",
+        get_radius="radius",
+        radius_min_pixels=4,
+        radius_max_pixels=22,
+        opacity=0.85,
+        pickable=True,
+    )
+    return viz.deck([layer], centre)
+
+
+def _diminishing_returns(art: dict, preset: str) -> dict | None:
+    """Numbers behind "why not put one everywhere", from the current queue."""
+    queue = queue_for(art, preset)
+    if queue is None or queue.empty:
+        return None
+    gains = queue["coverage_added_pp"].to_numpy()
+    out = {
+        "ceiling": float(queue["cumulative_coverage"].iloc[-1]),
+        "useful": int((gains > 0).sum()),
+        "ninety": int((gains.cumsum() >= 0.9 * gains.sum()).argmax()) + 1,
+        "unreachable": None,
+    }
+    cells, dead = art.get("cells"), unreachable_cells(art["summary"]["town"])
+    if cells is not None and dead is not None and len(dead) == len(cells):
+        demand = cells["demand"].to_numpy(dtype=float)
+        uncovered = ~cells["covered_before"].to_numpy(dtype=bool)
+        out["unreachable"] = float(demand[uncovered & dead].sum() / (demand.sum() or 1.0))
+    return out
+
+
 # --- screens ---------------------------------------------------------------
+
+
+def screen_intro(art: dict, preset: str, budget: int) -> None:
+    """Start here: what an AED is, what this tool does, and why not one everywhere."""
+    s = art["summary"]
+    left, right = st.columns([3, 2], gap="large")
+    with left:
+        st.subheader("What is an AED?")
+        st.markdown(
+            "An **AED (automated external defibrillator)** is a portable device, about "
+            "the size of a lunchbox, kept in a wall cabinet in public places. When "
+            "someone's heart suddenly stops pumping (**sudden cardiac arrest**), the AED "
+            "reads the heart rhythm through two sticky pads and, only if a shock can "
+            "help, delivers one. It speaks each step out loud, so anyone can use it "
+            "without training."
+        )
+        st.subheader("Why the distance matters")
+        st.markdown(
+            "In a cardiac arrest, every minute before CPR and a shock counts, and an "
+            "ambulance takes time to arrive. The best chance is a bystander who starts "
+            "CPR while someone else fetches a nearby AED. This tool assumes the fetch "
+            f"must be done within a **{s['budget_min']:.0f}-minute round trip** on foot, "
+            f"which works out to about **{s['threshold_m']:.0f} m** of walking each way. "
+            "A place counts as **covered** if an AED is within that reach."
+        )
+        st.subheader("What this tool does")
+        st.markdown(
+            f"1. **Existing AEDs**: shows the {s['existing_aeds']} public AEDs registered in "
+            f"{s['town_label']}, grouped by building.\n"
+            "2. **Plan new AEDs**: finds where people are *not* covered and ranks "
+            f"{s['candidates']} possible host buildings by how much each new device would "
+            "help. You choose how many you can fund in the sidebar.\n"
+            "3. **Stress-test**: checks the plan against simulated emergencies and broken "
+            "devices.\n"
+            "4. **Evidence**: compares the method with simpler ones and lists its limits."
+        )
+        st.info(OFFICIAL_CHANNELS)
+    with right:
+        st.subheader("Why not put one everywhere?")
+        numbers = _diminishing_returns(art, preset)
+        st.markdown(
+            "- **Each one costs money to keep ready.** Pads and batteries expire, "
+            "cabinets need checking, and someone has to own that job for years.\n"
+            "- **Each one needs a host.** A building has to agree, keep it reachable, "
+            "and be open when it is needed.\n"
+            "- **The benefit shrinks fast.** The first few devices fill the biggest gaps. "
+            "Later ones mostly overlap with AEDs that are already there."
+        )
+        if numbers is None:
+            st.warning(safe_failure("the install queue for this area is empty."))
+        else:
+            unreachable = (
+                f" **{numbers['unreachable']:.0%}** of demand has no suitable building "
+                "within reach at all, so more devices cannot fix it."
+                if numbers["unreachable"]
+                else ""
+            )
+            st.markdown(
+                f"In **{s['town_label']}**, coverage today is "
+                f"**{s['baseline_coverage']:.0%}**. The first **{numbers['ninety']}** new "
+                f"devices deliver 90% of everything new devices can add. After "
+                f"**{numbers['useful']}**, extra devices add no new coverage, only "
+                f"slightly shorter trips. The ceiling is **{numbers['ceiling']:.0%}**."
+                f"{unreachable}"
+            )
+            st.altair_chart(
+                viz.coverage_curve(queue_for(art, preset), s["baseline_coverage"], budget),
+                width="stretch",
+            )
+            st.caption(
+                "Coverage (up) against number of new devices (across). The curve "
+                "flattens: that flat part is why the question is *which* sites first, "
+                "not *how many*."
+            )
+    with st.expander("Words used in this app"):
+        st.markdown(
+            f"- **Coverage**: the share of people (modelled) within {s['threshold_m']:.0f} m "
+            "walking of an AED.\n"
+            "- **Demand**: an estimate of where people are, built from housing and "
+            "building data. It is not a count of past cardiac arrests.\n"
+            "- **Candidate site**: a building that passed the checks to host a device "
+            "(public, reachable, the right type).\n"
+            "- **Install queue**: candidate sites in the order the tool recommends "
+            "funding them.\n"
+            "- **Percentage points**: the difference between two percentages, e.g. "
+            "60% → 62% is +2 points."
+        )
+
+
+def screen_existing(art: dict) -> None:
+    """Existing devices by building: how many, which floor, where inside, listed hours."""
+    s = art["summary"]
+    buildings = buildings_with_aeds(s["town"])
+    if buildings is None or buildings.empty:
+        st.warning(safe_failure("no existing device records were found for this area."))
+        return
+
+    multi = buildings[buildings["aeds"] > 1]
+    all_day = int(
+        (classify_frame(pd.DataFrame(art["existing_aeds"].drop(columns="geometry")))
+         == "always_open").sum()
+    )
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Registered AEDs", s["existing_aeds"])
+    c2.metric("Buildings with an AED", len(buildings))
+    c3.metric(
+        "Buildings with 2 or more",
+        len(multi),
+        help=f"Together they hold {int(multi['aeds'].sum())} devices.",
+    )
+    c4.metric(
+        "Listed as 24 hours",
+        f"{all_day} of {s['existing_aeds']}",
+        help="As written in the registry's hours field, not checked.",
+    )
+
+    st.warning(
+        "**What this public data cannot tell you:** whether a device works today, when "
+        "it was last inspected, when its pads or battery expire, or whether its cabinet "
+        "is locked. The public dataset has no such fields, and this tool does not guess "
+        "them. Records come from a snapshot dated February 2020."
+    )
+
+    shown_hours = st.multiselect(
+        "Show buildings by listed hours",
+        list(HOURS_LABELS),
+        default=[b for b in HOURS_LABELS if b in set(buildings["hours_bucket"])],
+        format_func=HOURS_LABELS.get,
+    )
+    view = buildings[buildings["hours_bucket"].isin(shown_hours)]
+    if view.empty:
+        st.info("No buildings match these filters.")
+        return
+
+    st.pydeck_chart(_buildings_map(view, art["existing_aeds"]), key=f"map_existing_{s['town']}")
+    st.markdown(
+        viz.legend(
+            [(HOURS_LABELS[b], [*_HOURS_COLOURS[b], 230]) for b in ("always_open", "extended",
+                                                                   "daytime", "closed")]
+        )
+        + " Bigger dot = more devices in the building.",
+        unsafe_allow_html=True,
+    )
+    st.dataframe(
+        view[["building", "street", "aeds", "floors", "where", "hours"]],
+        width="stretch",
+        hide_index=True,
+        column_config={
+            "building": "Building",
+            "street": "Street",
+            "aeds": st.column_config.NumberColumn("AEDs", width="small"),
+            "floors": "Floor(s)",
+            "where": "Where inside",
+            "hours": "Listed hours",
+        },
+    )
+    st.caption(
+        "Hours are the free-text hours in the registry, sorted into groups. Where a "
+        "building's devices list different hours, the longest is shown and marked "
+        "'varies by device'."
+    )
 
 
 def screen_plan(art: dict, preset: str, budget: int, layers_on: dict) -> None:
@@ -430,7 +716,7 @@ def screen_plan(art: dict, preset: str, budget: int, layers_on: dict) -> None:
     before, after = s["baseline_coverage"], float(shown["cumulative_coverage"].iloc[-1])
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Coverage now", f"{before:.1%}")
-    c2.metric(f"With {budget} more", f"{after:.1%}", f"{(after - before) * 100:.1f} pp")
+    c2.metric(f"With {budget} more", f"{after:.1%}", f"{(after - before) * 100:.1f} points")
     c3.metric("Reach per device", f"{s['threshold_m']:.0f} m")
     c4.metric(
         "Worst-served point",
@@ -464,7 +750,7 @@ def screen_plan(art: dict, preset: str, budget: int, layers_on: dict) -> None:
             # implying a constraint can never help.
             message = (
                 f"**{pins} pinned, {vetos} vetoed** — and the plan improved by "
-                f"{-cost:.2f} pp. The placement heuristic is not exact, so a constraint can "
+                f"{-cost:.2f} points. The placement heuristic is not exact, so a constraint can "
                 "occasionally steer it somewhere better."
             )
         st.warning(message)
@@ -539,12 +825,16 @@ def screen_plan(art: dict, preset: str, budget: int, layers_on: dict) -> None:
         )
     with right:
         st.markdown("**When to stop buying**")
-        st.altair_chart(viz.coverage_curve(queue, before, budget), use_container_width=True)
-        st.altair_chart(viz.marginal_gain_chart(queue), use_container_width=True)
+        st.altair_chart(viz.coverage_curve(queue, before, budget), width="stretch")
+        st.altair_chart(viz.marginal_gain_chart(queue), width="stretch")
 
 
 def screen_test(art: dict, preset: str, layers_on: dict, budget: int, seed: int) -> None:
     """Does it hold up: animation, service areas, simulation, stress, sensitivity."""
+    st.caption(
+        "Does the plan hold up? Watch it fill the gaps, then test it against "
+        "simulated emergencies, broken devices and changed assumptions."
+    )
     s = art["summary"]
     demo, service, sim_tab, stress_tab, scenario_tab = st.tabs(
         ["▶ Watch the plan", "Service areas", "Simulated incidents", "Outages", "Robustness"]
@@ -645,9 +935,9 @@ def screen_test(art: dict, preset: str, layers_on: dict, budget: int, seed: int)
             c1, c2 = st.columns(2)
             c1.metric("Reached in time — now", f"{before['covered'].mean():.1%}")
             c2.metric(
-                f"With {budget} more", f"{after['covered'].mean():.1%}", f"{gain * 100:.1f} pp"
+                f"With {budget} more", f"{after['covered'].mean():.1%}", f"{gain * 100:.1f} points"
             )
-            st.altair_chart(viz.retrieval_histogram(before, after), use_container_width=True)
+            st.altair_chart(viz.retrieval_histogram(before, after), width="stretch")
             st.caption(
                 f"Synthetic, seed {seed}, recomputed for the current budget. Illustrative — "
                 "reported metrics use the exact analytic calculation, not this sample."
@@ -732,7 +1022,7 @@ def screen_test(art: dict, preset: str, layers_on: dict, budget: int, seed: int)
             st.divider()
             st.markdown(f"**If devices fail at random** — seed {seed}")
             baseline = live["outage_baseline"] if live else s["baseline_coverage"]
-            st.altair_chart(viz.outage_chart(outages, baseline), use_container_width=True)
+            st.altair_chart(viz.outage_chart(outages, baseline), width="stretch")
             if live:
                 funded = live["n_network"] - live["n_existing"]
                 st.caption(
@@ -814,6 +1104,10 @@ def screen_evidence(art: dict, preset: str, budget: int) -> None:
     Every headline states the takeaway; every DECIDE panel ends in the decision it
     feeds.
     """
+    st.caption(
+        "Why trust the list: how it compares with simpler methods, how stable it is "
+        "when the inputs change, and where the data comes from."
+    )
     s = art["summary"]
     worst = s.get("worst_radius_before", 0)
     reach = s["threshold_m"]
@@ -863,7 +1157,7 @@ def screen_evidence(art: dict, preset: str, budget: int) -> None:
         )
         st.altair_chart(
             viz.coverage_curve(queue, s["baseline_coverage"], budget, knee),
-            use_container_width=True,
+            width="stretch",
         )
         st.caption(
             f"Amber line: the knee. Grey dashed: your current budget of {budget}. "
@@ -890,7 +1184,7 @@ def screen_evidence(art: dict, preset: str, budget: int) -> None:
                 viz.priority_comparison(
                     frame[["objective", *varying]].rename(columns={"objective": "priority"})
                 ),
-                use_container_width=True,
+                width="stretch",
             )
         st.info(
             "**Decision:** choose the ordering by whose problem you are solving — most "
@@ -979,7 +1273,7 @@ def screen_evidence(art: dict, preset: str, budget: int) -> None:
             f"**The method beats the required baseline by {gain * 100:.1f} points** at the same "
             "budget, and clears the random-placement band."
         )
-        st.altair_chart(viz.method_bar(comparison), use_container_width=True)
+        st.altair_chart(viz.method_bar(comparison), width="stretch")
         st.caption(
             f"Random placement over 50 seeds reaches {band.get('mean', 0):.1%} "
             f"(p95 {band.get('p95', 0):.1%})."
@@ -1003,7 +1297,7 @@ def screen_evidence(art: dict, preset: str, budget: int) -> None:
         with st.expander(f"Candidate rules — {outside:.0%} of real deployments fall outside"):
             st.altair_chart(
                 viz.simple_bar(calibration, "existing_aeds", "decision", "Existing devices"),
-                use_container_width=True,
+                width="stretch",
             )
             st.caption(
                 f"Of the {outside:.0%} outside our pool, {nomap:.0%} sit in buildings "
@@ -1051,7 +1345,7 @@ def main() -> None:
         return
 
     with st.sidebar:
-        st.markdown("### Planning area")
+        st.markdown("### 1. Pick an area")
         slug = st.selectbox(
             "Town",
             towns,
@@ -1063,22 +1357,30 @@ def main() -> None:
         # Must run before the override multiselects below are instantiated.
         apply_pending_overrides(slug)
 
-        st.markdown("### Method")
-        method = st.selectbox("Method", list(ORDERABLE), label_visibility="collapsed", key="method")
-        st.caption(
-            "ILP, random-k and do-nothing appear as comparisons in Evidence — they "
-            "produce a set or a distribution, not an ordered queue."
-        )
+        # The budget depends on the queue, which depends on the settings below,
+        # so reserve its place at the top and fill it once the queue exists.
+        st.markdown("### 2. How many new AEDs can you fund?")
+        budget_slot = st.container()
 
-        st.markdown("### Priorities")
-        preset = st.selectbox(
-            "Preset", ["Custom", *PRESETS], label_visibility="collapsed", key="preset"
+        st.markdown("### 3. Fine-tune (optional)")
+        advanced = st.expander("How sites are ranked")
+        advanced.caption(
+            "The default suits most planners. Change it to see how a different goal "
+            "reorders the list."
         )
+        method = advanced.selectbox(
+            "Ranking method", list(ORDERABLE), format_func=METHOD_LABELS.get, key="method"
+        )
+        advanced.caption(
+            "Three more methods (an exact optimiser, random picks, and doing nothing) "
+            "appear as comparisons in Evidence. They give a set, not an ordered list."
+        )
+        preset = advanced.selectbox("What matters most", ["Custom", *PRESETS], key="preset")
         default_keys = list(PRESETS.get(preset, PRESETS[next(iter(PRESETS))]))
         levels = st.session_state.setdefault("levels", max(len(default_keys), 2))
         # columns([1, 1, 3]) gave each button ~40px, so the labels wrapped one
         # character per line. Equal full-width columns keep them on one line.
-        add, drop = st.columns(2)
+        add, drop = advanced.columns(2)
         if add.button("Add level", width="stretch", help="Add a tie-break level") and levels < 4:
             st.session_state["levels"] = levels + 1
             levels += 1
@@ -1092,8 +1394,8 @@ def main() -> None:
             fallback = default_keys[position] if position < len(default_keys) else "— none —"
             if preset != "Custom":
                 st.session_state[f"key_{position}"] = fallback
-            selection = st.selectbox(
-                f"{position + 1}.",
+            selection = advanced.selectbox(
+                f"Priority {position + 1}",
                 choices,
                 index=choices.index(fallback),
                 format_func=lambda k: KEY_LABELS.get(k, k),
@@ -1124,8 +1426,8 @@ def main() -> None:
 
         queue = queue_for(art, preset)
         max_k = max(len(queue) if queue is not None else 0, 1)
-        budget = st.number_input(
-            "Devices funded this cycle",
+        budget = budget_slot.number_input(
+            "New AEDs to fund",
             min_value=1,
             max_value=max_k,
             value=min(10, max_k),
@@ -1142,10 +1444,13 @@ def main() -> None:
                 if adds_coverage < max_k
                 else f"Saturates at **{max_k}** devices ({ceiling:.1%})."
             )
-            st.caption(f"{note} 90% of the gain arrives by **{enough}**.")
+            budget_slot.caption(f"{note} 90% of the gain arrives by **{enough}**.")
 
-        st.markdown("### Your overrides")
-        st.caption("Local knowledge the model cannot see — a closure, a landlord, a promise.")
+        overrides = st.expander("Force a site in or out")
+        overrides.caption(
+            "Local knowledge the model cannot see: a closure, a landlord, a promise. "
+            "You can also click a site on the Plan map."
+        )
         candidates = art.get("candidates")
         options = candidates["site_id"].tolist() if candidates is not None else []
         labels = (
@@ -1153,21 +1458,21 @@ def main() -> None:
             if candidates is not None
             else {}
         )
-        st.multiselect(
+        overrides.multiselect(
             "Must include (pin)",
             options,
             format_func=lambda sid: f"{sid} — {labels.get(sid, '')}",
             key=f"pins_{slug}",
         )
-        st.multiselect(
+        overrides.multiselect(
             "Must exclude (veto)",
             options,
             format_func=lambda sid: f"{sid} — {labels.get(sid, '')}",
             key=f"vetos_{slug}",
         )
 
-        st.markdown("### Live simulation seed")
-        seed_col, roll_col = st.columns([3, 2])
+        sim = st.expander("Simulation seed")
+        seed_col, roll_col = sim.columns([3, 2])
         seed = seed_col.number_input(
             "Seed",
             min_value=0,
@@ -1180,7 +1485,7 @@ def main() -> None:
             st.session_state["seed_value"] = int(np.random.SeedSequence().entropy % 100_000)
             st.rerun()
         st.session_state["seed_value"] = seed
-        st.caption(
+        sim.caption(
             f"Seed **{seed}** draws the synthetic incidents and the outage trials, "
             "and nothing else. The install queue, the coverage figures and the "
             "robustness sweeps are computed offline and do not move when you "
@@ -1188,12 +1493,12 @@ def main() -> None:
             "inputs always reproduce the same result."
         )
 
-        st.markdown("### Map layers")
+        maps = st.expander("Map layers")
         layers_on = {
-            "demand": st.checkbox("Demand and gaps", value=True),
-            "existing": st.checkbox("Covered today", value=True),
-            "proposed": st.checkbox("What the plan adds", value=True),
-            "worst": st.checkbox("Worst-served point", value=False),
+            "demand": maps.checkbox("Demand and gaps", value=True),
+            "existing": maps.checkbox("Covered today", value=True),
+            "proposed": maps.checkbox("What the plan adds", value=True),
+            "worst": maps.checkbox("Worst-served point", value=False),
         }
 
         with st.expander("Data, assumptions and limits"):
@@ -1201,22 +1506,30 @@ def main() -> None:
                 st.markdown(f"- {line}")
             st.markdown(f"- {OFFICIAL_CHANNELS}")
 
-    banner()
     s = art["summary"]
     after = (
         float(queue["cumulative_coverage"].iloc[budget - 1])
         if queue is not None and not queue.empty and budget <= len(queue)
         else s["baseline_coverage"]
     )
-    st.title("AED siting planner")
+    st.title("Where should the next AEDs go?")
     st.markdown(
-        f"**{s['town_label']}** has **{s['existing_aeds']} public-access AEDs**. "
-        f"**{s['baseline_coverage']:.0%}** of modelled demand is within a "
-        f"{s['budget_min']:.0f}-minute round trip of one. Funding **{budget} more** would raise "
-        f"that to **{after:.0%}**."
+        f"**{s['town_label']}** has **{s['existing_aeds']} public AEDs** (heart "
+        f"defibrillators). **{s['baseline_coverage']:.0%}** of people (modelled) are within a "
+        f"{s['budget_min']:.0f}-minute round trip on foot of one. Funding **{budget} more** "
+        f"in the best places would raise that to **{after:.0%}**. "
+        "New here? Open **Start here**."
     )
 
-    plan, test, evidence = st.tabs(["Plan", "Test", "Evidence"])
+    intro, existing, plan, test, evidence = st.tabs(
+        ["Start here", "Existing AEDs", "Plan new AEDs", "Stress-test", "Evidence"]
+    )
+    with intro:
+        banner()
+        screen_intro(art, preset, budget)
+    with existing:
+        banner()
+        screen_existing(art)
     with plan:
         banner()
         screen_plan(art, preset, budget, layers_on)
